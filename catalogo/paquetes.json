@@ -1,0 +1,1800 @@
+{
+  "format": "zip-parts-v1",
+  "archive_size": 342878465,
+  "archive_sha256": "48d87d1daa1f2b1d03196564c78f6cb0daffd3b3f559502c987f0c97b22e340b",
+  "parts": [
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-001",
+      "sha256": "795e560f30713b4c84276c5dff2aaf8469764d787d1d810214048cc0c25d37d8",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-002",
+      "sha256": "071274e60c1ad21c55dd4e046ae1e275ee92c1adf881d819e9c84c01ff9c6c3d",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-003",
+      "sha256": "b68b7abb5d666e539c561e1c81e12c57b943a09535e53eb8da715aaf1f46b1a2",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-004",
+      "sha256": "cf390d6d8186c29fe1a002191b4b37a3b2f0487d5ff47933dff270e80fc97f74",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-005",
+      "sha256": "f47b0bbc339295b982fde963de4b2202303838df7edf71af28e588ba3f916d84",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-006",
+      "sha256": "9c2b40126295c7ba9c84217dde131cdcec4fa2ae807ab34a2d0697268c4a535b",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-007",
+      "sha256": "56c2fbc44b7b35f4d8580bf449c3da5dd6bb7d1aea47506cef828ed441923593",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-008",
+      "sha256": "249816f92d45d2c46739263def690c1068baca0da3482193634e3aafb6f98b40",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-009",
+      "sha256": "d72a493f0cb104f3b0c1c6e93230e569ccd971c45172facfbf39ecf3a04c6ea1",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-010",
+      "sha256": "93dd639d0cfc8e45b32b93a2ed88121d7284fea5a7206ee61c736ff8b210cb7a",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-011",
+      "sha256": "9ee3e955aa064013027268d13b9d7642f73405784436d9bb4e205a5f41612bf4",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-012",
+      "sha256": "ed1600f1f176d52db8d763dfe2c09af7e492d79abe1b3bf0c96aecefc27400f0",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-013",
+      "sha256": "9fe54ac4d79613cff2dc6a2c69c89ba40f428167207c517b04d6ccf2d60e46c2",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-014",
+      "sha256": "01e84ec6e3e194db39e54ef7f62a03c929c63f96ca5cfe627d15dfee6f3ec1f6",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-015",
+      "sha256": "4b8e79f7383183097c73b41b0e47cdb5341cfe7d4f95a8b4be70099c675fe9fc",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-016",
+      "sha256": "17d607a585f9eb70f2df33fc401590682e077f1330dd63e620ec922353b7ec30",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-017",
+      "sha256": "9aa51dba38297c785fd2f5ac115b54dde12d06fe8e3c819831150220e841f3b1",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-018",
+      "sha256": "7198b1225cbb0eec7e8ab288b56ae5a41b768d4052cd9f1f394888a293de1ef7",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-019",
+      "sha256": "0cab4851cef63e4e5857b31ec968b84c23ff118527053f730825a454a5ea0acf",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-020",
+      "sha256": "833bc94a02340d6d3a6e1fb54f95a7e978646c47dc73564403a8a72a68eb0b01",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-021",
+      "sha256": "c91e5288960543e553b89d8c221bb0a76891eec875b584d04d51c79d5fd2a1b2",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-022",
+      "sha256": "891e333fd672e7177adb524eea4b227e8dfc427b2e2ed254e2fe40b69c3fd666",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-023",
+      "sha256": "05471b27b6227437b4542e226230dac1e7b308c556c6ee30513def0af91fe101",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-024",
+      "sha256": "d425de51fb651142dc7d114f46f25db57efe9c68bea2715b9bfc38c54dd9cf1f",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-025",
+      "sha256": "8ebcbbbb7b51aff95522c10fcb4e6cfcf6cbbb7fe4c85c18bd01a369ad02a47d",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-026",
+      "sha256": "7cd34d9e328c735bbf983d4b5c4bba00b09cc9891fe9d14fe8e56811870c936e",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-027",
+      "sha256": "f896a1a0126f55271990ef588fb6679f5f0988dd275518cc047451517ff99e8d",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-028",
+      "sha256": "3a682e7340beb3176ef6c7d3b12cd9fd6e783a80353abb7f32337572a865b497",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-029",
+      "sha256": "0f43fe81202a67d59be35cf0179a6d9569c86f40417c44ca3973c14b59bdc93f",
+      "size": 11534336
+    },
+    {
+      "path": "_paquetes/coleccion-complementaria-2026.zip.part-030",
+      "sha256": "baa11896572d86ca3176666ff7ff8964c9b300bf66670d7a4522ef41686f30e0",
+      "size": 8382721
+    }
+  ],
+  "files": [
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/errores_individuales_897.csv"
+      ],
+      "member": "ecf8f720bd487609e9d8fd98bd5a45e910f8118fb3197164add3507cdb852e74",
+      "sha256": "ecf8f720bd487609e9d8fd98bd5a45e910f8118fb3197164add3507cdb852e74",
+      "size": 622844
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/BELL_AUDIT_BUNDLE_2026-07-27/surface_plots/hensen2015_surface_grid.npz"
+      ],
+      "member": "ea8fb904e7ffdf7f31e7e4c9c24a1cb03d0c6889c448b006e091fc8f98fbbcfd",
+      "sha256": "ea8fb904e7ffdf7f31e7e4c9c24a1cb03d0c6889c448b006e091fc8f98fbbcfd",
+      "size": 2269
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/BELL_AUDIT_BUNDLE_2026-07-27/surface_plots/surface_bell_trials.png"
+      ],
+      "member": "ed29887041fc2e4e400a243a98489367b45b5edc1f3886f079387c2f071035f0",
+      "sha256": "ed29887041fc2e4e400a243a98489367b45b5edc1f3886f079387c2f071035f0",
+      "size": 560364
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/BELL_AUDIT_BUNDLE_2026-07-27/surface_plots/surface_p_value.png"
+      ],
+      "member": "f73d528c53cbf9b9d590e0c472e5690cd9cfb27241d8cbf875d40ce79c65742d",
+      "sha256": "f73d528c53cbf9b9d590e0c472e5690cd9cfb27241d8cbf875d40ce79c65742d",
+      "size": 495966
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/BELL_AUDIT_BUNDLE_2026-07-27/surface_plots/surface_S.png"
+      ],
+      "member": "4a40b872688a072a81c2056d3edcf6f525b587d8bc8ea4c71dfb0ee0ce4840d5",
+      "sha256": "4a40b872688a072a81c2056d3edcf6f525b587d8bc8ea4c71dfb0ee0ce4840d5",
+      "size": 536603
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/Rosetta_1000/Odlyzko_zeros1_fuente.txt",
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/Rosetta_10000/Odlyzko_zeros1_fuente.txt"
+      ],
+      "member": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "sha256": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "size": 1800000
+    },
+    {
+      "paths": [
+        "_archivos_grandes/270696ee00a98865057c98d3ba3fa2e2fc0037bc44682af63299e0b96522ab73/parte-001.gzpart"
+      ],
+      "member": "b3b8d1c51c90a22658a418b39535327607c34aa1bfe9a48b785257c1751b704a",
+      "sha256": "b3b8d1c51c90a22658a418b39535327607c34aa1bfe9a48b785257c1751b704a",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/270696ee00a98865057c98d3ba3fa2e2fc0037bc44682af63299e0b96522ab73/parte-002.gzpart"
+      ],
+      "member": "5e06161dd63994f2aae5bf70446634f1cd6ab451a26ff900272685661e7a052d",
+      "sha256": "5e06161dd63994f2aae5bf70446634f1cd6ab451a26ff900272685661e7a052d",
+      "size": 3334934
+    },
+    {
+      "paths": [
+        "_archivos_grandes/65934d246fc02d637e93a2b39fd5e41a3c5c74f9ff1c3afdceefdb3e1f526008/parte-001.gzpart"
+      ],
+      "member": "b68528f4d14e15b976fdfadfaa2b01d6d06e964084782e70072df099442f9a92",
+      "sha256": "b68528f4d14e15b976fdfadfaa2b01d6d06e964084782e70072df099442f9a92",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/65934d246fc02d637e93a2b39fd5e41a3c5c74f9ff1c3afdceefdb3e1f526008/parte-002.gzpart"
+      ],
+      "member": "883f418d7e189dcfa4a753125f73ad4c6e9caeb01c83fb103f0c75f630ae62c0",
+      "sha256": "883f418d7e189dcfa4a753125f73ad4c6e9caeb01c83fb103f0c75f630ae62c0",
+      "size": 3185164
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-001.gzpart"
+      ],
+      "member": "4f07605cc5af5b5c9dde6a6ae0ca68f60c04a7b018adff5a512983c2aa29f9b8",
+      "sha256": "4f07605cc5af5b5c9dde6a6ae0ca68f60c04a7b018adff5a512983c2aa29f9b8",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-002.gzpart"
+      ],
+      "member": "8421259e196430f53e0be8d0c420890883a6489a5ccbdd491c05c23f6dc635b1",
+      "sha256": "8421259e196430f53e0be8d0c420890883a6489a5ccbdd491c05c23f6dc635b1",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-003.gzpart"
+      ],
+      "member": "95ecfeedb3ea629d2a850a96f055af08cc74cb74ea71b3821f57064c68177dff",
+      "sha256": "95ecfeedb3ea629d2a850a96f055af08cc74cb74ea71b3821f57064c68177dff",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-004.gzpart"
+      ],
+      "member": "5d12cd45654b600b26635322662e19df972ba0986ce8408ac9d0ce5555c2daed",
+      "sha256": "5d12cd45654b600b26635322662e19df972ba0986ce8408ac9d0ce5555c2daed",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-005.gzpart"
+      ],
+      "member": "dc6200903f60c1c02babd15536a22649cd604cf6a7e228246a72f62d1b92a2c9",
+      "sha256": "dc6200903f60c1c02babd15536a22649cd604cf6a7e228246a72f62d1b92a2c9",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-006.gzpart"
+      ],
+      "member": "55e74303ada055ea214b7401667733578f9f4d29b262bc3a68f28fa1674569d2",
+      "sha256": "55e74303ada055ea214b7401667733578f9f4d29b262bc3a68f28fa1674569d2",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-007.gzpart"
+      ],
+      "member": "3f3335a5f7427bde366e650cae6c8bef744079181c31b8685154f84ea9a4fe8c",
+      "sha256": "3f3335a5f7427bde366e650cae6c8bef744079181c31b8685154f84ea9a4fe8c",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-008.gzpart"
+      ],
+      "member": "3a393f20eb6dd9427662f600e49e88d7adb9ede88322dd37a385f5a718031c22",
+      "sha256": "3a393f20eb6dd9427662f600e49e88d7adb9ede88322dd37a385f5a718031c22",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-009.gzpart"
+      ],
+      "member": "02dd3d2eb52c836e5296333096311bd80aa9baff3f536b9c1788a8f723564ec9",
+      "sha256": "02dd3d2eb52c836e5296333096311bd80aa9baff3f536b9c1788a8f723564ec9",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-010.gzpart"
+      ],
+      "member": "a95b9d5b2cefa1ed8919903f7de192f6cf9149e2925bcf27040b1769cb39cf58",
+      "sha256": "a95b9d5b2cefa1ed8919903f7de192f6cf9149e2925bcf27040b1769cb39cf58",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-011.gzpart"
+      ],
+      "member": "f1d6362ceb67707b831de1a2e12f94a63c4af86bcf33ba6115abb43c92dee215",
+      "sha256": "f1d6362ceb67707b831de1a2e12f94a63c4af86bcf33ba6115abb43c92dee215",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-012.gzpart"
+      ],
+      "member": "d29df4f0ef1a5d0b2c64daa84313b5ee27de5f9ce01b9b98998e6bfa33c1e448",
+      "sha256": "d29df4f0ef1a5d0b2c64daa84313b5ee27de5f9ce01b9b98998e6bfa33c1e448",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-013.gzpart"
+      ],
+      "member": "2f3c89c1c7cf55bc11886aaf666b3e7c9d8a06e161a00f2bf5ef705cb03b3a6b",
+      "sha256": "2f3c89c1c7cf55bc11886aaf666b3e7c9d8a06e161a00f2bf5ef705cb03b3a6b",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-014.gzpart"
+      ],
+      "member": "43ca4bd6c504db9130744fe52b2331e23a09817aacaaea9a591ef11f84ac2864",
+      "sha256": "43ca4bd6c504db9130744fe52b2331e23a09817aacaaea9a591ef11f84ac2864",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-015.gzpart"
+      ],
+      "member": "c0ffd5c05ba39dc98eafb125156df9c2014a3b93eb2c8ca5966aede6bb199c83",
+      "sha256": "c0ffd5c05ba39dc98eafb125156df9c2014a3b93eb2c8ca5966aede6bb199c83",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5/parte-016.gzpart"
+      ],
+      "member": "5f72b33ee36e87b9d1d2d42a1c831295544498fbcb8acc1aead1f3163b41ae6e",
+      "sha256": "5f72b33ee36e87b9d1d2d42a1c831295544498fbcb8acc1aead1f3163b41ae6e",
+      "size": 1858984
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-001.gzpart"
+      ],
+      "member": "dea73155ff5b7ea772c292c3b9633ffce7b5edaa4316a30e7c9520a06c665c8f",
+      "sha256": "dea73155ff5b7ea772c292c3b9633ffce7b5edaa4316a30e7c9520a06c665c8f",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-002.gzpart"
+      ],
+      "member": "368c793e0a42366ae94e5ee8a4cad529c366dd6ccd4b6c6c3e75ab8f32ac9168",
+      "sha256": "368c793e0a42366ae94e5ee8a4cad529c366dd6ccd4b6c6c3e75ab8f32ac9168",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-003.gzpart"
+      ],
+      "member": "c09ec2d05c0f7b373d1cce8cb4f90f549ecd9b61d44e77b5f65a6e136c642dd9",
+      "sha256": "c09ec2d05c0f7b373d1cce8cb4f90f549ecd9b61d44e77b5f65a6e136c642dd9",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-004.gzpart"
+      ],
+      "member": "bc6d9082c0a1cfa752ea8facb59ceffd4b96169fc4c308f6ced71e1b44ab586d",
+      "sha256": "bc6d9082c0a1cfa752ea8facb59ceffd4b96169fc4c308f6ced71e1b44ab586d",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-005.gzpart"
+      ],
+      "member": "cebfe8c85ed9a6904cc3029be114cd7d4e903dc75e6cd6525f564b72c5e28c16",
+      "sha256": "cebfe8c85ed9a6904cc3029be114cd7d4e903dc75e6cd6525f564b72c5e28c16",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-006.gzpart"
+      ],
+      "member": "527c5dcfcd64c94b672a0df9ed1c9a0223d56345444afae701e237830a6d5e28",
+      "sha256": "527c5dcfcd64c94b672a0df9ed1c9a0223d56345444afae701e237830a6d5e28",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-007.gzpart"
+      ],
+      "member": "f6abdaf5eab522a38d8f51b515193849374f0b2463e58d4f1976b53953455734",
+      "sha256": "f6abdaf5eab522a38d8f51b515193849374f0b2463e58d4f1976b53953455734",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-008.gzpart"
+      ],
+      "member": "56f8bbfc736dc4b0e9970e335da75face8d06c3c3e56ca23babe94e9eef15f33",
+      "sha256": "56f8bbfc736dc4b0e9970e335da75face8d06c3c3e56ca23babe94e9eef15f33",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-009.gzpart"
+      ],
+      "member": "43d5f8a5e725103a1ab5d8d330dec27f06eda65a2193cf7659bf95997379d2c4",
+      "sha256": "43d5f8a5e725103a1ab5d8d330dec27f06eda65a2193cf7659bf95997379d2c4",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-010.gzpart"
+      ],
+      "member": "6c1ea60b35997185ceb3d719c7476e4022f25a6085b557df2418e64a74d6b61e",
+      "sha256": "6c1ea60b35997185ceb3d719c7476e4022f25a6085b557df2418e64a74d6b61e",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-011.gzpart"
+      ],
+      "member": "a8c6b2be03012e14cc35fd988f71e9c0ebd5decca0b3b030bdd0e2d74c96ccc1",
+      "sha256": "a8c6b2be03012e14cc35fd988f71e9c0ebd5decca0b3b030bdd0e2d74c96ccc1",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-012.gzpart"
+      ],
+      "member": "d97a2fcd9d0e5ac17e4adebfce51c1ec28f8b72bba32dfe9324ce7b5199b0a9c",
+      "sha256": "d97a2fcd9d0e5ac17e4adebfce51c1ec28f8b72bba32dfe9324ce7b5199b0a9c",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-013.gzpart"
+      ],
+      "member": "24403c1b981834b09b823e66024736c24ca8acb31b0d57416c8223f07cd81459",
+      "sha256": "24403c1b981834b09b823e66024736c24ca8acb31b0d57416c8223f07cd81459",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-014.gzpart"
+      ],
+      "member": "8fa71a62e52b4cac7f6b2e968bd8fd2d483ab2abf832a546d73758dec3d09d28",
+      "sha256": "8fa71a62e52b4cac7f6b2e968bd8fd2d483ab2abf832a546d73758dec3d09d28",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-015.gzpart"
+      ],
+      "member": "1ba0c6e0c183ea1f2857f680d2e156f5418487ce7e71ac52adf04041357738be",
+      "sha256": "1ba0c6e0c183ea1f2857f680d2e156f5418487ce7e71ac52adf04041357738be",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/1ce25cbc93ec9c04dd9e145de311083420de9fa9e7a0e2024cc5f3effde170a2/parte-016.gzpart"
+      ],
+      "member": "7401ec162f1fe7de8e65b131f295ca99a6f4708b79dfe80d3a332ea02ac0185b",
+      "sha256": "7401ec162f1fe7de8e65b131f295ca99a6f4708b79dfe80d3a332ea02ac0185b",
+      "size": 1159323
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/Rosetta_10000/Rosetta_10000_partitura.csv",
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/ROSETTA_V2_DEPOSITO/Rosetta_10000_partitura.csv"
+      ],
+      "member": "5ddfdb985fecbc151c10027c61db0e1adc70db0acd15bfb04905102b6d38ebf2",
+      "sha256": "5ddfdb985fecbc151c10027c61db0e1adc70db0acd15bfb04905102b6d38ebf2",
+      "size": 897290
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/Rosetta_10000/Rosetta_exhaustiva_limpio.jsonl",
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/ROSETTA_V2_DEPOSITO/Rosetta_exhaustiva_limpio.jsonl"
+      ],
+      "member": "59c1d4d5a56c2b400c0ad5b563b1cde9c852ecc9629d0b52aa1bf573fd92bc9f",
+      "sha256": "59c1d4d5a56c2b400c0ad5b563b1cde9c852ecc9629d0b52aa1bf573fd92bc9f",
+      "size": 1515319
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/Rosetta_10000/Rosetta_pilotos_A.jsonl",
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/ROSETTA_V2_DEPOSITO/Rosetta_pilotos_A.jsonl"
+      ],
+      "member": "aec16a27b1b5c9055a6366461d83a0bb494874fe1b48b46cf871f3fc49a08816",
+      "sha256": "aec16a27b1b5c9055a6366461d83a0bb494874fe1b48b46cf871f3fc49a08816",
+      "size": 3357242
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/Rosetta_10000/Rosetta_ruido_total.jsonl",
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/ROSETTA_V2_DEPOSITO/Rosetta_ruido_total.jsonl"
+      ],
+      "member": "038cfda18ebd9193f5bf7d5eaf0597630ec31c2059d09961145f6eb7ad69261c",
+      "sha256": "038cfda18ebd9193f5bf7d5eaf0597630ec31c2059d09961145f6eb7ad69261c",
+      "size": 1555404
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/Rosetta_10000/Rosetta_validacion_1000.csv",
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/ROSETTA_V2_DEPOSITO/Rosetta_validacion_1000.csv"
+      ],
+      "member": "1fb467372675d9b468d8ad006c97f4366e359b1f03a67120a8a21badea84d0f7",
+      "sha256": "1fb467372675d9b468d8ad006c97f4366e359b1f03a67120a8a21badea84d0f7",
+      "size": 238173
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/GG_REVISION_20261109_211518_contenido/GG_TODOS_LOS_TRABAJOS/ROSETTA_D2D/ROSETTA_D2D_v01/prueba.wav"
+      ],
+      "member": "fa32450fdae2bb07438fce469cb5ad0e1f6f6c3ac17f0be8125ed3131e8a3347",
+      "sha256": "fa32450fdae2bb07438fce469cb5ad0e1f6f6c3ac17f0be8125ed3131e8a3347",
+      "size": 846764
+    },
+    {
+      "paths": [
+        "Estadistica_y_probabilidad/resultados_forecaster_897.csv"
+      ],
+      "member": "a39c0091d6c99344c3bacd2e4ba052192185194dab48434f69e9e827dce81d26",
+      "sha256": "a39c0091d6c99344c3bacd2e4ba052192185194dab48434f69e9e827dce81d26",
+      "size": 253481
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/02_Multiescala_Zenodo_contenido/ejecucion_2026-11-17/cosmologia/figura_demostracion_capacidad_multiescala.png"
+      ],
+      "member": "63aa0779d3ef8c033f9a00262353b20a4e64abb55c362372840380ed693628a8",
+      "sha256": "63aa0779d3ef8c033f9a00262353b20a4e64abb55c362372840380ed693628a8",
+      "size": 360443
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/02_Multiescala_Zenodo_contenido/ejecucion_2026-11-17/planetas/exoplanetas_masa_radio_seleccion.csv"
+      ],
+      "member": "d281a9ac06b2c82df2bc17c3952a7e8e7bb50f7f9a97a44a4f57dc40499305ab",
+      "sha256": "d281a9ac06b2c82df2bc17c3952a7e8e7bb50f7f9a97a44a4f57dc40499305ab",
+      "size": 7090757
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/02_Multiescala_Zenodo_contenido/ejecucion_2026-11-17/planetas/figura_demostracion_exoplanetas_multiescala.png"
+      ],
+      "member": "127b0a8582da8ee6ee52d8873c453b8dd9f612a6b5253b20cc277b5fcfc0910c",
+      "sha256": "127b0a8582da8ee6ee52d8873c453b8dd9f612a6b5253b20cc277b5fcfc0910c",
+      "size": 556496
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/02_Multiescala_Zenodo_contenido/material_original/data/Pantheon+SH0ES.dat"
+      ],
+      "member": "9088c5d47dab6e54624b4a16a956ff798bdd3e546cf0b26621c2bb53e574555e",
+      "sha256": "9088c5d47dab6e54624b4a16a956ff798bdd3e546cf0b26621c2bb53e574555e",
+      "size": 579284
+    },
+    {
+      "paths": [
+        "_archivos_grandes/59f1954300252f64ee35bdc29c83ca8d2cafea7b3e114fcd95cf3a605f8d7f2e/parte-001.gzpart"
+      ],
+      "member": "1771c7f0b710dbc2ccb3176fb29d91b8c89b81c3578a7cd8bb728fa69e303295",
+      "sha256": "1771c7f0b710dbc2ccb3176fb29d91b8c89b81c3578a7cd8bb728fa69e303295",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/59f1954300252f64ee35bdc29c83ca8d2cafea7b3e114fcd95cf3a605f8d7f2e/parte-002.gzpart"
+      ],
+      "member": "52e17886453110aa07eb4bdc8469eef1072e896dde855ccdad7c55c1da9a689f",
+      "sha256": "52e17886453110aa07eb4bdc8469eef1072e896dde855ccdad7c55c1da9a689f",
+      "size": 4044834
+    },
+    {
+      "paths": [
+        "_archivos_grandes/8b36937d12438d6bae721378d4e9632d7462ea245f5e1650917d6cfe3e03c8cc/parte-001.gzpart"
+      ],
+      "member": "0787745f863ff36b8e0b2fb1e97f828104fac81e6d8cad129e94f87a0741c575",
+      "sha256": "0787745f863ff36b8e0b2fb1e97f828104fac81e6d8cad129e94f87a0741c575",
+      "size": 2532694
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/02_Multiescala_Zenodo_contenido/material_original/exoplanetas_masa_radio_seleccion.csv"
+      ],
+      "member": "72dbd476769356a6b960a8eb2277c8b6f2cec3045739efe0b627c1e5faef7ffd",
+      "sha256": "72dbd476769356a6b960a8eb2277c8b6f2cec3045739efe0b627c1e5faef7ffd",
+      "size": 7091655
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/02_Multiescala_Zenodo_contenido/material_original/figura_demostracion_capacidad_multiescala.png"
+      ],
+      "member": "e32fd5704835e56bbce344e3f302d33fc7627e318fae00b6a7c98beb39309d2e",
+      "sha256": "e32fd5704835e56bbce344e3f302d33fc7627e318fae00b6a7c98beb39309d2e",
+      "size": 311010
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/02_Multiescala_Zenodo_contenido/material_original/figura_demostracion_exoplanetas_multiescala.png"
+      ],
+      "member": "bfb1ad7a213d5ff58b8ce50dac2903fedd16f425a3b5dc773ec3e0d8b76288ef",
+      "sha256": "bfb1ad7a213d5ff58b8ce50dac2903fedd16f425a3b5dc773ec3e0d8b76288ef",
+      "size": 504118
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v15_ILLUSTRATED.pdf"
+      ],
+      "member": "746a8cdb53344e5799322a4831447898e29226bfb2e2218a4d31b5b00455c013",
+      "sha256": "746a8cdb53344e5799322a4831447898e29226bfb2e2218a4d31b5b00455c013",
+      "size": 2007832
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v16_FORMAL_DECLARATION.pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v16_FORMAL_DECLARATION.pdf"
+      ],
+      "member": "694736bdef83ef8a5286cf6c295b32f45001090f3c33f09b7c95d8cc924fbeeb",
+      "sha256": "694736bdef83ef8a5286cf6c295b32f45001090f3c33f09b7c95d8cc924fbeeb",
+      "size": 2059822
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (1).pdf",
+        "Fisica_Astronomia_Cuantica_Relativista/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (2).pdf",
+        "Fisica_Astronomia_Cuantica_Relativista/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED.pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (1).pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (2).pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED.pdf"
+      ],
+      "member": "0157ecc8fc2c1620819f1ea6f726785f180504dc20e7dc9ea74d00251f770ef9",
+      "sha256": "0157ecc8fc2c1620819f1ea6f726785f180504dc20e7dc9ea74d00251f770ef9",
+      "size": 1743746
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (2) (1).pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (2) (1) (1).pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (2) (1) (2).pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (2) (1) (3).pdf",
+        "Hipotesis_de_Riemann/Analytic_Operator_Framework_RH_German_Garcia_Andres_EN_v17_CORRECTED (2) (1).pdf"
+      ],
+      "member": "587d9c871c1ce0a3711caa32309f3ef42160db082d54036bb667c4721783d108",
+      "sha256": "587d9c871c1ce0a3711caa32309f3ef42160db082d54036bb667c4721783d108",
+      "size": 1757750
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/01_HRG/HRG_50MeV_Supplement_EN_contenido/HRG_50MeV_Supplement_EN/hrg/calculos_50MeV_cruce/figures/cruce_50MeV.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/original_hrg/figures/cruce_50MeV.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/original_hrg/figures/cruce_50MeV.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/calculos_50MeV_cruce/figures/cruce_50MeV.png",
+        "Fisica_Astronomia_Cuantica_Relativista/HRG_50MeV_Supplement_EN (1) (1)_contenido/HRG_50MeV_Supplement_EN/hrg/calculos_50MeV_cruce/figures/cruce_50MeV.png",
+        "Fisica_Astronomia_Cuantica_Relativista/HRG_50MeV_Supplement_EN (1)_contenido/HRG_50MeV_Supplement_EN/hrg/calculos_50MeV_cruce/figures/cruce_50MeV.png",
+        "Fisica_Astronomia_Cuantica_Relativista/HRG_50MeV_Supplement_EN_contenido/HRG_50MeV_Supplement_EN/hrg/calculos_50MeV_cruce/figures/cruce_50MeV.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/01_HRG_50MeV/HRG_50MeV_Supplement_EN_contenido/HRG_50MeV_Supplement_EN/hrg/calculos_50MeV_cruce/figures/cruce_50MeV.png"
+      ],
+      "member": "f13546771699d49d2bb8fe20656817d9b283268662a0310817dcf47030472932",
+      "sha256": "f13546771699d49d2bb8fe20656817d9b283268662a0310817dcf47030472932",
+      "size": 175324
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/01_HRG/HRG_50MeV_Supplement_EN_contenido/HRG_50MeV_Supplement_EN/hrg/figures/final_cross_en.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/figures/final_cross_en.png",
+        "Fisica_Astronomia_Cuantica_Relativista/HRG_50MeV_Supplement_EN (1) (1)_contenido/HRG_50MeV_Supplement_EN/hrg/figures/final_cross_en.png",
+        "Fisica_Astronomia_Cuantica_Relativista/HRG_50MeV_Supplement_EN (1)_contenido/HRG_50MeV_Supplement_EN/hrg/figures/final_cross_en.png",
+        "Fisica_Astronomia_Cuantica_Relativista/HRG_50MeV_Supplement_EN_contenido/HRG_50MeV_Supplement_EN/hrg/figures/final_cross_en.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/01_HRG_50MeV/HRG_50MeV_Supplement_EN_contenido/HRG_50MeV_Supplement_EN/hrg/figures/final_cross_en.png"
+      ],
+      "member": "1a410df1562957f88314750326753145f03250e4da7b3a8cfa0a74cec6de8822",
+      "sha256": "1a410df1562957f88314750326753145f03250e4da7b3a8cfa0a74cec6de8822",
+      "size": 202853
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/exceso_final_comun/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.01.csv"
+      ],
+      "member": "233ce3d9dbbea11ca4b92c3e4a639ea66f2e356564642210c89b76d2fd6a26f5",
+      "sha256": "233ce3d9dbbea11ca4b92c3e4a639ea66f2e356564642210c89b76d2fd6a26f5",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/exceso_final_comun/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.1.csv"
+      ],
+      "member": "a184f0aff7f1863af9ffb9c41cb303f325693735203c60d008a09a9c12c1d7c9",
+      "sha256": "a184f0aff7f1863af9ffb9c41cb303f325693735203c60d008a09a9c12c1d7c9",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/exceso_final_comun/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f0.csv"
+      ],
+      "member": "7d95851d3e37407433e4131d363c06e122cbcdb251f5e4d18ae1008423864314",
+      "sha256": "7d95851d3e37407433e4131d363c06e122cbcdb251f5e4d18ae1008423864314",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/exceso_final_comun/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/exceso_final_comun/trayectoria_f1.csv"
+      ],
+      "member": "a45846d1de8bf188e8926515de5f99335f8416a9a660d4bcb08974800fcccf65",
+      "sha256": "a45846d1de8bf188e8926515de5f99335f8416a9a660d4bcb08974800fcccf65",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/final_yield.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/final_yield.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/final_yield.png"
+      ],
+      "member": "5cecc2ea2ec79d2fe88e40b3de99beb9293d2e7bc1f736ed594e6780a1530e0a",
+      "sha256": "5cecc2ea2ec79d2fe88e40b3de99beb9293d2e7bc1f736ed594e6780a1530e0a",
+      "size": 149926
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/initial_excess.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/initial_excess.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/initial_excess.png"
+      ],
+      "member": "cfebf604207d6d2aa0329480b3cefb3fe501203261088e327a92ae3b2cc131c0",
+      "sha256": "cfebf604207d6d2aa0329480b3cefb3fe501203261088e327a92ae3b2cc131c0",
+      "size": 229505
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/multiple_crossings.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/multiple_crossings.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/figures_en/multiple_crossings.png"
+      ],
+      "member": "c02286e62911b39c830c796b28db844ec2d821fec97d14703f5c9be3c0b05711",
+      "sha256": "c02286e62911b39c830c796b28db844ec2d821fec97d14703f5c9be3c0b05711",
+      "size": 131209
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Prueba_evaporacion_50MeV_contenido/evaporacion_50MeV/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.01.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.01.csv"
+      ],
+      "member": "c11709bfe02352f5f1f8128979d4908c615ec5cd8394b49862ea8809479c78f5",
+      "sha256": "c11709bfe02352f5f1f8128979d4908c615ec5cd8394b49862ea8809479c78f5",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Prueba_evaporacion_50MeV_contenido/evaporacion_50MeV/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.1.csv"
+      ],
+      "member": "95ebc6b56e93b74d3c4b91bb8fbaee3f1fbc77582a39ad91323f7a4f273f9352",
+      "sha256": "95ebc6b56e93b74d3c4b91bb8fbaee3f1fbc77582a39ad91323f7a4f273f9352",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Prueba_evaporacion_50MeV_contenido/evaporacion_50MeV/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f0.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f0.csv"
+      ],
+      "member": "7691e7b95ea67a5c679f0cae87fb096daf26e2f7e2418d5486299e76ba81adf8",
+      "sha256": "7691e7b95ea67a5c679f0cae87fb096daf26e2f7e2418d5486299e76ba81adf8",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Prueba_evaporacion_50MeV_contenido/evaporacion_50MeV/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/original/trayectoria_f1.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/trayectoria_f1.csv"
+      ],
+      "member": "a019e1dbee7c74bf2ec1fdd200985f23dcbe328227af11aa380a7f877b40304d",
+      "sha256": "a019e1dbee7c74bf2ec1fdd200985f23dcbe328227af11aa380a7f877b40304d",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.01_final.csv"
+      ],
+      "member": "5369385dabebbc96e1d1c371b03a79745be02e40b6f9e72c28fe9a15445a1fc5",
+      "sha256": "5369385dabebbc96e1d1c371b03a79745be02e40b6f9e72c28fe9a15445a1fc5",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.01_inicial.csv"
+      ],
+      "member": "0f1b6b732d6ab6889a5ed6f61c442090450075be58bca236db485c35ae3fa7f1",
+      "sha256": "0f1b6b732d6ab6889a5ed6f61c442090450075be58bca236db485c35ae3fa7f1",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.1_final.csv"
+      ],
+      "member": "185f49bede6d4388f2aff2282d731c635dab7112cf4799ec22085e2479d99d1d",
+      "sha256": "185f49bede6d4388f2aff2282d731c635dab7112cf4799ec22085e2479d99d1d",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0.1_inicial.csv"
+      ],
+      "member": "865f4f7ab11fda23bf2be526a46dd335696298d4e07aba04a6d61fd3270f1148",
+      "sha256": "865f4f7ab11fda23bf2be526a46dd335696298d4e07aba04a6d61fd3270f1148",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0_final.csv"
+      ],
+      "member": "f575b9aa43281638e47a03840ec7aec1a7c1cfb57b84d211e255c3a6883d8732",
+      "sha256": "f575b9aa43281638e47a03840ec7aec1a7c1cfb57b84d211e255c3a6883d8732",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f0_inicial.csv"
+      ],
+      "member": "a815aa5b4b51bfc9e53087aecc73c1188f8aedd1999a5950ab7d921d8a4bdc9c",
+      "sha256": "a815aa5b4b51bfc9e53087aecc73c1188f8aedd1999a5950ab7d921d8a4bdc9c",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f1_final.csv"
+      ],
+      "member": "d4b34ecc648dcc2e48c9baa6a243ff7670489c28c5a6bda99e235169641e52d5",
+      "sha256": "d4b34ecc648dcc2e48c9baa6a243ff7670489c28c5a6bda99e235169641e52d5",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M100000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M100000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M100000000_f1_inicial.csv"
+      ],
+      "member": "94d5051837fff9f10d0ae6e607bd40b1dbabef69aaf64fc45609b0a913f48f1f",
+      "sha256": "94d5051837fff9f10d0ae6e607bd40b1dbabef69aaf64fc45609b0a913f48f1f",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.01_final.csv"
+      ],
+      "member": "bc09a3e628c1528bcc3eb9614d0227c91d7e91707b9c01e29f9d65ed493d99c6",
+      "sha256": "bc09a3e628c1528bcc3eb9614d0227c91d7e91707b9c01e29f9d65ed493d99c6",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.01_inicial.csv"
+      ],
+      "member": "e31c932e95052278f06b58e2bfb1f8ed935710c0b0ae6d52cb9daf1d34501cb5",
+      "sha256": "e31c932e95052278f06b58e2bfb1f8ed935710c0b0ae6d52cb9daf1d34501cb5",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.1_final.csv"
+      ],
+      "member": "5529cc80ed6adb5f924250bc95f15b90b265be0ef05f88c4f36248c06ab64920",
+      "sha256": "5529cc80ed6adb5f924250bc95f15b90b265be0ef05f88c4f36248c06ab64920",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0.1_inicial.csv"
+      ],
+      "member": "7bab2a27069bdf2e38b8e73b7cd973041b68b8a2205eb485b1c9fe984fcc48e5",
+      "sha256": "7bab2a27069bdf2e38b8e73b7cd973041b68b8a2205eb485b1c9fe984fcc48e5",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0_final.csv"
+      ],
+      "member": "bcd40cb82c8268780aa87bac08454d4316bb302f2f0f290c0653252e45b44d45",
+      "sha256": "bcd40cb82c8268780aa87bac08454d4316bb302f2f0f290c0653252e45b44d45",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f0_inicial.csv"
+      ],
+      "member": "667935da2030712407d22f66a392b00be5dd1387e48e4e21141eb4e1b93f0438",
+      "sha256": "667935da2030712407d22f66a392b00be5dd1387e48e4e21141eb4e1b93f0438",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f1_final.csv"
+      ],
+      "member": "0c5d37ec7545717f99a4a945c077d6918d1d96e4885df64f56a1169878004304",
+      "sha256": "0c5d37ec7545717f99a4a945c077d6918d1d96e4885df64f56a1169878004304",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M70000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M70000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M70000000_f1_inicial.csv"
+      ],
+      "member": "16ae2ac1c42e2f417f0935c8a5d9313d7c250867c6c26b30850776850e7d8cf8",
+      "sha256": "16ae2ac1c42e2f417f0935c8a5d9313d7c250867c6c26b30850776850e7d8cf8",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f0.01_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.01_final.csv"
+      ],
+      "member": "f56f3fa6a1f2381b608fe3e56051c6e1df4c11fa919a4514c665d5465661567b",
+      "sha256": "f56f3fa6a1f2381b608fe3e56051c6e1df4c11fa919a4514c665d5465661567b",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f0.01_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.01_inicial.csv"
+      ],
+      "member": "b732a4c9226bd1a3b27c2b6751907a360a0018ba8020c49beed93307ea03e56d",
+      "sha256": "b732a4c9226bd1a3b27c2b6751907a360a0018ba8020c49beed93307ea03e56d",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f0.1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.1_final.csv"
+      ],
+      "member": "af5a383db683cf6f0925f5cdc2f9e721169613b6fc5bd6ec1def86826658b2ef",
+      "sha256": "af5a383db683cf6f0925f5cdc2f9e721169613b6fc5bd6ec1def86826658b2ef",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f0.1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0.1_inicial.csv"
+      ],
+      "member": "c0fc9552586a765a38b27b57af4c1fbf7044bc2c6aa365cb4c8afc281e13a652",
+      "sha256": "c0fc9552586a765a38b27b57af4c1fbf7044bc2c6aa365cb4c8afc281e13a652",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f0_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0_final.csv"
+      ],
+      "member": "ec8c7ef59729e2a8c258cdbf06cb3369080646a2b62dba1a0adf99ff70315d4c",
+      "sha256": "ec8c7ef59729e2a8c258cdbf06cb3369080646a2b62dba1a0adf99ff70315d4c",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f0_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f0_inicial.csv"
+      ],
+      "member": "d59878adb73df8dd528b190c05e227380a71af16dac1baf56097a5553f1bf4e4",
+      "sha256": "d59878adb73df8dd528b190c05e227380a71af16dac1baf56097a5553f1bf4e4",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f1_final.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f1_final.csv"
+      ],
+      "member": "10b415b836a04a25c9c2d0c50b8413519c951d475f707097d6ebc46e882700dc",
+      "sha256": "10b415b836a04a25c9c2d0c50b8413519c951d475f707097d6ebc46e882700dc",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/02_Evaporation/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/M85000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/resultados_recalculados/evaporacion/robustez_hrg/resultados/M85000000_f1_inicial.csv",
+        "Fisica_Astronomia_Cuantica_Relativista/Zenodo_Review_Package_EN_contenido/Zenodo_Review_Package_EN/02_Evaporation_50_30MeV/Evaporation_50_30MeV_Supplement_EN_contenido/Evaporation_50_30MeV_Supplement_EN/evaporation/robustez_hrg/resultados/M85000000_f1_inicial.csv"
+      ],
+      "member": "540174fce5e82742329e02c851094c6793a95927062264501d7dab58417a5739",
+      "sha256": "540174fce5e82742329e02c851094c6793a95927062264501d7dab58417a5739",
+      "size": 330417
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/boxcounting_1000_primos_vs_fases_aleatorias.png",
+        "Hipotesis_de_Riemann/boxcounting_1000_primos_vs_fases_aleatorias.png"
+      ],
+      "member": "325d8c941f1f1156fed6f3b749042886d5f68d7ed0bceab644bf6cbf3bf146ce",
+      "sha256": "325d8c941f1f1156fed6f3b749042886d5f68d7ed0bceab644bf6cbf3bf146ce",
+      "size": 86022
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/comparacion.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/comparacion.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/comparacion.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/original/comparacion.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Prueba_evaporacion_50MeV_contenido/evaporacion_50MeV/comparacion.png"
+      ],
+      "member": "d19a5f7eda45f475538116c9c5a5db8762ca630209974ee990e3c96eb4fbe9b5",
+      "sha256": "d19a5f7eda45f475538116c9c5a5db8762ca630209974ee990e3c96eb4fbe9b5",
+      "size": 175009
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/comparacion.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/exceso_final_comun/comparacion.png"
+      ],
+      "member": "d3305840b69f3ee1ef9467943b09a2d60dc0f47356ed921e8d62fda5a6037475",
+      "sha256": "d3305840b69f3ee1ef9467943b09a2d60dc0f47356ed921e8d62fda5a6037475",
+      "size": 110259
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/figura_resultados.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/figura_resultados.png"
+      ],
+      "member": "a20656973c042eae9955da7468ed6c460369877ea5c2792704df60e2f0bbd7bb",
+      "sha256": "a20656973c042eae9955da7468ed6c460369877ea5c2792704df60e2f0bbd7bb",
+      "size": 195456
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/multicruce.png",
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Cierre_evaporacion_50MeV_contenido/cierre_evaporacion/robustez_hrg/resultados/multicruce.png"
+      ],
+      "member": "4804393163e2e8d0beb44888fe5d46b51d4f39c7ab67d6db310a9d292c67e6f9",
+      "sha256": "4804393163e2e8d0beb44888fe5d46b51d4f39c7ab67d6db310a9d292c67e6f9",
+      "size": 94142
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/EPJP-S-26-08600.pdf"
+      ],
+      "member": "61837095375a2df3601724950c2f579e5666d7dc816fd68de05e2860cd1bff49",
+      "sha256": "61837095375a2df3601724950c2f579e5666d7dc816fd68de05e2860cd1bff49",
+      "size": 6348174
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/data/species_densities_PDG2025.csv"
+      ],
+      "member": "ac316ddbb501d092ddf435cc177ec55333d5a0fe776936e95b4b6edb166f2d8e",
+      "sha256": "ac316ddbb501d092ddf435cc177ec55333d5a0fe776936e95b4b6edb166f2d8e",
+      "size": 391816
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig01_comparison_en.png"
+      ],
+      "member": "b843d5b12e8665ffb1f668405a17697cdc4397c6beb77b50851104ccf80e134d",
+      "sha256": "b843d5b12e8665ffb1f668405a17697cdc4397c6beb77b50851104ccf80e134d",
+      "size": 327366
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig01_comparison_es.png"
+      ],
+      "member": "8bf3323f22189df676abb32c1e84267127d913de9f9e77c12bbdc4492ffa52f9",
+      "sha256": "8bf3323f22189df676abb32c1e84267127d913de9f9e77c12bbdc4492ffa52f9",
+      "size": 334142
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig02_convergence_en.png"
+      ],
+      "member": "21854d58b0516aafa153b27e34f66229fd92ae5a534c779a54ac7f38b94b4ed2",
+      "sha256": "21854d58b0516aafa153b27e34f66229fd92ae5a534c779a54ac7f38b94b4ed2",
+      "size": 203202
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig02_convergence_es.png"
+      ],
+      "member": "fc9e5ce79e15d1e0e46da09324ebcdb6f31a9a3639927a775edc68769a61e06f",
+      "sha256": "fc9e5ce79e15d1e0e46da09324ebcdb6f31a9a3639927a775edc68769a61e06f",
+      "size": 208859
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig03_denominator_en.png"
+      ],
+      "member": "6774a78323cebdf3878d6a618035a564376c144117dbb3a207ca2d5d25fad32a",
+      "sha256": "6774a78323cebdf3878d6a618035a564376c144117dbb3a207ca2d5d25fad32a",
+      "size": 180135
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig03_denominator_es.png"
+      ],
+      "member": "073a28a223f0690a73155d6c6c56215cc3be79fb53678b6e3de7ef6b59f143f6",
+      "sha256": "073a28a223f0690a73155d6c6c56215cc3be79fb53678b6e3de7ef6b59f143f6",
+      "size": 194849
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig04_populations_en.png"
+      ],
+      "member": "b3b95cfae9db720d94aac75abc03e7cea70bf6c566c70edec4ef3d9f77cc01f9",
+      "sha256": "b3b95cfae9db720d94aac75abc03e7cea70bf6c566c70edec4ef3d9f77cc01f9",
+      "size": 260480
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig04_populations_es.png"
+      ],
+      "member": "508223d44a5a477609821a82abd7382a996a1bcb3783855694e8363e126322bb",
+      "sha256": "508223d44a5a477609821a82abd7382a996a1bcb3783855694e8363e126322bb",
+      "size": 270765
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig05_inverse_en.png"
+      ],
+      "member": "cd103aa6cd3c5cbc1eed3576e599644f9a6a80a9de0eabb75caddfd3694e3bbe",
+      "sha256": "cd103aa6cd3c5cbc1eed3576e599644f9a6a80a9de0eabb75caddfd3694e3bbe",
+      "size": 245214
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/antecedentes/Paper_HRG_antes_del_cierre_contenido/paper_hrg/figures/fig05_inverse_es.png"
+      ],
+      "member": "1af5ea7f4fa06c0d4a6888b23fc1c51fbb26b67c39ff052227fcd4156feb1ff5",
+      "sha256": "1af5ea7f4fa06c0d4a6888b23fc1c51fbb26b67c39ff052227fcd4156feb1ff5",
+      "size": 265662
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/Paper_HRG_fuentes_figuras_datos_contenido/paper_hrg/figures/final_cross_es.png"
+      ],
+      "member": "c1b1eb20934e38f9676a6cbc42ef9200945e872dbe1dc78d5057b257bf60c10e",
+      "sha256": "c1b1eb20934e38f9676a6cbc42ef9200945e872dbe1dc78d5057b257bf60c10e",
+      "size": 65668
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/adjuntos/arxiv_residuo_barionico_materia_oscura_asimetrica_dos_columnas_v3_source_contenido/arxiv_fig_compton_deuterio_bw_v3.png"
+      ],
+      "member": "32440cde0953da776ecb7ae396c38a4626dc6be30f4b32afa057c258382e83d5",
+      "sha256": "32440cde0953da776ecb7ae396c38a4626dc6be30f4b32afa057c258382e83d5",
+      "size": 74881
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Evidencia_auditoria_HRG_evaporacion_residuo_2026-10-18_contenido/fuentes/adjuntos/arxiv_residuo_barionico_materia_oscura_asimetrica_dos_columnas_v3_source_contenido/arxiv_fig_residuo_cierres_bw_v3.png"
+      ],
+      "member": "261b2484c8d77e151733e310cacda09412fc7da6a0bc1af48f2798d6a879186d",
+      "sha256": "261b2484c8d77e151733e310cacda09412fc7da6a0bc1af48f2798d6a879186d",
+      "size": 96818
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Hamiltoniano_Primo_Localizacion_Coherente_Manuscrito_2026 (5).pdf"
+      ],
+      "member": "8c79ef7cbc457c151f3f2b6c26f23ea8bd63126105e558096334c1d4fb7d6310",
+      "sha256": "8c79ef7cbc457c151f3f2b6c26f23ea8bd63126105e558096334c1d4fb7d6310",
+      "size": 1038523
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Manuscrito_Red_Aritmetica_Multiescala_Primos (1).pdf",
+        "Fisica_Astronomia_Cuantica_Relativista/Manuscrito_Red_Aritmetica_Multiescala_Primos.pdf",
+        "Hipotesis_de_Riemann/Manuscrito_Red_Aritmetica_Multiescala_Primos (1).pdf",
+        "Hipotesis_de_Riemann/Manuscrito_Red_Aritmetica_Multiescala_Primos.pdf"
+      ],
+      "member": "7834fb4753646e8a867076608e57eca902cd4f11434716ac3d9fbb754b64edfd",
+      "sha256": "7834fb4753646e8a867076608e57eca902cd4f11434716ac3d9fbb754b64edfd",
+      "size": 1119381
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO - copia.pdf",
+        "Fisica_Astronomia_Cuantica_Relativista/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO (1).pdf",
+        "Fisica_Astronomia_Cuantica_Relativista/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO (2).pdf",
+        "Fisica_Astronomia_Cuantica_Relativista/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO.pdf",
+        "Hipotesis_de_Riemann/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO - copia.pdf",
+        "Hipotesis_de_Riemann/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO (1).pdf",
+        "Hipotesis_de_Riemann/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO (2).pdf",
+        "Hipotesis_de_Riemann/Marco_Analitico_Operatorio_RH_German_Garcia_Andres_ES_v9_ILUSTRADO.pdf"
+      ],
+      "member": "0181e7ffb509815d94546dadc0282831d7acc8e5e829d032545e165be872cb3e",
+      "sha256": "0181e7ffb509815d94546dadc0282831d7acc8e5e829d032545e165be872cb3e",
+      "size": 2020698
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/onda_prima_relativista.png",
+        "Hipotesis_de_Riemann/onda_prima_relativista - copia.png"
+      ],
+      "member": "6b47cd21a36ca4a0edf92271809ac59144f2c009395c93c276f814308eda9e03",
+      "sha256": "6b47cd21a36ca4a0edf92271809ac59144f2c009395c93c276f814308eda9e03",
+      "size": 365481
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Operadores_Canales_Primos_Compacto_ES (1).pdf",
+        "Hipotesis_de_Riemann/Operadores_Canales_Primos_Compacto_ES (1).pdf",
+        "Hipotesis_de_Riemann/Operadores_Canales_Primos_Compacto_ES.pdf"
+      ],
+      "member": "d1976c9b35261d054186c17c230d9b94f458d15b041fd6c8b7df71822bb55e34",
+      "sha256": "d1976c9b35261d054186c17c230d9b94f458d15b041fd6c8b7df71822bb55e34",
+      "size": 1869425
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/perfiles_1000_primos_9_36_144_288Hz.png",
+        "Hipotesis_de_Riemann/perfiles_1000_primos_9_36_144_288Hz.png"
+      ],
+      "member": "579c6d0163274a91a792aec7aee60119ba0fab655288ef1f03e265beba317a66",
+      "sha256": "579c6d0163274a91a792aec7aee60119ba0fab655288ef1f03e265beba317a66",
+      "size": 342185
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/perfiles_9_36_144Hz_primos.png"
+      ],
+      "member": "79fb5d3b0c82e198e71a169417f600c8e73e15b648b6ad24216e46349ae32dfb",
+      "sha256": "79fb5d3b0c82e198e71a169417f600c8e73e15b648b6ad24216e46349ae32dfb",
+      "size": 213695
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/Prime_Operators_Spectral_Symmetry_Riemann_Xi.pdf",
+        "Hipotesis_de_Riemann/Prime_Operators_Spectral_Symmetry_Riemann_Xi.pdf"
+      ],
+      "member": "7b60f514edb3064d96a278bc039b0408a3e815ccc94d485a3c462aa268b9b093",
+      "sha256": "7b60f514edb3064d96a278bc039b0408a3e815ccc94d485a3c462aa268b9b093",
+      "size": 2108547
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/PSD_red_1000_primos.png",
+        "Hipotesis_de_Riemann/PSD_red_1000_primos.png"
+      ],
+      "member": "35104e3460c2467dfbafdbb2139410463c795da7390e5f03e3f485bbbf443bfd",
+      "sha256": "35104e3460c2467dfbafdbb2139410463c795da7390e5f03e3f485bbbf443bfd",
+      "size": 77993
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/red_1000_primos_escalas_9_288Hz_regreso (1).png",
+        "Fisica_Astronomia_Cuantica_Relativista/red_1000_primos_escalas_9_288Hz_regreso.png",
+        "Hipotesis_de_Riemann/red_1000_primos_escalas_9_288Hz_regreso (1).png",
+        "Hipotesis_de_Riemann/red_1000_primos_escalas_9_288Hz_regreso.png"
+      ],
+      "member": "5acacdd3edb704ad04d1257ef2c8204c6e8200eaf0734dc6e699ed0784ae2060",
+      "sha256": "5acacdd3edb704ad04d1257ef2c8204c6e8200eaf0734dc6e699ed0784ae2060",
+      "size": 142480
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/red_primos_escalas_9_a_144Hz_y_regreso.png",
+        "Hipotesis_de_Riemann/red_primos_escalas_9_a_144Hz_y_regreso.png"
+      ],
+      "member": "21c6971d9c21ff20d5dcc9bc4579fa96353d3ce042cffe07a24756a36a4dfe12",
+      "sha256": "21c6971d9c21ff20d5dcc9bc4579fa96353d3ce042cffe07a24756a36a4dfe12",
+      "size": 96758
+    },
+    {
+      "paths": [
+        "Fisica_Astronomia_Cuantica_Relativista/RH_Master_Manuscript_FINAL_2026_ELEGANT_MUSICAL_BRIDGE.pdf",
+        "Hipotesis_de_Riemann/RH_Master_Manuscript_FINAL_2026_ELEGANT_MUSICAL_BRIDGE.pdf"
+      ],
+      "member": "734ca64ed8970b352b1d1b1395deff77bb13c6ad9d40a2abebfd55f27f7a5d91",
+      "sha256": "734ca64ed8970b352b1d1b1395deff77bb13c6ad9d40a2abebfd55f27f7a5d91",
+      "size": 3633695
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/1000_primos_subida_bajada_9_288Hz.wav"
+      ],
+      "member": "bf608c546f6f0bfdb5386aaeda42b2c9cfa115c91611e68567b3b7164a74ce75",
+      "sha256": "bf608c546f6f0bfdb5386aaeda42b2c9cfa115c91611e68567b3b7164a74ce75",
+      "size": 3880844
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/certified_zeta_zeros_1_10000 - copia.csv"
+      ],
+      "member": "7c4b8c7f4ea43629b2bd753f45f41b5ba134b150f949b58a5710eefda464e516",
+      "sha256": "7c4b8c7f4ea43629b2bd753f45f41b5ba134b150f949b58a5710eefda464e516",
+      "size": 1398419
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Mapa_Primo_32_Notas_Piano.wav"
+      ],
+      "member": "b7686647482888ac4b20073cf8f1210edffa41c994892ca82dc5af3897fc1aee",
+      "sha256": "b7686647482888ac4b20073cf8f1210edffa41c994892ca82dc5af3897fc1aee",
+      "size": 1326572
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Modo monopolar_ respiración esférica - copia.png"
+      ],
+      "member": "ea8a5e96d88adb54d7d507db9da8175fbae28fbfa5a366caa4c0800937748e2c",
+      "sha256": "ea8a5e96d88adb54d7d507db9da8175fbae28fbfa5a366caa4c0800937748e2c",
+      "size": 1363753
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_COMPACTO_OPERADOR_ADJUNTO_INTEGRADO_2026.pdf"
+      ],
+      "member": "290bee88d516e1b2db4e8eefd88af618515dda24a9a26d1a8c16676d14cdf147",
+      "sha256": "290bee88d516e1b2db4e8eefd88af618515dda24a9a26d1a8c16676d14cdf147",
+      "size": 3679123
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (1).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (2).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (3).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (4).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (5).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (6).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (7).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026 (8).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPACTO_FORMATO_CIENTIFICO_2026.pdf"
+      ],
+      "member": "81d6839e1db825e56595394e3c54d159b56f06f9e82cbd424747bd160f0890fa",
+      "sha256": "81d6839e1db825e56595394e3c54d159b56f06f9e82cbd424747bd160f0890fa",
+      "size": 3657500
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_PAPER_COMPLETO_DOI_22865793.pdf"
+      ],
+      "member": "130847b8fdd77538a0b1818a306f76d1510bc71e252a7a69333b414a1c5c6ba0",
+      "sha256": "130847b8fdd77538a0b1818a306f76d1510bc71e252a7a69333b414a1c5c6ba0",
+      "size": 3682990
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_ZETA_PRIME_NUMBERS_COMPACT_INTEGRATED_2026 (1).pdf",
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_ZETA_PRIME_NUMBERS_COMPACT_INTEGRATED_2026.pdf"
+      ],
+      "member": "46647fbaeb26a0dde0f0f71a468069c995082a452117f66ea53d2e6573eb3a66",
+      "sha256": "46647fbaeb26a0dde0f0f71a468069c995082a452117f66ea53d2e6573eb3a66",
+      "size": 3678393
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/OPERABILITY_RIEMANN_ZETA_PRIME_NUMBERS_CONSOLIDATED_PROOFS_2026.pdf"
+      ],
+      "member": "22a181c4c95bb30517b10d82db2b036b1b9295a4dc0122361caf1c2ade635a0e",
+      "sha256": "22a181c4c95bb30517b10d82db2b036b1b9295a4dc0122361caf1c2ade635a0e",
+      "size": 3952306
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/paquete_tambor_aritmetico - copia_contenido/tambor_aritmetico.mp3",
+        "Hipotesis_de_Riemann/tambor_aritmetico - copia.mp3"
+      ],
+      "member": "36b8aa383bf576dbb989202ac360099a61328f222e333408d6f2306a6f575fbb",
+      "sha256": "36b8aa383bf576dbb989202ac360099a61328f222e333408d6f2306a6f575fbb",
+      "size": 104205
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/paquete_tambor_aritmetico - copia_contenido/tambor_aritmetico_operador.npz"
+      ],
+      "member": "a3d7a2515292f689f210dd4cdb43cb93a373fc8eefab03b71bf94ba6b56e96e6",
+      "sha256": "a3d7a2515292f689f210dd4cdb43cb93a373fc8eefab03b71bf94ba6b56e96e6",
+      "size": 6653
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/paquete_tambor_aritmetico - copia_contenido/espectrograma_tambor_aritmetico.png"
+      ],
+      "member": "67eaf31f4102315851ff9d70b3c2550cb7e87a0ef5a7f250616df3b3db878936",
+      "sha256": "67eaf31f4102315851ff9d70b3c2550cb7e87a0ef5a7f250616df3b3db878936",
+      "size": 362912
+    },
+    {
+      "paths": [
+        "_archivos_grandes/6915514805f80d9f0f97045aa48300c884065a0255c72f904d77198689d1c851/parte-001.gzpart"
+      ],
+      "member": "9097fc2f7064b1b174a571e6f1ba2d9d05da638ee43f47964acce9650a430316",
+      "sha256": "9097fc2f7064b1b174a571e6f1ba2d9d05da638ee43f47964acce9650a430316",
+      "size": 1184170
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/partitura_primos_primeros_100_excerpt.wav"
+      ],
+      "member": "8eee87322a705cd83dcec26e82089337e96041c3a36eb409324b437d336695df",
+      "sha256": "8eee87322a705cd83dcec26e82089337e96041c3a36eb409324b437d336695df",
+      "size": 396844
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Prime_Channel_Operators_Compact_EN.pdf"
+      ],
+      "member": "11e95af8cd53b30f6af6595a9bd7543e04770ab2ca6ad7850d97e37c83b2cbbb",
+      "sha256": "11e95af8cd53b30f6af6595a9bd7543e04770ab2ca6ad7850d97e37c83b2cbbb",
+      "size": 2595568
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/primos_interseccion_fase_amplitud - copia.mp3",
+        "Hipotesis_de_Riemann/primos_interseccion_fase_amplitud (1) - copia.mp3"
+      ],
+      "member": "ad32bef2f6eb2c5e33b75147f86969c47277d05fc2fb2d6fdb29996fed252300",
+      "sha256": "ad32bef2f6eb2c5e33b75147f86969c47277d05fc2fb2d6fdb29996fed252300",
+      "size": 201069
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/RH_Amplitude_Phase_Invariant_Cell_Criterion_FINAL_2026 - copia.pdf",
+        "Hipotesis_de_Riemann/RH_Amplitude_Phase_Invariant_Cell_Criterion_FINAL_2026 (1) - copia.pdf"
+      ],
+      "member": "edd57be509c6f2c0deb1a9b61861d1613e03f17f95f49457975106aef32815b4",
+      "sha256": "edd57be509c6f2c0deb1a9b61861d1613e03f17f95f49457975106aef32815b4",
+      "size": 996928
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/RH_Amplitude_Phase_Invariant_Cell_Criterion_FINAL_2026 (1)AGGVF - copia.pdf"
+      ],
+      "member": "bf973ce1ad4a4e7e3aa6488b317f072e58768328d5e03aa5a76ceb6dc2051f37",
+      "sha256": "bf973ce1ad4a4e7e3aa6488b317f072e58768328d5e03aa5a76ceb6dc2051f37",
+      "size": 1011955
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/RH_Compass_Vector_Coordinate_Prime_Signal_2026 (8) - copia.pdf",
+        "Hipotesis_de_Riemann/RH_Compass_Vector_Coordinate_Prime_Signal_2026 (8)AGGVF - copia.pdf",
+        "Hipotesis_de_Riemann/RH_Compass_Vector_Coordinate_Prime_Signal_2026_v15_verified - copia.pdf"
+      ],
+      "member": "c2084d637ea468ea4ef9ce007ad4a76f356644ac99587472bbde85ea1b4f6a54",
+      "sha256": "c2084d637ea468ea4ef9ce007ad4a76f356644ac99587472bbde85ea1b4f6a54",
+      "size": 993617
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/RIEMANN_FRAMEWORK_INTEGRATED_SMITH_CELLS_PASSIVITY_2026.pdf"
+      ],
+      "member": "28949e1c0182adea9594f4c74660b2199376b18cf0819b76a140ec8755023c1f",
+      "sha256": "28949e1c0182adea9594f4c74660b2199376b18cf0819b76a140ec8755023c1f",
+      "size": 1818609
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Garcia_Andres_MANUSCRITO_INTEGRAL_CONSOLIDADO_2026 - copia.pdf",
+        "Hipotesis_de_Riemann/Riemann_German_Garcia_Andres_MANUSCRITO_INTEGRAL_CONSOLIDADO_2026 (1) - copia.pdf",
+        "Hipotesis_de_Riemann/Riemann_German_Garcia_Andres_MANUSCRITO_INTEGRAL_CONSOLIDADO_2026 (2) - copia.pdf"
+      ],
+      "member": "5ff1f783a3cdd2ec9019f00519ebc5a1d2e57dcbc020f231d6917d698d6e5d6f",
+      "sha256": "5ff1f783a3cdd2ec9019f00519ebc5a1d2e57dcbc020f231d6917d698d6e5d6f",
+      "size": 5673894
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Garcia_Andres_v13 - copia.pdf"
+      ],
+      "member": "a1cc9cb22a6ed6b79069bfa2f36352cadd414ff5be54f9d423a90f0d9e08d50f",
+      "sha256": "a1cc9cb22a6ed6b79069bfa2f36352cadd414ff5be54f9d423a90f0d9e08d50f",
+      "size": 1660458
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Garcia_Andres_v13_ES - copia.pdf"
+      ],
+      "member": "3c021de3af4e077a07f8fb8effcbd98b0dc4f702ea53b1b63855e8727c339fb5",
+      "sha256": "3c021de3af4e077a07f8fb8effcbd98b0dc4f702ea53b1b63855e8727c339fb5",
+      "size": 1220782
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Monopolar_Nodal_Framework_2026 - copia_contenido/Riemann_German_Monopolar_Nodal_Framework_2026/Riemann_German_Monopolar_Nodal_Framework_2026.pdf"
+      ],
+      "member": "f1b66a3a1d4ef858e69cf686c26c1dd403dea35e7599b8aef5ebabee47f66db3",
+      "sha256": "f1b66a3a1d4ef858e69cf686c26c1dd403dea35e7599b8aef5ebabee47f66db3",
+      "size": 1892990
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Monopolar_Nodal_Framework_2026 - copia_contenido/Riemann_German_Monopolar_Nodal_Framework_2026/contact_sheet_final_01.png"
+      ],
+      "member": "7a85d322d0955addd9d897c994659a445477889f85534d2c109caa91dedfd5c6",
+      "sha256": "7a85d322d0955addd9d897c994659a445477889f85534d2c109caa91dedfd5c6",
+      "size": 396933
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Monopolar_Nodal_Framework_2026 - copia_contenido/Riemann_German_Monopolar_Nodal_Framework_2026/contact_sheet_final_02.png"
+      ],
+      "member": "586b02e783afff27c390d08812d9853d0c54464ecab8760af4904f2d1fb0d5f0",
+      "sha256": "586b02e783afff27c390d08812d9853d0c54464ecab8760af4904f2d1fb0d5f0",
+      "size": 442626
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Monopolar_Nodal_Framework_2026 - copia_contenido/Riemann_German_Monopolar_Nodal_Framework_2026/contact_sheet_final_03.png"
+      ],
+      "member": "f2354d25761c29fee037ec7edbd1089978843e8f540f6e790f21672166b98ff3",
+      "sha256": "f2354d25761c29fee037ec7edbd1089978843e8f540f6e790f21672166b98ff3",
+      "size": 405203
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Monopolar_Nodal_Framework_2026 - copia_contenido/Riemann_German_Monopolar_Nodal_Framework_2026/contact_sheet_final_04.png"
+      ],
+      "member": "80e0557f6264fe874bd0010f78959e09c514e56b32bd9f806131c3b78dd780e7",
+      "sha256": "80e0557f6264fe874bd0010f78959e09c514e56b32bd9f806131c3b78dd780e7",
+      "size": 60679
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Monopolar_Nodal_Framework_2026 - copia_contenido/Riemann_German_Monopolar_Nodal_Framework_2026/figures/fig01_aplanamiento_geometrico.png"
+      ],
+      "member": "450836a6be48e0dea30c0f661a9a77ecfe08496eed71bf919fbd060bdc34054b",
+      "sha256": "450836a6be48e0dea30c0f661a9a77ecfe08496eed71bf919fbd060bdc34054b",
+      "size": 633768
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Riemann_German_Monopolar_Nodal_Framework_2026 - copia_contenido/Riemann_German_Monopolar_Nodal_Framework_2026/figures/fig02_interferencia_nodal.png"
+      ],
+      "member": "3c4f4a9ddf177d891f6bdf34c3d3b0160e052e9b8603f9d4126cd10272955663",
+      "sha256": "3c4f4a9ddf177d891f6bdf34c3d3b0160e052e9b8603f9d4126cd10272955663",
+      "size": 173928
+    },
+    {
+      "paths": [
+        "_archivos_grandes/306c2d3342ed4a63e58c81a4aa9cfd44c3ce91ca788d890d6fa536b066fb172d/parte-001.gzpart"
+      ],
+      "member": "f1d008f8c87eec241bdb4e4ba586db176f9f2b456da5962d9d2ee1f1408580a2",
+      "sha256": "f1d008f8c87eec241bdb4e4ba586db176f9f2b456da5962d9d2ee1f1408580a2",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/306c2d3342ed4a63e58c81a4aa9cfd44c3ce91ca788d890d6fa536b066fb172d/parte-002.gzpart"
+      ],
+      "member": "1df06872aaa97eebbeadc38086554b00a913d34b0a3e35b2002f3cb5bf8305c9",
+      "sha256": "1df06872aaa97eebbeadc38086554b00a913d34b0a3e35b2002f3cb5bf8305c9",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/306c2d3342ed4a63e58c81a4aa9cfd44c3ce91ca788d890d6fa536b066fb172d/parte-003.gzpart"
+      ],
+      "member": "c8f03abf948f27089730b55637c26130c821bd47a34710e0ef2c719b1afe4b5a",
+      "sha256": "c8f03abf948f27089730b55637c26130c821bd47a34710e0ef2c719b1afe4b5a",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/306c2d3342ed4a63e58c81a4aa9cfd44c3ce91ca788d890d6fa536b066fb172d/parte-004.gzpart"
+      ],
+      "member": "783072525a64cea59c39e9ec2b2138fa033f0a2298a23b446239e2f61395e5dc",
+      "sha256": "783072525a64cea59c39e9ec2b2138fa033f0a2298a23b446239e2f61395e5dc",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/306c2d3342ed4a63e58c81a4aa9cfd44c3ce91ca788d890d6fa536b066fb172d/parte-005.gzpart"
+      ],
+      "member": "6c67f32c8f4b320ff9ec9e00941ae137745a7b71288927dc1b181f6e5d0424fe",
+      "sha256": "6c67f32c8f4b320ff9ec9e00941ae137745a7b71288927dc1b181f6e5d0424fe",
+      "size": 1484561
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/RIEMANN_PRIME_CHANNEL_MASTER_COMPACT_DOI_22865793 (1).pdf",
+        "Hipotesis_de_Riemann/RIEMANN_PRIME_CHANNEL_MASTER_COMPACT_DOI_22865793.pdf"
+      ],
+      "member": "38c4ffbd8677b3c04f477cb86b14b7a1875ef4e883ef83e55eeb32928ae807f9",
+      "sha256": "38c4ffbd8677b3c04f477cb86b14b7a1875ef4e883ef83e55eeb32928ae807f9",
+      "size": 3740804
+    },
+    {
+      "paths": [
+        "_archivos_grandes/2f763c0e79d21fffd3a79299d455a0dee6492b92d615b77fa221e31e3a282d47/parte-001.gzpart"
+      ],
+      "member": "bef4aedf1bd6790a4812ea451a87ed3afcedfe1ad6f5dea02f9dc235c2280f35",
+      "sha256": "bef4aedf1bd6790a4812ea451a87ed3afcedfe1ad6f5dea02f9dc235c2280f35",
+      "size": 6291456
+    },
+    {
+      "paths": [
+        "_archivos_grandes/2f763c0e79d21fffd3a79299d455a0dee6492b92d615b77fa221e31e3a282d47/parte-002.gzpart"
+      ],
+      "member": "076a17dce9a47ddfe1a4baf8d227f955b5d0bdf3a5930e46ef5a9465d2ee0824",
+      "sha256": "076a17dce9a47ddfe1a4baf8d227f955b5d0bdf3a5930e46ef5a9465d2ee0824",
+      "size": 1965320
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Symmetry_Invariant_Cells_Spectral_Criteria_Riemann_Zeros_EN_EDITORIAL (1).pdf",
+        "Hipotesis_de_Riemann/Symmetry_Invariant_Cells_Spectral_Criteria_Riemann_Zeros_EN_EDITORIAL.pdf"
+      ],
+      "member": "92ab8634cfdbb3db496f087048e87a955ad04b2f07a03cb4c3ffe450db61a092",
+      "sha256": "92ab8634cfdbb3db496f087048e87a955ad04b2f07a03cb4c3ffe450db61a092",
+      "size": 1736552
+    },
+    {
+      "paths": [
+        "Hipotesis_de_Riemann/Symmetry_Invariant_Cells_Spectral_Criteria_Riemann_Zeros_EN_EDITORIAL_DOI_22755697.pdf"
+      ],
+      "member": "5cf9c3bf3ea8420a8ebba54aac6263c19c07b527ab4de175e9e8c1e2d5887e86",
+      "sha256": "5cf9c3bf3ea8420a8ebba54aac6263c19c07b527ab4de175e9e8c1e2d5887e86",
+      "size": 1736723
+    }
+  ]
+}

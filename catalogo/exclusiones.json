@@ -91,5 +91,9 @@
     "source": "Fisica,Astronomia,Cauantica,Relativista.zip!/campos.pdf",
     "reason": "Referencia de tercero: Alberto Güijosa, Campos cuánticos: El universo a partir de gelatinas. No se atribuye al autor de esta colección.",
     "sha256": "68dee348e8911a43dddb26fdfce177244ba8621bb68fc3ef4382802d52515ea4"
+  },
+  {
+    "source": "Fisica_Astronomia_Cuantica_Relativista/ArXiv_and_Journal_Package_EN_contenido/ArXiv_and_Journal_Package_EN/05_CONTACTOS_Y_FUENTES_ES.txt",
+    "reason": "Nota personal de planificación de contactos y envíos, fuera del archivo de trabajos públicos."
   }
 ]
