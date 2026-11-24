@@ -1,0 +1,164 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Forzar que las palabras automáticas (como "Abstract") salgan en inglés
+\usepackage[english]{babel}
+
+\geometry{margin=1in}
+
+% Configuración para bloques de código
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    commentstyle=\color{gray},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=8pt,
+    frame=single,
+    breaklines=true
+}
+
+% Definición correcta de operadores matemáticos
+\DeclareMathOperator{\Cov}{Cov}
+
+\title{Filters Can Also Create Correlations: A Reproducible Computational Model and Its Implications}
+
+\author{German Garcia}
+\date{2026}
+
+\newtheorem{proposition}{Proposition}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We study how selection mechanisms can induce apparent correlations between originally independent variables. Using a minimal computational model, we show that conditioning on a selection region can generate non-zero covariance. We present a corrected formal proposition, emphasizing that induced correlation depends on the geometry of the selection region.
+\end{abstract}
+
+\section{Introduction}
+
+Observed correlation in data may depend not only on underlying relationships but also on the selection process. This work shows how a filter can induce apparent dependence between independent variables. 
+
+This phenomenon was originally described in the medical field by Berkson \cite{berkson1946} and later integrated into modern graph theory and causal analysis by Pearl \cite{pearl2000} under the term \textit{collider bias}.
+
+\section{Model}
+
+Let:
+\[
+X \sim \mathcal{N}(0,1), \quad Y \sim \mathcal{N}(0,1)
+\]
+be independent variables.
+
+We define:
+\[
+S(X,Y) = X + Y
+\]
+and a selection region:
+\[
+\Omega = \{(x,y) \in \mathbb{R}^2 : x+y > 1.0\}
+\]
+
+\section{Computational Results}
+
+Empirically:
+\begin{itemize}
+\item Before the filter: $\Cov(X,Y) \approx 0$
+\item After the filter: $\Cov(X,Y \mid \Omega) \neq 0$ (in general)
+\end{itemize}
+
+\section{Corrected Proposition}
+
+\begin{proposition}[Selection-induced dependence]
+Let $X$ and $Y$ be independent random variables with a continuous joint density.
+
+Then, there exist selection regions $\Omega \subset \mathbb{R}^2$ such that:
+\[
+\Cov(X,Y \mid \Omega) \neq 0
+\]
+even though:
+\[
+\Cov(X,Y) = 0
+\]
+\end{proposition}
+
+\textbf{Proof.}
+
+The original joint density factorizes:
+\[
+f_{X,Y}(x,y) = f_X(x)f_Y(y)
+\]
+
+By conditioning on $\Omega$, the density becomes:
+\[
+f_{X,Y|\Omega}(x,y) \propto f_X(x)f_Y(y)\mathbf{1}_\Omega(x,y)
+\]
+
+If $\Omega$ is not a Cartesian product (i.e., it cannot be written as $A \times B$), then the integration region introduces dependence.
+
+For example, if:
+\[
+\Omega = \{(x,y): x+y>1.0\}
+\]
+then high values of $x$ restrict the possible values of $y$, generating a correlation.
+
+Therefore, there exist regions $\Omega$ such that:
+\[
+\Cov(X,Y|\Omega) \neq 0
+\]
+\hfill $\square$
+
+\section{Computational Simulation}
+
+To empirically validate the proposition, the following Python code generates independent variables and demonstrates the induction of correlation after applying the selection filter:
+
+\begin{lstlisting}
+import numpy as np
+
+# Seed for reproducibility
+np.random.seed(42)
+
+# Generation of independent variables
+n_samples = 100000
+X = np.random.normal(0, 1, n_samples)
+Y = np.random.normal(0, 1, n_samples)
+
+print(f"Original Covariance: {np.cov(X, Y):.4f}")
+
+# Selection filter (e.g., truncate by the sum)
+mask = (X + Y) > 1.0
+X_filtered = X[mask]
+Y_filtered = Y[mask]
+
+print(f"Covariance after filter: {np.cov(X_filtered, Y_filtered):.4f}")
+\end{lstlisting}
+
+\section{Conclusion}
+
+A selection filter can induce apparent correlations between independent variables, but the effect critically depends on the geometry of the selection region.
+
+\begin{thebibliography}{9}
+
+\bibitem{berkson1946}
+Berkson, J. (1946). 
+Limitations of the application of the contingency table analysis to hospital data. 
+\textit{Biometrics Bulletin}, 2(3), 47-53.
+
+\bibitem{pearl2000}
+Pearl, J. (2000). 
+\textit{Causality: Models, Reasoning and Inference}. 
+Cambridge University Press.
+
+\end{thebibliography}
+
+\end{document}
+

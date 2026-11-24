@@ -1,0 +1,15 @@
+ventana,invariante_sombra,distancia_sombra_log,entropia_expresada,soporte_estado,min_total_celda,min_aceptados_celda,dg_finito_evaluable,delta_sombra,delta_entropia,es_critico,racha_critica,apelacion_temporal
+1958-1962,0.766666666668264,0.26570316573092223,0.8637408186731492,soporte_completo,5,1,True,,,True,1,senal_en_apelacion
+1963-1967,3.59999999998992e-12,26.350087270469285,0.7783283537314115,perdida_soporte_expresado,3,0,False,,-0.08541246494173771,False,0,perdida_soporte_expresado
+1968-1972,3.436363636354327e-12,26.396607286104086,0.7762639120136423,perdida_soporte_expresado,3,0,False,,-0.0020644417177692054,False,0,perdida_soporte_expresado
+1973-1977,3.9772727272608264e-12,26.250424775926287,0.7874590183336726,perdida_soporte_expresado,5,0,False,,0.01119510632003029,False,0,perdida_soporte_expresado
+1978-1982,6.122222222197666e-12,25.81909597710991,0.790072735023181,perdida_soporte_expresado,1,0,False,,0.002613716689508383,False,0,perdida_soporte_expresado
+1983-1987,5.090909090891042e-12,26.003564697995316,0.7917383212779937,perdida_soporte_expresado,2,0,False,,0.0016655862548127232,False,0,perdida_soporte_expresado
+1988-1992,nan,nan,0.7783283537314115,no_evaluable_soporte_total,0,0,False,,-0.013409967546582191,False,0,no_evaluable_soporte_total
+1993-1997,3.866666666655325e-12,26.27862830648727,0.7783283537314115,perdida_soporte_expresado,1,0,False,,0.0,False,0,perdida_soporte_expresado
+1998-2002,3.6909090908986e-12,26.325148322122075,0.7762639120136423,perdida_soporte_expresado,1,0,False,,-0.0020644417177692054,False,0,perdida_soporte_expresado
+2003-2007,3.866666666655325e-12,26.27862830648727,0.7783283537314115,perdida_soporte_expresado,1,0,False,,0.0020644417177692054,False,0,perdida_soporte_expresado
+2008-2012,3.4666666666571916e-12,26.387827598452063,0.7783283537314115,perdida_soporte_expresado,4,0,False,,0.0,False,0,perdida_soporte_expresado
+2013-2017,nan,nan,0.7783283537314115,no_evaluable_soporte_total,0,0,False,,0.0,False,0,no_evaluable_soporte_total
+2018-2022,0.9285714285724899,0.07410797215257894,0.8540482112360018,soporte_completo,4,1,True,-0.1915951935783433,0.07571985750459032,False,0,sin_persistencia_critica
+2023-2027,nan,nan,0.7652465283787413,no_evaluable_soporte_total,0,0,False,,-0.08880168285726053,False,0,no_evaluable_soporte_total

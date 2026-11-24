@@ -1,0 +1,39 @@
+{
+  "nombre": "GERMAN GAMMA V5.3 corregido",
+  "N_total": 116226,
+  "N_post": 58183,
+  "tasa_supervivencia": 0.5006022748782545,
+  "costo_seleccion_bits": 0.9982632478321138,
+  "nota_costo_seleccion": "log2(N_total/N_post); no es informacion mutua exacta",
+  "columnas_usadas": [
+    "t_rel_s",
+    "bitrate_bits_per_2s",
+    "bitrate_delta",
+    "bitrate_roll_mean_10",
+    "bitrate_roll_std_10"
+  ],
+  "h0_persistente_antes": 203,
+  "h0_persistente_post": 207,
+  "h1_persistente_antes": 1,
+  "h1_persistente_post": 0,
+  "delta_h0_persistente": 4,
+  "delta_h1_persistente": -1,
+  "distancia_bottleneck_H1": 0.2438575029373169,
+  "p_valor_delta_H1_bilateral": 0.5333333333333333,
+  "p_valor_bottleneck_H1": 0.5333333333333333,
+  "escala_antes": "landmarks",
+  "escala_post": "landmarks",
+  "radio_cubrimiento_antes": 4.815183686918456,
+  "radio_cubrimiento_post": 10.370885990099483,
+  "n_puntos_topologia_antes": 500,
+  "n_puntos_topologia_post": 500,
+  "parametros": {
+    "n_null": 30,
+    "topology_replicates": 1,
+    "n_landmarks_max": 500,
+    "n_witness_max": 10000,
+    "min_feature_variance": 0.0,
+    "min_persistence": 0.0,
+    "seed": 42
+  }
+}

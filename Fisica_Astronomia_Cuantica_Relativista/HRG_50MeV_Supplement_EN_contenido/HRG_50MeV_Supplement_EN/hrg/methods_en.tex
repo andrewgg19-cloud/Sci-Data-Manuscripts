@@ -1,0 +1,94 @@
+\section{Methods}
+\subsection{Design, data, and inventory scope}
+A mathematical reconstruction of equilibrium states was performed. A temperature of 50 MeV was adopted as an approximate literature reference, and points between 37 and 50 MeV were evaluated to locate the abundance crossing. Intermediate points were numerical evaluations without assignments to additional physical epochs. Natural units, $\hbar=c=k_B=1$, were used, with masses and temperatures in GeV.
+
+The PDG2014, PDG2020, and PDG2025 lists were read from the Thermal-FIST repository, fixed at revision \texttt{4086191e9522} \citep{TFLists2026}. The supplement contains the full identifier, original files, license, and SHA-256 hashes. Nominal masses and spin degeneracies were retained; commented lines and entries with zero degeneracy were excluded. Each charge state was counted according to its entry, and antiparticles were included separately where applicable. All active baryonic entries had $|B_i|=1$.
+
+\begin{table}[t]
+\centering\small
+\caption{Dimensions of the inventories used. Active species include antiparticles; $B+\bar B$ counts active baryonic entries.}
+\label{tab:inventory}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}\toprule
+List & Rows & Active species & $B+\bar B$\\\midrule
+PDG2014 & 219 & 387 & 260\\
+PDG2020 & 242 & 433 & 298\\
+PDG2025 & 248 & 443 & 292\\
+\bottomrule\end{tabular}
+\end{table}
+
+The lists cover the $u,d,s$ quark sector; no nuclei or lists from other quark sectors were added. An ideal HRG with fixed masses, zero resonance widths, and a common temperature was adopted. Excluded-volume corrections and reaction evolution were not incorporated. The conditions $\mu_Q=\mu_S=0$ were maintained, and $\mu_B$ was solved for. This simplification does not impose electric neutrality or zero net strangeness; lepton chemical potentials that would compensate the charge were not solved for either.
+
+\subsection{Densities and entropy per particle species}
+For each massive particle species, the number density was calculated as
+\begin{equation}
+n_i=\frac{g_i m_i^2T}{2\pi^2}
+\sum_{k=1}^{K_{\max}}\frac{c_{i,k}}{k}
+K_2(kx_i)e^{k\alpha_i},\label{eq:number}
+\end{equation}
+where $x_i=m_i/T$, $\alpha_i=\mu_i/T$, and $\mu_i=B_i\mu_B$. Here $g_i=2J_i+1$; $c_{i,k}=1$ for bosons and $c_{i,k}=(-1)^{k+1}$ for fermions. $K_\nu$ denotes the modified Bessel function of the second kind. These expressions implement Bose-Einstein and Fermi-Dirac distributions; they do not describe a statistical test on measurements.
+
+Entropy was obtained using the same chemical potential:
+\begin{align}
+s_i&=\frac{g_i m_i^2T}{2\pi^2}
+\sum_{k=1}^{K_{\max}}c_{i,k}e^{k\alpha_i}\bigg[
+\frac{4K_2(kx_i)}{k^2}\nonumber\\
+&\qquad+\frac{x_iK_1(kx_i)}{k}
+-\frac{\alpha_iK_2(kx_i)}{k}\bigg].\label{eq:entropy}
+\end{align}
+The sums used 96 terms, with 192 terms for the convergence check. Mesons had $\mu_i=0$. Total entropy included hadrons, photons, electrons and positrons, muons and antimuons, and three flavors of neutrinos and antineutrinos:
+\begin{equation}
+s_{\rm tot}=s_{\rm had}+s_\gamma+s_{e^\pm}
++s_{\mu^\pm}+s_{\nu\bar\nu}.\label{eq:stotal}
+\end{equation}
+Photons, electrons, and neutrinos were treated as massless components, with combined degeneracies of 2, 4, and 6. The expression $s_{\rm rel}=(2\pi^2/45)gT^3$ was used, multiplied by $7/8$ for fermions. Muons were calculated as massive particles with $m_\mu=0.1056583755$ GeV and combined degeneracy 4 \citep{PDG2025}. Chemical potentials in the light sector were set to zero.
+
+The quantities $n_\Sigma=n_B+n_{\bar B}$ and $\Delta n_B=n_B-n_{\bar B}$ were defined, together with $Y_i=n_i/s_{\rm tot}$. In physical units, the yield denominator is $s_{\rm tot}/k_B$, expressed in the same volume units as $n_i$. Natural-unit densities were converted to cm$^{-3}$ using $\hbar c=1.973269804\times10^{-14}$ GeV cm \citep{Robinson2025}. Temperature conversion used $k_B=8.617333262\times10^{-5}$ eV K$^{-1}$.
+
+\subsection{Cosmological constraint and inverse solution}
+The value $\eta=(6.12\pm0.04)\times10^{-10}$ was adopted as an external CMB input, compiled by \citet{Fields2025}. Adiabatic conservation of entropy and net baryon number gave
+\begin{equation}
+\frac{\Delta n_B(T,\alpha)}{s_{\rm tot}(T,\alpha)}
+=Y_{\Delta B}^{\rm ref}=\frac{\eta}{7.04},
+\quad\alpha=\frac{\mu_B}{T}.\label{eq:inverse}
+\end{equation}
+The factor 7.04 converts present abundance per photon to abundance per entropy under the standard approximation after $e^+e^-$ annihilation. The condition $s(T)/n_\gamma(T)=7.04$ was not imposed on the 50 MeV plasma.
+
+To avoid loss of precision from subtracting nearly equal populations, $a_{i,k}=g_i m_i^2T c_{i,k}K_2(kx_i)/(2\pi^2k)$ was defined for entries with $B_i=+1$, and the following expressions were evaluated:
+\begin{align}
+n_\Sigma&=2\sum_{i,k}a_{i,k}\cosh(k\alpha),\nonumber\\
+\Delta n_B&=2\sum_{i,k}a_{i,k}\sinh(k\alpha).\label{eq:stable}
+\end{align}
+Pair entropy was summed equivalently using hyperbolic functions. Equation~\eqref{eq:inverse} was solved using Brent's method over $0\leq\alpha\leq1$, with absolute tolerance $10^{-18}$ and relative tolerance $10^{-13}$. The populations were recovered as $n_B=(n_\Sigma+\Delta n_B)/2$ and $n_{\bar B}=(n_\Sigma-\Delta n_B)/2$.
+
+To compare the same criterion as \citet{Yang2022}, the ratio was defined as
+\begin{equation}
+R(T)=\frac{n_{\bar B}}{\Delta n_B}
+=\frac{Y_{\bar B}}{Y_{\Delta B}}.\label{eq:ratio}
+\end{equation}
+A second root calculation located $R(T_\times)=1$ within 37--40 MeV, with absolute tolerance $10^{-10}$ MeV and relative tolerance $10^{-13}$. This interval provided a numerical bracket for the crossing, rather than an initial temperature adjusted to produce agreement. The solution was repeated with the three catalogs and at the endpoints $\eta=6.08$ and $6.16\times10^{-10}$, varying only this input.
+
+\subsection{Comparison with the present and uniqueness test}
+With $T_{\gamma0}=2.7255\pm0.0006$ K, rounded from \citet{Fixsen2009}, the following quantities were calculated:
+\begin{align}
+n_{\gamma0}&=\frac{2\zeta(3)}{\pi^2}
+\left(\frac{k_BT_{\gamma0}}{\hbar c}\right)^3,\nonumber\\
+s_0/k_B&\simeq7.04n_{\gamma0},\qquad
+n_{b0}=\eta n_{\gamma0}.\label{eq:present}
+\end{align}
+To compare quantities within the same comoving region, $s(T)V(T)=s_0V_0$ was used, and hence
+\begin{equation}
+N_i(T)=Y_i(T)(s_0/k_B)V_0.\label{eq:comoving}
+\end{equation}
+The value $V_0=1$ m$^3$ was chosen as an explicit normalization; the resulting numbers are mean quantities and may be fractional. No volume for the entire Universe was adopted.
+
+The primordial composition equivalent at the present mean density was converted using $Y_p=0.245\pm0.003$ and $(D/H)_{\rm P}=(2.508\pm0.029)\times10^{-5}$ \citep{Fields2025}: $n_{H0}^{\rm prim}\simeq(1-Y_p)n_{b0}$, $n_{{}^4He,0}^{\rm prim}\simeq Y_p n_{b0}/4$, and $n_{D0}^{\rm prim}\simeq(D/H)_{\rm P}n_{H0}^{\rm prim}$. Corrections from trace nuclei to the H/He balance, binding corrections, stellar processing, and ionization were neglected. Uncertainties were propagated to first order assuming independent inputs; the outputs share inputs and are correlated.
+
+Uniqueness was examined using the map $(Y_B,Y_{\bar B})\mapsto Y_B-Y_{\bar B}$. Its matrix $[1,-1]$ has rank one and null direction $(1,1)$. This property identifies the information missing from the residual without proposing additional kinetic histories.
+
+\subsection{Verification and uncertainty treatment}
+The 24 recorded checks compared 96 and 192 terms, verified closure of the cosmological constraint, and compared proton and neutron number densities, excess, and entropy with independent integrals at finite chemical potential. Catalog hashes were verified, and aggregate and particle-species results were exported. Tables and figures were generated directly from these files.
+
+For the present revision, the original calculation was rerun and its five CSV outputs were compared byte for byte with the archived results. An additional Python program, importing no project functions, integrated the momentum distributions for the 443 active PDG2025 species and the specified light bath at 50 MeV and at the crossing. It shared the catalog, temperatures, and solved chemical potentials with the reference calculation, and compared the aggregate $n_B$, $n_{\bar B}$, $\Delta n_B$, and $s_{\rm tot}$. This checks a different numerical evaluation of the same state; it does not independently infer the chemical potential or supply new observational inputs.
+
+No hypothesis tests, fits to new observations, or random simulations were performed. Variation among catalogs measures inventory sensitivity, and the interval obtained from $\eta$ propagates a single input; neither represents the total physical error of the HRG. Convergence errors assess the numerical implementation. No $p$ values or statistical significance for proximity to 38.2 MeV were calculated.

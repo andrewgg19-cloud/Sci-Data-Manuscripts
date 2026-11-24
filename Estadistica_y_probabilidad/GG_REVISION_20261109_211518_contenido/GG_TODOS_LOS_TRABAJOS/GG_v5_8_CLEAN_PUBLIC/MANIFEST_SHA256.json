@@ -1,0 +1,532 @@
+﻿[
+    {
+        "File":  "auditoria_sombra_temporal.csv",
+        "Bytes":  503,
+        "SHA256":  "7524CE4BDDE87E257EB299A7E31F5A56B806F898F593B64C0D5A9B212983060E"
+    },
+    {
+        "File":  "datos_prueba_gamma.xlsx",
+        "Bytes":  33357,
+        "SHA256":  "AA9654EEEFC55C1864DFA3A7DE386DB1408F697910445DA6B96EDF505039325A"
+    },
+    {
+        "File":  "deprecated\\README.md",
+        "Bytes":  233,
+        "SHA256":  "648F62C0E22791F5C5A189A3615075CB5314F53F5E96752D23744B15DE1EF906"
+    },
+    {
+        "File":  "ETHOS.md",
+        "Bytes":  763,
+        "SHA256":  "8F5E73281743C3D94969C72F3F21E8BB87CCF28A6616B7EE9D3958937665C44E"
+    },
+    {
+        "File":  "explanation_modules\\01_intuition.md",
+        "Bytes":  236,
+        "SHA256":  "E5F7C6CE351F86179D77A3BC1CE22243A4FBCFCF36A6EAA5CE5CF93DA19CE84C"
+    },
+    {
+        "File":  "explanation_modules\\02_formal_foundation.md",
+        "Bytes":  214,
+        "SHA256":  "2CB3424FEFEDA642F441AFE17071FC0B280E23D6687BF0E8852F9682E75E9A55"
+    },
+    {
+        "File":  "explanation_modules\\03_statistical_layer.md",
+        "Bytes":  177,
+        "SHA256":  "9D06BBA5341CBCC80B60B7B067B637177DE19959A614207C70F297A2DC9D0B40"
+    },
+    {
+        "File":  "explanation_modules\\04_geometric_layer.md",
+        "Bytes":  172,
+        "SHA256":  "F4DA42867CBAF60DB8EC30C4610C657CC90EB26176AABAB8237C7D0738E7B787"
+    },
+    {
+        "File":  "explanation_modules\\05_temporal_layer.md",
+        "Bytes":  177,
+        "SHA256":  "4361206E6528CC9BB4C14A63F41810DE91D7940CC399BABEFDB5191140489A9C"
+    },
+    {
+        "File":  "explanation_modules\\06_conceptual_cognitive_layer.md",
+        "Bytes":  207,
+        "SHA256":  "9D181E69818E121D9C267812CF6C159FAE77F1C16AD061EF695D6FAD88D69852"
+    },
+    {
+        "File":  "explanation_modules\\07_limits.md",
+        "Bytes":  228,
+        "SHA256":  "D2B5B987B6CD82F90820493430F58CED5C146B982159AD77904560EA351EAF78"
+    },
+    {
+        "File":  "explanation_modules\\08_signal_noise.md",
+        "Bytes":  1412,
+        "SHA256":  "BE83347BBB6401519A4AD2C5BE440502DA2ED12E1CB316E6791FDC2768F30D7F"
+    },
+    {
+        "File":  "explanation_modules\\09_hierarchical_judge.md",
+        "Bytes":  4275,
+        "SHA256":  "8AA70FE3476FD3CB37EB64C558743764112ADFEBC0482AA206510831A186F155"
+    },
+    {
+        "File":  "explanation_modules\\10_easy_hard_problem.md",
+        "Bytes":  1603,
+        "SHA256":  "8ADB9BA36CD1DFAFF2A61C3C0190B7E2E8A4C3DC58FA44EBF13C04A8D48B9072"
+    },
+    {
+        "File":  "explanation_modules\\11_complexity_tasks_universality.md",
+        "Bytes":  1551,
+        "SHA256":  "545994755C920A378CC3F0FBB6B5D9A8E15F55F5DA0826D67C7712B86CE5C46B"
+    },
+    {
+        "File":  "explanation_modules\\12_invariants_spectrum_physical_analogies.md",
+        "Bytes":  5391,
+        "SHA256":  "CF06937A7E0733D754CE3E8F237FF574BBCFCB796B46C8B61056A8A2BC3A76A1"
+    },
+    {
+        "File":  "explanation_modules\\13_asymmetry_source_decomposition.md",
+        "Bytes":  2945,
+        "SHA256":  "0E914EEC703F27AA8E117BA8808CDB77A5CAD835EDF388ACD79465B8408F7D1A"
+    },
+    {
+        "File":  "explanation_modules\\14_transformed_equivalence_manifestation.md",
+        "Bytes":  3358,
+        "SHA256":  "F529FDDA98D12AB604FADB09B0228E7FB542CCC36355BEDF7FB4381E15C5A15A"
+    },
+    {
+        "File":  "explanation_modules\\15_master_equations_observability_theory.md",
+        "Bytes":  5094,
+        "SHA256":  "08C7680AB0B0506B838C9450744B9DC50B22501E02BDF33F9C39F23ABC1661AA"
+    },
+    {
+        "File":  "explanation_modules\\README.md",
+        "Bytes":  711,
+        "SHA256":  "F70DE80D3B691B3278D72D0C1E217C12FCF83856C95EAB6B2AF560AADE891414"
+    },
+    {
+        "File":  "falsification_tests\\01_positive_orbit.csv",
+        "Bytes":  19599,
+        "SHA256":  "257C42FD2F0830D4FB76793585CC220CB1879F8E9A3B73CDD175CB4EE42185BE"
+    },
+    {
+        "File":  "falsification_tests\\01_positive_orbit_points.csv",
+        "Bytes":  65358,
+        "SHA256":  "59A1FE8B9EEDBF0BAABCC44EFE9356B894044B378B3307B01EEF5FB630BE9045"
+    },
+    {
+        "File":  "falsification_tests\\01_positive_orbit_result.json",
+        "Bytes":  873,
+        "SHA256":  "492339F5804057E5A051A7DC331EC52BEDEE601F4916A2B770EE8421905A70DA"
+    },
+    {
+        "File":  "falsification_tests\\02_negative_radial.csv",
+        "Bytes":  9698,
+        "SHA256":  "F751233C4359EFC41C99428000589CC18CE1299A78CCAD64F6B90784B277EDA5"
+    },
+    {
+        "File":  "falsification_tests\\02_negative_radial_points.csv",
+        "Bytes":  19131,
+        "SHA256":  "1AD18F65F0AF744565C8F548B06FAFC938A3D1EA354C7FF4A7AB12F3DB0E5525"
+    },
+    {
+        "File":  "falsification_tests\\02_negative_radial_result.json",
+        "Bytes":  698,
+        "SHA256":  "EC830314282E7D41877D65AAB5C68A83BA9F279B9883B82A5F4F4732852D71F4"
+    },
+    {
+        "File":  "falsification_tests\\03_noise_random_walk.csv",
+        "Bytes":  19534,
+        "SHA256":  "6C5EDA192060B5F07F6190D1A60E76A4D6FAB1B6587B37BAE02F3DA6F1A14660"
+    },
+    {
+        "File":  "falsification_tests\\03_noise_random_walk_points.csv",
+        "Bytes":  64205,
+        "SHA256":  "1079FC67E5FCC0DF55D10F66F3A6775E5D84FC8C6715A742C35B26018400AF0D"
+    },
+    {
+        "File":  "falsification_tests\\03_noise_random_walk_result.json",
+        "Bytes":  866,
+        "SHA256":  "DED179EAFCB584D5C0A2AACEFB0EC17668D6F792F3CCDD7A09A6D5AFCC62AA48"
+    },
+    {
+        "File":  "falsification_tests\\FALSIFICATION_RESULT_SUMMARY.md",
+        "Bytes":  1216,
+        "SHA256":  "734F1557D8BB809F355836BBADFD5EC3CC398955221A670FD0C779A816B344B2"
+    },
+    {
+        "File":  "falsification_tests\\generate_falsification_cases.py",
+        "Bytes":  1641,
+        "SHA256":  "7C6B915E86D554BFFA3FECF1403841AADFCC18D69F6361A28B842F2BD21DC2B1"
+    },
+    {
+        "File":  "falsification_tests\\README.md",
+        "Bytes":  1917,
+        "SHA256":  "9AB72BC98733648A6C7B69A12E20E9323A37450D1104953612094B1F88A8CDE2"
+    },
+    {
+        "File":  "falsification_tests\\run_falsification_tests.ps1",
+        "Bytes":  1245,
+        "SHA256":  "C8CD27882FB75A7B13092ED91670CD9D14FA6CC3D9C20961ED9B699C3629BE97"
+    },
+    {
+        "File":  "future_work\\README.md",
+        "Bytes":  143,
+        "SHA256":  "93166B64865DB71B57883D7281A3F8C9920C8285FA7663711C16CFA8133E55CC"
+    },
+    {
+        "File":  "GERMAN_GAMMA_CONCEPTUAL_NOTE_MODULAR_RECOGNITION.md",
+        "Bytes":  1854,
+        "SHA256":  "F1BF0D9050D4F5AB4A997622FBE413805BA7090903FD5F8D29B99BC0E01DB3CB"
+    },
+    {
+        "File":  "GERMAN_GAMMA_SET_THEORETIC_FOUNDATION.md",
+        "Bytes":  4250,
+        "SHA256":  "8D400CD68BE43E94AB55DF5A4829FCBA0D9DFE6D8AA6E493B966C670F7F1D7F1"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_5_2_AUDIT_GRADE.md",
+        "Bytes":  3251,
+        "SHA256":  "7B071CB8B5E918BDD09D57BC3F8569EC1B6B18D2BA6EE4141A5F455328A6FD17"
+    },
+    {
+        "File":  "german_gamma_v5_5_2_audit_grade.py",
+        "Bytes":  22622,
+        "SHA256":  "8E89C826696A7029C857E8A072346EE2B2B2A9F0EB9E14EC8AC5B02F8EC808CB"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_6_3D_HILBERT_LAPLACE.md",
+        "Bytes":  2318,
+        "SHA256":  "B5995240C546EC3081CBF724CF8E2C3D668F23B27C72EBF11CBBB39753BDCE79"
+    },
+    {
+        "File":  "german_gamma_v5_6_3d_hilbert_laplace.py",
+        "Bytes":  22573,
+        "SHA256":  "FEC41772E2F5B9B418F8D400CDCF80FB07D076854069CCE65633C9A2A46CEAC1"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_7_TEMPORAL_SHEET.md",
+        "Bytes":  1233,
+        "SHA256":  "977C9AFA16E7CA84B9696301893DD5BDB2B7C91EE167E18BD1D798420E4F82D5"
+    },
+    {
+        "File":  "german_gamma_v5_7_temporal_sheet.py",
+        "Bytes":  14604,
+        "SHA256":  "E5C68A541C3B95CF02B2377ACF4078138D9D697EC23D20C39C9608A59B8B766B"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_8_FINAL_SPEC.md",
+        "Bytes":  10976,
+        "SHA256":  "2D98D8F6A5A6BD4B79484186ED417C7504C1A8B7556A44B3575C262107C4236B"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_8_REVERSIBILITY.md",
+        "Bytes":  1786,
+        "SHA256":  "E52775BA83F7CEF6ADED2E854790A7FC4F971C898604C1F63A92141813DC31B4"
+    },
+    {
+        "File":  "german_gamma_v5_8_reversibility.py",
+        "Bytes":  9636,
+        "SHA256":  "A91141E491737729AAD680705605653D7795C418F25F6964CBE2D49FECEE1D62"
+    },
+    {
+        "File":  "invariance_tests\\__pycache__\\k_signature_invariance_test.cpython-314.pyc",
+        "Bytes":  14946,
+        "SHA256":  "2E775D8127049EDEFCC8E1AD20C43CD0085AD619F693466F344BDBD4C15EEAB4"
+    },
+    {
+        "File":  "invariance_tests\\K_INVARIANCE_RESULT_SUMMARY.md",
+        "Bytes":  1395,
+        "SHA256":  "574FC7A46380051BFA1820C1931243ABA94DEAA898954CFE9C7B8DECAF7E23DD"
+    },
+    {
+        "File":  "invariance_tests\\k_noise_result.json",
+        "Bytes":  886,
+        "SHA256":  "08359CCF6C43B6D3BE2A398B24B80A2FC9861B3EC834B347A3CFF8F48EB06328"
+    },
+    {
+        "File":  "invariance_tests\\k_noise_results.csv",
+        "Bytes":  1318,
+        "SHA256":  "B3274CAF4134E734CD3DAC45605EAFDD5778FEE4B129A7803DD3597B5661FBAC"
+    },
+    {
+        "File":  "invariance_tests\\k_orbit_result.json",
+        "Bytes":  892,
+        "SHA256":  "8C07483FCA0A8CE39699ED3651DB5FF5DE3A548A68CA9467AAD7588DA6EC1794"
+    },
+    {
+        "File":  "invariance_tests\\k_orbit_results.csv",
+        "Bytes":  1328,
+        "SHA256":  "8F1708B3F41D3921F1BD0A06F2DE41EE369ABF6971F4889FC55C9EC02404A3DF"
+    },
+    {
+        "File":  "invariance_tests\\k_signature_invariance_test.py",
+        "Bytes":  6778,
+        "SHA256":  "F16BB955D77C2ECC9BF08D31674FA9EADA1D6DF7A88CCC5A281538A098ED2796"
+    },
+    {
+        "File":  "invariance_tests\\noise_horizon_x_positive.csv",
+        "Bytes":  9715,
+        "SHA256":  "2BEFB51CB5B4179E5E481CE51E43AE8FE21EF59108700AA25A3F350680AF77AD"
+    },
+    {
+        "File":  "invariance_tests\\OPERATIONAL_SYMMETRY_GROUP.md",
+        "Bytes":  827,
+        "SHA256":  "4B474C8964AC0922A098CAD99078EFAFFE420CC1E4699F41F0F62E28CB31E7AE"
+    },
+    {
+        "File":  "invariance_tests\\operational_symmetry_group.py",
+        "Bytes":  7984,
+        "SHA256":  "E49FC2028D38E7F9068368FF562312144247F00A30C0CC0497E54DD376051278"
+    },
+    {
+        "File":  "invariance_tests\\OPERATIONAL_SYMMETRY_RESULT_SUMMARY.md",
+        "Bytes":  1514,
+        "SHA256":  "0BD7966FEE2644CB6A8BEEA0355D2758B607730C6E5D6C6520465D11FDB952C0"
+    },
+    {
+        "File":  "invariance_tests\\orbit_horizon_x_positive.csv",
+        "Bytes":  7563,
+        "SHA256":  "1F91F6FE50E3E44D8CD7586E9C0663C14741629D4635C6BEB729F9E3CED5D4F3"
+    },
+    {
+        "File":  "invariance_tests\\README.md",
+        "Bytes":  1004,
+        "SHA256":  "A5E091C8F72924D41D324B62D5EB7733E8530E0B21085E249B609D44B5A664AE"
+    },
+    {
+        "File":  "invariance_tests\\symmetry_noise_result.json",
+        "Bytes":  2309,
+        "SHA256":  "9F0E2ADF049B53864FBC768E3AE1F6CAE9D55D7133E94A0E00D97656E22FE10D"
+    },
+    {
+        "File":  "invariance_tests\\symmetry_noise_results.csv",
+        "Bytes":  348,
+        "SHA256":  "A098D7F3EA577466FAA58CE9CE0CBA5F0018F165C30B279F378278BE58B73DD1"
+    },
+    {
+        "File":  "invariance_tests\\symmetry_orbit_result.json",
+        "Bytes":  2329,
+        "SHA256":  "5DAEADC482396C49211C4C68CEA323A50BE3E1858949B4B57CAF3FE95574B05B"
+    },
+    {
+        "File":  "invariance_tests\\symmetry_orbit_results.csv",
+        "Bytes":  343,
+        "SHA256":  "8D4B1304209C76B22CBE22CF92AC54EB095E57D7D12A156BAAB8BD97C1BD835F"
+    },
+    {
+        "File":  "MANIFEST_SHA256.json",
+        "Bytes":  19266,
+        "SHA256":  "7A9E356320CDB542CB3359C85D26181D738ECDA897B7C857D59040E89CFE1307"
+    },
+    {
+        "File":  "MASTER_INTERPRETATION_TABLE.md",
+        "Bytes":  5924,
+        "SHA256":  "B63C3E3909F0F28BB88E7122897E8D6C7ADEEFF046B8E2A0DC6B942377568739"
+    },
+    {
+        "File":  "minimal_reproducible_case\\EXPECTED_READING.md",
+        "Bytes":  647,
+        "SHA256":  "A22D47E6D9A162EDC8EC268C2E868D67716B0F896E0A3D018DEF4BB6DF4492E8"
+    },
+    {
+        "File":  "minimal_reproducible_case\\generate_minimal_case.py",
+        "Bytes":  790,
+        "SHA256":  "4C376D35071454A5E6C08780B988A7AD003771322DA1558878B82F47298EB2FE"
+    },
+    {
+        "File":  "minimal_reproducible_case\\minimal_orbit_input.csv",
+        "Bytes":  15593,
+        "SHA256":  "7E4539D1C9575B361A51EFD62955AB6702ABBC592B9F98184078FFD0565EF813"
+    },
+    {
+        "File":  "minimal_reproducible_case\\minimal_orbit_points.csv",
+        "Bytes":  51799,
+        "SHA256":  "DF5F79403AB8E06C61C482ACDAF74675A928854706B8E5738C9417FC8D2D2BFA"
+    },
+    {
+        "File":  "minimal_reproducible_case\\minimal_orbit_result.json",
+        "Bytes":  880,
+        "SHA256":  "B8AA0BF1C1905DC91C8B1C20E06F262D7FAE47BD1E565A61DC6C0929DC7A9AAD"
+    },
+    {
+        "File":  "minimal_reproducible_case\\README.md",
+        "Bytes":  1316,
+        "SHA256":  "F683655B4F36147F1A30FE39D5CAE98FA41AC4F42D366CC2EF58E286EF98EB72"
+    },
+    {
+        "File":  "minimal_reproducible_case\\RESULT_SUMMARY.md",
+        "Bytes":  932,
+        "SHA256":  "5F1064A29C2366F34965F36CFFA30EBD86AE52F388F8354C711BCB23114753F9"
+    },
+    {
+        "File":  "minimal_reproducible_case\\run_minimal_case.ps1",
+        "Bytes":  1054,
+        "SHA256":  "D61BEA8569896BE91C5CA3149019156BCC4BAB4D4B947B73F891D89ED8A51710"
+    },
+    {
+        "File":  "README_CLEAN_AUDIT_GRADE.md",
+        "Bytes":  2224,
+        "SHA256":  "9D9B16E7EBE65CFA392076D02974BAB8C9A9832A4597138113540C66BF6212F4"
+    },
+    {
+        "File":  "SYMBOLIC_IDENTITIES.md",
+        "Bytes":  5227,
+        "SHA256":  "17589021FC7C474BA24DB5D6BB8CA3D5C47B2383A351ED2B5A88543BD1D7751D"
+    },
+    {
+        "File":  "validation_twins\\01_null_twin\\base_A.csv",
+        "Bytes":  38229,
+        "SHA256":  "2021093C8120759B761E664ACAB3E505F4D414E7849C36E52EE36C5B25A1A3C3"
+    },
+    {
+        "File":  "validation_twins\\01_null_twin\\base_A_energy_entropy_check.json",
+        "Bytes":  704,
+        "SHA256":  "056886ED3386356D17F5E6381A9FF149B98AEEC9C0D5A8BCD5F373AA0D22756F"
+    },
+    {
+        "File":  "validation_twins\\01_null_twin\\base_A_local_oscillation_noise.json",
+        "Bytes":  881,
+        "SHA256":  "E30766BCDFFBE8DFF7500825F20EC7300E9181E68D760F582C04F416CD76CD48"
+    },
+    {
+        "File":  "validation_twins\\01_null_twin\\base_A_local_oscillation_noise_points.csv",
+        "Bytes":  135887,
+        "SHA256":  "4161B5B49C37B4D58B309B064BE9C9665B939CBC33A11735B4F3A26DAAD8E22D"
+    },
+    {
+        "File":  "validation_twins\\01_null_twin\\base_B.csv",
+        "Bytes":  38230,
+        "SHA256":  "50A9E619EF2B46C1562010354ECA67EEF79316E1F5E38A03DD9D37C51ED8452B"
+    },
+    {
+        "File":  "validation_twins\\01_null_twin\\expected_result.md",
+        "Bytes":  146,
+        "SHA256":  "DF4C91308B5815E0D3FF414740EFE6A0D3049A67D8983AB85A0489E54022ABA1"
+    },
+    {
+        "File":  "validation_twins\\02_filtered_twin\\base_A.csv",
+        "Bytes":  38235,
+        "SHA256":  "EFD9771EB8F02B01764A774B75BD35D483BBA3E0F93DC5424C8276FDFA08C0D4"
+    },
+    {
+        "File":  "validation_twins\\02_filtered_twin\\base_B.csv",
+        "Bytes":  37693,
+        "SHA256":  "5418CDE0CD6D591ECFC5DD0C9112506FF6CDA70D79E4577C9242EF5A080C0FBC"
+    },
+    {
+        "File":  "validation_twins\\02_filtered_twin\\expected_result.md",
+        "Bytes":  142,
+        "SHA256":  "21A7640CA02778D5E9AA0E7ABAFFD52445F48B66C50F9F07BA95E57E82F7409C"
+    },
+    {
+        "File":  "validation_twins\\03_temporal_twin\\base_A.csv",
+        "Bytes":  38230,
+        "SHA256":  "2FEFB4943774ABDDC7C8EACE389A5645A1579ACD7E5C94EDD305D6E5C2592FB7"
+    },
+    {
+        "File":  "validation_twins\\03_temporal_twin\\base_B.csv",
+        "Bytes":  38096,
+        "SHA256":  "B6C38E2E0BA555BCE116CA1972A7B14C0B81C857094543F25C9D5F1CC54DBAF6"
+    },
+    {
+        "File":  "validation_twins\\03_temporal_twin\\base_B_local_oscillation_noise.json",
+        "Bytes":  884,
+        "SHA256":  "9CA23D0FFE065DEE7232001172F75F1FE4B7C3648E47D1BE4FCFAF84A35B9DE9"
+    },
+    {
+        "File":  "validation_twins\\03_temporal_twin\\base_B_local_oscillation_noise_points.csv",
+        "Bytes":  135464,
+        "SHA256":  "64978AD3119ABEE47FF4188A4BFC1FBFB9ADC1F3A878D579FBD2268E9835821A"
+    },
+    {
+        "File":  "validation_twins\\03_temporal_twin\\base_B_vq_sequence.json",
+        "Bytes":  3520,
+        "SHA256":  "AD512429C6FAE1135BE2A961FEB1CA0B4F9AB8F46F92B02711DA04F3F962537E"
+    },
+    {
+        "File":  "validation_twins\\03_temporal_twin\\base_B_vq_sequence_points.csv",
+        "Bytes":  85301,
+        "SHA256":  "17E6D487C571388A867CF7AAD3FD9226BB821F46510AD38971264B64CF32BC75"
+    },
+    {
+        "File":  "validation_twins\\03_temporal_twin\\expected_result.md",
+        "Bytes":  119,
+        "SHA256":  "2A1E8B9BBD2EAD613E8754EB90D1D7A4247D7B3A31DDE4E4588514CBA58C52D8"
+    },
+    {
+        "File":  "validation_twins\\04_entropy_twin\\base_A.csv",
+        "Bytes":  38309,
+        "SHA256":  "6BC0ADBC2C4F2D620477E1E5D6C07782498668BB844292493D28FD0794E33076"
+    },
+    {
+        "File":  "validation_twins\\04_entropy_twin\\base_B.csv",
+        "Bytes":  39155,
+        "SHA256":  "C8086EB51C7F08DF828890842C18A0C04B92DF76AF80F9689F65D6DB81D0E41D"
+    },
+    {
+        "File":  "validation_twins\\04_entropy_twin\\expected_result.md",
+        "Bytes":  94,
+        "SHA256":  "B8C496167AE0D7C58FB952AEF35E363C8B2DAA259DAFF69A4756BD5B38AF49CF"
+    },
+    {
+        "File":  "validation_twins\\05_reversibility_twin\\base_A.csv",
+        "Bytes":  38273,
+        "SHA256":  "BEAE7A46EA5E4AF1FFC50FFDA235380D87CB4D672A9BB0EE1735F8C52BDADBDB"
+    },
+    {
+        "File":  "validation_twins\\05_reversibility_twin\\base_B.csv",
+        "Bytes":  38393,
+        "SHA256":  "5C08BC7817AB4C925ADF259DE15DA4A32CE74023ED0F1CA07307C9FB216122B8"
+    },
+    {
+        "File":  "validation_twins\\05_reversibility_twin\\base_B_reversibility_check.json",
+        "Bytes":  2523,
+        "SHA256":  "3900A9EAD18E409BC80806A80F5B784447B3D30C2CECEAD643AE019811EFFCB5"
+    },
+    {
+        "File":  "validation_twins\\05_reversibility_twin\\expected_result.md",
+        "Bytes":  133,
+        "SHA256":  "C60819499AE702EA11B88F3A4E3F743E0B82A806988F8BFE5A15B344E4D65104"
+    },
+    {
+        "File":  "validation_twins\\ANGULAR_MOMENTUM_TRAJECTORY_NOTE.md",
+        "Bytes":  1645,
+        "SHA256":  "31C8CD970FC7E323C7A4FFBDE26C693432B423B30F3A52EC39E521875CAE5CC2"
+    },
+    {
+        "File":  "validation_twins\\angular_momentum_trajectory_test.py",
+        "Bytes":  7470,
+        "SHA256":  "66131CF2270000317049E5BF806446721504F8AC8C880FBC38286D8FC1EB3F37"
+    },
+    {
+        "File":  "validation_twins\\generate_validation_twins.py",
+        "Bytes":  3581,
+        "SHA256":  "3201C2C99C77C2A1B7845034BDD918DD49C5FE319A361E7B057D3101B5A8007F"
+    },
+    {
+        "File":  "validation_twins\\local_oscillation_noise_discriminator.py",
+        "Bytes":  8124,
+        "SHA256":  "37DD24F833413D4018B3DB5AEBD3C9ED6DFBC9930E49C5121FEA367578E92984"
+    },
+    {
+        "File":  "validation_twins\\LOCAL_OSCILLATION_NOISE_NOTE.md",
+        "Bytes":  1183,
+        "SHA256":  "00C131A1C98AE8EAAEB851247368672D2B6C9F140298542CDA759F44C05B84D9"
+    },
+    {
+        "File":  "validation_twins\\README.md",
+        "Bytes":  904,
+        "SHA256":  "59209390648986CA1DB3639D8BA63FD804E686D41AB8C05E0684D87CE54B5EAF"
+    },
+    {
+        "File":  "validation_twins\\run_validation_twins.ps1",
+        "Bytes":  1271,
+        "SHA256":  "E94DAD0DA7279191E9B6639D95913CB84695E69516A8A7FDD61F8094B91B64ED"
+    },
+    {
+        "File":  "validation_twins\\vector_quantization_sequence_demo.py",
+        "Bytes":  7180,
+        "SHA256":  "1C745D8320F2B056B2A930744D50C7DD9ECAB5CEB7A00A50115562024E2A5605"
+    },
+    {
+        "File":  "validation_twins\\VECTOR_QUANTIZATION_SEQUENCE_NOTE.md",
+        "Bytes":  1138,
+        "SHA256":  "ED538A6169D38C1C6B2DEA044B6C27ADB2BC6FA55BC931207A75ABA4A4DA5F4F"
+    }
+]

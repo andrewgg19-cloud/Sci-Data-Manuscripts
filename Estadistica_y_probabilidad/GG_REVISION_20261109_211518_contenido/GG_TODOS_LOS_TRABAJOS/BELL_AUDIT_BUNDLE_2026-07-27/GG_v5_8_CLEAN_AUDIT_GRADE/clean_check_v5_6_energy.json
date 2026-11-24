@@ -1,0 +1,21 @@
+{
+  "model": "German Gamma v5.6 3D/Hilbert/Laplace",
+  "input": "datos_prueba_gamma.xlsx",
+  "columns": [
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "filter_expression": "x1 > 0",
+  "feature_map": "quadratic",
+  "n_total": 600,
+  "n_filtered": 298,
+  "survival_rate": 0.49666666666666665,
+  "residual_energy": 0.7152446137150672,
+  "entropy_base": 0.29927852389195636,
+  "entropy_filtered": 0.26734243066924196,
+  "delta_entropy": 0.0319360932227144,
+  "residual_energy_entropy_coupling": 0.017231301209121325,
+  "reading": "low_residual_energy_entropy_coupling",
+  "limits": "Exploratory geometric-informational score. It must be calibrated for operational decisions."
+}

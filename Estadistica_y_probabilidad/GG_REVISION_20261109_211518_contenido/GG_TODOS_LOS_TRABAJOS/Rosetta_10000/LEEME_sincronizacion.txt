@@ -1,0 +1,17 @@
+Rosetta 10000 - Calibracion y resistencia al desfase (pilotos conocidos)
+
+INSTRUCCIONES
+1. Descargue y extraiga este ZIP dentro de C:\Users\Andre\Downloads\Rosetta_10000.
+2. Desde PowerShell ubicado en esa carpeta ejecute:
+   py .\rosetta_sincronizacion_pilotos.py --notes 100 --candidates 1000
+3. Devuelva Rosetta_sincronizacion_validacion.json.
+
+El WAV y el CSV originales NO se modifican. Se comparan todas las
+condiciones anteriores con una nueva: desfase_3ms_corregido.
+Se estima el retardo con 8 simbolos piloto de identidad conocida,
+que NO pertenecen a los 100 simbolos evaluados. No es decodificacion ciega.
+La identidad real de la nota evaluada solo se usa para puntuacion final.
+El desfase inyectado se fija en 3 ms, pero el estimador NO lee ese dato.
+Esta evaluacion es sintética (desplazamiento digital), no transmision fisica.
+NOTA: sobre 100 muestras, una exactitud de 99 % no demuestra por si sola
+una probabilidad poblacional >=99 %. Se requieren validaciones ampliadas.

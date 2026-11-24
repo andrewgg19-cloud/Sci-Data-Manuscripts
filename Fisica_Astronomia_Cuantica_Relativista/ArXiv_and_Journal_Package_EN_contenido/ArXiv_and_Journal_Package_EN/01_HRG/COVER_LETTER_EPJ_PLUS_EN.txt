@@ -1,0 +1,30 @@
+DRAFT — AUTHOR CONFIRMATIONS REQUIRED BEFORE SUBMISSION
+Date: [DATE OF SUBMISSION]
+To the Editors of The European Physical Journal Plus
+Re: Baryon-Antibaryon Reconstruction at 50 MeV: Rest Masses and Cosmological Abundances
+
+Dear Editors,
+
+I submit this manuscript for consideration as a research article in The European Physical Journal Plus.
+
+The study presents a reproducible equilibrium reference for separate baryon and antibaryon populations in the early Universe. It evaluates fixed PDG2014, PDG2020 and PDG2025 inventories, quantifies the 50 MeV populations and the approximately 38.2 MeV crossing, and examines how the result changes when the specified cosmological input is varied. It also states the identifiability limitation: a net excess alone does not determine a unique pair population or annihilation history.
+
+The contribution is a documented computational reconstruction and comparison with prior equilibrium results, rather than a new explanation of baryogenesis. The baseline sets the electric-charge and strangeness chemical potentials to zero and therefore does not enforce the corresponding neutrality constraints. Numerical reproduction is distinguished from total physical uncertainty.
+
+A preprint and its reproducibility supplement are deposited at https://doi.org/10.5281/zenodo.23467572. The manuscript reports 24 numerical checks and five reproduced CSV outputs, together with a direct momentum-integral comparison at selected states. Source files, fixed inventories, results and license notices accompany the work. AI assistance is disclosed in the manuscript.
+
+A related preprint, “Symmetric Evaporation and Entropy Dilution of the Baryon Excess between 50 and 30 MeV,” is available at https://doi.org/10.5281/zenodo.23467637. It uses the equilibrium reference and adds an exploratory energy-injection and kinetic model. The present paper concerns the equilibrium reconstruction; the companion concerns its dynamical extension. I disclose the shared inputs and related work so that the editors can assess the distinction and any overlap.
+
+The journal's scope includes methodological and computational studies and support for replicability, which is the basis for this submission.
+
+Exclusive consideration: [AUTHOR TO CONFIRM WHETHER THIS MANUSCRIPT IS CURRENTLY UNDER CONSIDERATION BY ANOTHER JOURNAL].
+Funding: [AUTHOR TO PROVIDE AN ACCURATE FUNDING STATEMENT].
+Competing interests: [AUTHOR TO PROVIDE AN ACCURATE DECLARATION].
+Related manuscript's submission status: [AUTHOR TO CONFIRM].
+
+Thank you for considering the manuscript.
+
+Sincerely,
+Andrés Germán García
+Independent Researcher, Mexico
+andrewgg19@gmail.com

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-19",
+  "scope": "Source packaging and local compilation; no rerun of scientific calculations and no external scientific validation",
+  "papers": [
+    {
+      "manuscript": "Baryon-Antibaryon Reconstruction at 50 MeV: Rest Masses and Cosmological Abundances",
+      "source_archive": "HRG_50MeV_arXiv_Source_EN.zip",
+      "source_files": [
+        "body_en.tex",
+        "closing_en.tex",
+        "discussion_en.tex",
+        "figures/final_cross_en.pdf",
+        "intro_en.tex",
+        "methods_en.tex",
+        "paper_en.tex",
+        "preamble.tex",
+        "references.tex",
+        "results_en.tex",
+        "table_crosscatalogs_en.tex",
+        "table_nucleons50_en.tex",
+        "table_states_en.tex"
+      ],
+      "source_files_unmodified": true,
+      "original_pdf_sha256": "ce2062d9cac9d61b8639a125c7793e3c035caab821433f9f5102ef2889ba1f44",
+      "scientific_calculations_rerun_in_this_task": false,
+      "minimal_archive_compiles": true,
+      "passes": 2,
+      "extracted_text_matches_published_pdf": true,
+      "source_archive_sha256": "5e82a029263a185ca04d90bd7b2c20aae3ab646d7008530b5d8b746145611a09",
+      "warnings": [
+        "Package multicol Warning: May not work with the twocolumn option on input line"
+      ]
+    },
+    {
+      "manuscript": "Symmetric Evaporation and Entropy Dilution of the Baryon Excess between 50 and 30 MeV",
+      "source_archive": "Evaporation_50_30MeV_arXiv_Source_EN.zip",
+      "source_files": [
+        "figures_en/final_yield.pdf",
+        "figures_en/initial_excess.pdf",
+        "figures_en/multiple_crossings.pdf",
+        "paper_en.tex",
+        "preamble.tex"
+      ],
+      "source_files_unmodified": true,
+      "original_pdf_sha256": "e1006b34092c276347a1ec6612b447942274e136296d8a94b11aa879d30886e4",
+      "scientific_calculations_rerun_in_this_task": false,
+      "minimal_archive_compiles": true,
+      "passes": 2,
+      "extracted_text_matches_published_pdf": true,
+      "source_archive_sha256": "b16f25da376029a18df33e51fdbac05fa05a4fa6070061cbe0fd6f2d58550d68",
+      "warnings": [
+        "Package multicol Warning: May not work with the twocolumn option on input line",
+        "Package balance Warning: You have called \\balance in second column"
+      ]
+    }
+  ]
+}

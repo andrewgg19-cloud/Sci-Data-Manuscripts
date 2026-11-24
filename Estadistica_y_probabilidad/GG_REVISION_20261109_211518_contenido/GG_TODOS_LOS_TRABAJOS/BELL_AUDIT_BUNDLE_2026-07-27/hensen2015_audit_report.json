@@ -1,0 +1,332 @@
+{
+  "what_was_audited": {
+    "paper_doi": "10.1038/nature15759",
+    "dataset_doi": "10.4121/uuid:6e19e9b2-4a2d-40b5-8dd3-a660bf3c0a31",
+    "object": "Published Hensen 2015 open-data observational pipeline",
+    "pipeline": "candidate two-photon rows at C -> valid Bell trials -> CHSH statistic",
+    "limitation": "Open dataset is not the full raw physical attempt stream."
+  },
+  "baseline": {
+    "candidate_rows": 4746,
+    "bell_trials": 245,
+    "k": 196,
+    "p_value": 0.0391746435587901,
+    "S": 2.4224998704613703,
+    "S_error": 0.20382659825201987,
+    "settings_counts": [
+      53,
+      79,
+      62,
+      51
+    ]
+  },
+  "taylor": {
+    "parameter": "event_ready_offset_ps",
+    "nominal_value_ps": 0,
+    "delta_ps": 100,
+    "S_minus": 2.440297883633699,
+    "S_0": 2.4224998704613703,
+    "S_plus": 2.4037657938332964,
+    "first_derivative_per_ps": -0.0001826604490020123,
+    "second_derivative_per_ps2": -9.360634557453729e-08
+  },
+  "monte_carlo_bootstrap": {
+    "replicates": 2000,
+    "mean_S": 2.424007153789742,
+    "sd_S": 0.2106557610616841,
+    "q05": 2.0630922359379498,
+    "q50": 2.4312260457416754,
+    "q95": 2.757100039688275,
+    "prob_S_gt_2": 0.9755
+  },
+  "monte_carlo_offset": {
+    "replicates": 800,
+    "offset_min_ps": -3000,
+    "offset_max_ps": 4000,
+    "mean_S": 2.3108614254698887,
+    "sd_S": 0.20407946765198412,
+    "min_S": 1.6957711718702861,
+    "max_S": 2.51326131495623,
+    "prob_S_gt_2": 0.89,
+    "min_bell_trials": 125,
+    "max_bell_trials": 533
+  },
+  "kalman_daily_acceptance": {
+    "q_mle": 0.0002494508135230317,
+    "obs_rate_min": 0.00975609756097561,
+    "obs_rate_max": 0.1111111111111111,
+    "smooth_rate_min": 0.01327662632961682,
+    "smooth_rate_max": 0.06769219967165137,
+    "smooth_first3": [
+      0.033437170787756806,
+      0.05138857735278764,
+      0.05169163656727578
+    ],
+    "smooth_last3": [
+      0.04363278829483523,
+      0.03191158233576895,
+      0.01327662632961682
+    ],
+    "corr_acceptance_vs_win_fraction": -0.27950633291861765,
+    "day_table": [
+      {
+        "day": 1,
+        "candidate_rows": 125,
+        "accepted_trials": 3,
+        "acceptance_rate_observed": 0.024,
+        "acceptance_rate_smoothed": 0.033437170787756806,
+        "win_fraction": 1.0
+      },
+      {
+        "day": 2,
+        "candidate_rows": 117,
+        "accepted_trials": 13,
+        "acceptance_rate_observed": 0.1111111111111111,
+        "acceptance_rate_smoothed": 0.05138857735278764,
+        "win_fraction": 0.6153846153846154
+      },
+      {
+        "day": 3,
+        "candidate_rows": 233,
+        "accepted_trials": 11,
+        "acceptance_rate_observed": 0.04721030042918455,
+        "acceptance_rate_smoothed": 0.05169163656727578,
+        "win_fraction": 0.8181818181818182
+      },
+      {
+        "day": 4,
+        "candidate_rows": 208,
+        "accepted_trials": 14,
+        "acceptance_rate_observed": 0.0673076923076923,
+        "acceptance_rate_smoothed": 0.05778517555592344,
+        "win_fraction": 0.7142857142857143
+      },
+      {
+        "day": 5,
+        "candidate_rows": 86,
+        "accepted_trials": 3,
+        "acceptance_rate_observed": 0.03488372093023256,
+        "acceptance_rate_smoothed": 0.05600831265947241,
+        "win_fraction": 0.6666666666666666
+      },
+      {
+        "day": 6,
+        "candidate_rows": 199,
+        "accepted_trials": 20,
+        "acceptance_rate_observed": 0.10050251256281408,
+        "acceptance_rate_smoothed": 0.06769219967165137,
+        "win_fraction": 0.95
+      },
+      {
+        "day": 7,
+        "candidate_rows": 115,
+        "accepted_trials": 11,
+        "acceptance_rate_observed": 0.09565217391304348,
+        "acceptance_rate_smoothed": 0.06135954216342952,
+        "win_fraction": 0.8181818181818182
+      },
+      {
+        "day": 8,
+        "candidate_rows": 193,
+        "accepted_trials": 6,
+        "acceptance_rate_observed": 0.031088082901554404,
+        "acceptance_rate_smoothed": 0.043654455578535506,
+        "win_fraction": 0.6666666666666666
+      },
+      {
+        "day": 9,
+        "candidate_rows": 283,
+        "accepted_trials": 11,
+        "acceptance_rate_observed": 0.038869257950530034,
+        "acceptance_rate_smoothed": 0.0460344658343583,
+        "win_fraction": 0.8181818181818182
+      },
+      {
+        "day": 10,
+        "candidate_rows": 305,
+        "accepted_trials": 26,
+        "acceptance_rate_observed": 0.08524590163934426,
+        "acceptance_rate_smoothed": 0.0619542507676086,
+        "win_fraction": 0.7307692307692307
+      },
+      {
+        "day": 11,
+        "candidate_rows": 320,
+        "accepted_trials": 20,
+        "acceptance_rate_observed": 0.0625,
+        "acceptance_rate_smoothed": 0.05514886453118369,
+        "win_fraction": 0.85
+      },
+      {
+        "day": 12,
+        "candidate_rows": 538,
+        "accepted_trials": 17,
+        "acceptance_rate_observed": 0.031598513011152414,
+        "acceptance_rate_smoothed": 0.038328776191470355,
+        "win_fraction": 0.9411764705882353
+      },
+      {
+        "day": 13,
+        "candidate_rows": 377,
+        "accepted_trials": 21,
+        "acceptance_rate_observed": 0.05570291777188329,
+        "acceptance_rate_smoothed": 0.05102602352587321,
+        "win_fraction": 0.7142857142857143
+      },
+      {
+        "day": 14,
+        "candidate_rows": 358,
+        "accepted_trials": 22,
+        "acceptance_rate_observed": 0.061452513966480445,
+        "acceptance_rate_smoothed": 0.055361519831559555,
+        "win_fraction": 0.8636363636363636
+      },
+      {
+        "day": 15,
+        "candidate_rows": 173,
+        "accepted_trials": 9,
+        "acceptance_rate_observed": 0.05202312138728324,
+        "acceptance_rate_smoothed": 0.05026596222130949,
+        "win_fraction": 0.5555555555555556
+      },
+      {
+        "day": 16,
+        "candidate_rows": 438,
+        "accepted_trials": 20,
+        "acceptance_rate_observed": 0.045662100456621,
+        "acceptance_rate_smoothed": 0.04363278829483523,
+        "win_fraction": 0.9
+      },
+      {
+        "day": 17,
+        "candidate_rows": 473,
+        "accepted_trials": 16,
+        "acceptance_rate_observed": 0.03382663847780127,
+        "acceptance_rate_smoothed": 0.03191158233576895,
+        "win_fraction": 0.75
+      },
+      {
+        "day": 18,
+        "candidate_rows": 205,
+        "accepted_trials": 2,
+        "acceptance_rate_observed": 0.00975609756097561,
+        "acceptance_rate_smoothed": 0.01327662632961682,
+        "win_fraction": 1.0
+      }
+    ]
+  },
+  "cyclic_invariance": {
+    "settings_counts": {
+      "vector": [
+        53.0,
+        79.0,
+        62.0,
+        51.0
+      ],
+      "mean": 61.25,
+      "cyclic_break_index": 0.17760189481792435,
+      "fourier_modes_abs": [
+        245.0,
+        29.410882339705484,
+        15.0,
+        29.410882339705484
+      ],
+      "mode1_to_mode0": 0.1200444177130836,
+      "mode2_to_mode0": 0.061224489795918366
+    },
+    "win_rates": {
+      "vector": [
+        0.8679245283018868,
+        0.7974683544303798,
+        0.7419354838709677,
+        0.803921568627451
+      ],
+      "mean": 0.8028124838076713,
+      "cyclic_break_index": 0.05553423282052893,
+      "fourier_modes_abs": [
+        3.2112499352306854,
+        0.1261542044090857,
+        0.008470089115023782,
+        0.1261542044090857
+      ],
+      "mode1_to_mode0": 0.03928507807039417,
+      "mode2_to_mode0": 0.0026376299839194297
+    },
+    "e_values": {
+      "vector": [
+        0.7358490566037735,
+        0.5949367088607594,
+        0.4838709677419355,
+        -0.6078431372549019
+      ],
+      "mean": 0.30170339898789167,
+      "cyclic_break_index": 0.8701203463750992,
+      "fourier_modes_abs": [
+        1.2068135959515667,
+        1.2288906849221695,
+        1.2326264527398516,
+        1.2288906849221695
+      ],
+      "mode1_to_mode0": 1.0182937025607464,
+      "mode2_to_mode0": 1.0213892658111228
+    },
+    "counts_chi2_uniform": 7.979591836734694,
+    "counts_uniform_mc_p": 0.046675
+  },
+  "kolmogorov_acceptance_sequence": {
+    "n": 4746,
+    "rate": 0.051622418879056046,
+    "observed_compression_ratio": 0.06300042140750105,
+    "shuffle_mean": 0.06195269700800674,
+    "shuffle_sd": 0.0010940465189911985,
+    "shuffle_q05": 0.06026127265065318,
+    "shuffle_q95": 0.0638432364096081,
+    "bernoulli_mean": 0.061779919932574805,
+    "bernoulli_sd": 0.002655582053368525,
+    "bernoulli_q05": 0.05731142014327855,
+    "bernoulli_q95": 0.06616097766540244,
+    "p_shuffle_le_observed": 0.8525,
+    "p_bernoulli_le_observed": 0.6975
+  },
+  "kolmogorov_valid_win_sequence": {
+    "n": 245,
+    "rate": 0.8,
+    "observed_compression_ratio": 0.2571428571428571,
+    "shuffle_mean": 0.25446938775510203,
+    "shuffle_sd": 0.007151379481866103,
+    "shuffle_q05": 0.24469387755102043,
+    "shuffle_q95": 0.2653061224489796,
+    "bernoulli_mean": 0.2545612244897959,
+    "bernoulli_sd": 0.011296258975883237,
+    "bernoulli_q05": 0.23673469387755103,
+    "bernoulli_q95": 0.27346938775510204,
+    "p_shuffle_le_observed": 0.74625,
+    "p_bernoulli_le_observed": 0.6425
+  },
+  "surface_scans": {
+    "offset_range_ps": [
+      -3000,
+      4000
+    ],
+    "readout_range": [
+      3000,
+      4500
+    ],
+    "grid_shape": [
+      16,
+      23
+    ],
+    "S_min": 1.6883685338230792,
+    "S_max": 2.5001697648756473,
+    "bell_trials_min": 125,
+    "bell_trials_max": 535,
+    "p_value_min": 0.009488461523044204,
+    "p_value_max": 0.9797398821808901,
+    "artifacts": {
+      "grid_npz": "hensen2015_surface_plots\\hensen2015_surface_grid.npz",
+      "surface_S_png": "hensen2015_surface_plots\\surface_S.png",
+      "surface_bell_trials_png": "hensen2015_surface_plots\\surface_bell_trials.png",
+      "surface_p_value_png": "hensen2015_surface_plots\\surface_p_value.png"
+    }
+  }
+}

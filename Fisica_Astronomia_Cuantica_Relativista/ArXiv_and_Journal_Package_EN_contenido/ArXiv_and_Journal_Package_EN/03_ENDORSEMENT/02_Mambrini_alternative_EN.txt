@@ -1,0 +1,29 @@
+ALTERNATIVE DRAFT — FOR AUTHOR REVIEW; NOT SENT
+Proposed recipient: Dr. Yann Mambrini
+Verified institutional address: mambrini@ijclab.in2p3.fr
+ArXiv endorsement eligibility for astro-ph: not yet verified.
+Before use: verify eligibility and insert the real current arXiv link. This is an alternative individual contact, not a simultaneous bulk request.
+
+Subject: arXiv endorsement consideration — an exploratory entropy-dilution calculation
+
+Dear Dr. Mambrini,
+
+My name is Andrés Germán García, an independent researcher in Mexico. I cite your paper with Haque, Kpatcha and Maity, “Primordial Black Hole Reheating” (arXiv:2305.10518), as context for an exploratory calculation of entropy injection between 50 and 30 MeV.
+
+My manuscript compares baryon-antibaryon abundance crossings for a common initial net yield and for a common final yield. It uses homogeneous, instantaneous energy deposition and an effective pair equation; it does not reproduce your post-inflationary formation or reheating scenario. The calculation preserves comoving net baryon number and does not claim to explain the origin of the asymmetry.
+
+The English preprint and reproducibility supplement are available here:
+https://doi.org/10.5281/zenodo.23467637
+The companion equilibrium reference is:
+https://doi.org/10.5281/zenodo.23467572
+
+I am preparing a submission in astro-ph.CO. If you are eligible to endorse in the relevant domain and consider the manuscript appropriate, I would be grateful for your consideration. I am not requesting a full referee report and understand if you are unable to consider it.
+
+The current arXiv endorsement request is: [INSERT CURRENT ENDORSEMENT LINK FOR THE SELECTED CATEGORY].
+
+Thank you for your time and consideration.
+
+Sincerely,
+Andrés Germán García
+Independent Researcher, Mexico
+andrewgg19@gmail.com

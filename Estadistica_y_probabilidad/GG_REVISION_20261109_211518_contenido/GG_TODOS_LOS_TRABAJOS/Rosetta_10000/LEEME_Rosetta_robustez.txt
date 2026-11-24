@@ -1,0 +1,22 @@
+ROSETTA 10000 — CONTROL DE ROBUSTEZ Y GENERALIZACION
+
+1. Extrae ambos archivos en C:\Users\Andre\Downloads\Rosetta_10000
+2. Abre PowerShell y ejecuta:
+   Set-Location "$env:USERPROFILE\Downloads\Rosetta_10000"
+   py .\rosetta_robustez_validacion.py --notes 100 --candidates 1000
+3. Al terminar veras Rosetta_validacion_robustez.json y .csv.
+4. Para escala mayor: --notes 300 --candidates 1000 (tarda mas).
+
+Prerequisitos: numpy (py -m pip install numpy).
+Se espera Rosetta_10000_base.wav y Rosetta_10000_partitura.csv.
+NO modifica los audios ni los datos originales.
+
+NOTAS DE INTERPRETACION:
+- Seleccion estratificada, de inicio a fin de 10000 notas, no solo primeros 100.
+- Condiciones: limpio, ruido gaussiano a 30/15 dB SNR, desfase +3ms.
+- Modos: izquierdo, derecho, estereo, diferencia de fase.
+- Control negativo: fases aleatoriamente permutadas (semilla fija).
+- Utiliza segmentacion del CSV y plantilla exacta de frecuencia/fase: es ASISTIDO.
+- El numero verdadero solo se usa para evaluar despues de predecir.
+- Reporta cobertura y exactitud por separado.
+- Una precision elevada no prueba reversibilidad de las ordenadas gamma ni un canal ciego.

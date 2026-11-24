@@ -1,0 +1,55 @@
+{
+  "wav": "Rosetta_10000_base.wav",
+  "csv": "Rosetta_10000_partitura.csv",
+  "notas_evaluadas": 100,
+  "codebook_size": 10000,
+  "downsample": 6,
+  "metodo": "Segmentacion asistida y codebook; correlacion con sintesis base, sin elegir candidatos a partir del simbolo verdadero.",
+  "resultados": {
+    "60": {
+      "cobertura_candidatos_pct": 72.0,
+      "solo_izquierdo_exactitud_pct": 72.0,
+      "solo_derecho_exactitud_pct": 72.0,
+      "ambos_canales_exactitud_pct": 72.0,
+      "diferencia_fase_exactitud_pct": 72.0,
+      "solo_izquierdo_top5_pct": 72.0,
+      "solo_derecho_top5_pct": 72.0,
+      "ambos_canales_top5_pct": 72.0,
+      "diferencia_fase_top5_pct": 72.0
+    },
+    "200": {
+      "cobertura_candidatos_pct": 100.0,
+      "solo_izquierdo_exactitud_pct": 100.0,
+      "solo_derecho_exactitud_pct": 100.0,
+      "ambos_canales_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 100.0,
+      "solo_izquierdo_top5_pct": 100.0,
+      "solo_derecho_top5_pct": 100.0,
+      "ambos_canales_top5_pct": 100.0,
+      "diferencia_fase_top5_pct": 100.0
+    },
+    "500": {
+      "cobertura_candidatos_pct": 100.0,
+      "solo_izquierdo_exactitud_pct": 100.0,
+      "solo_derecho_exactitud_pct": 100.0,
+      "ambos_canales_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 100.0,
+      "solo_izquierdo_top5_pct": 100.0,
+      "solo_derecho_top5_pct": 100.0,
+      "ambos_canales_top5_pct": 100.0,
+      "diferencia_fase_top5_pct": 100.0
+    },
+    "1000": {
+      "cobertura_candidatos_pct": 100.0,
+      "solo_izquierdo_exactitud_pct": 100.0,
+      "solo_derecho_exactitud_pct": 100.0,
+      "ambos_canales_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 100.0,
+      "solo_izquierdo_top5_pct": 100.0,
+      "solo_derecho_top5_pct": 100.0,
+      "ambos_canales_top5_pct": 100.0,
+      "diferencia_fase_top5_pct": 100.0
+    }
+  },
+  "advertencia": "NO es decodificacion ciega; la tabla contiene las fases y frecuencias esperadas. Esta prueba no recupera gamma original sin informacion auxiliar. Resultados solo verificables al ejecutarse sobre el WAV real."
+}

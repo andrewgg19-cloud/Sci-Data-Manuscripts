@@ -1,0 +1,152 @@
+\documentclass[aps,prl,onecolumn,superscriptaddress]{revtex4-2}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Symmetry Breaking in Data Selection as a Source of Spurious Bell Violations}
+
+\author{Author Name}
+\affiliation{Independent Research}
+
+\date{\today}
+
+\begin{abstract}
+Bell inequalities distinguish classical local realism from quantum correlations. While genuine quantum systems violate these inequalities, we show that asymmetric data selection can generate apparent violations in purely classical systems. We introduce a symmetry-based framework that unifies detection loopholes and statistical selection bias. A quantitative symmetry-breaking parameter is defined, and an explicit analytical condition is derived under which classical systems exhibit spurious Bell violations. This provides an operational criterion to distinguish intrinsic physical correlations from artifacts induced by data selection. The results establish symmetry of observation as a necessary condition for physical validity.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+Bell's theorem demonstrates that no local hidden variable theory can reproduce all quantum correlations \cite{bell1964}. Experimental violations confirm this prediction \cite{aspect1982}. However, real experiments involve imperfect detection and data selection, raising the possibility that observed correlations may be influenced by sampling effects \cite{pearle1970,garg1987}.
+
+While these issues have been studied in specific contexts, a unified and quantitative criterion linking data selection to Bell violations remains lacking. This work provides such a framework.
+
+\section{Conditional Correlations}
+
+Let $R$ denote an observable and $F$ a selection function:
+\[
+F \in \{0,1\}.
+\]
+
+Observed correlations take the form:
+\[
+E_{\text{obs}} = \frac{\mathbb{E}[R \cdot F]}{\mathbb{E}[F]}.
+\]
+
+If $F$ depends on $R$, then:
+\[
+E_{\text{obs}} \neq \mathbb{E}[R],
+\]
+which introduces bias.
+
+\section{Symmetry Principle}
+
+We define symmetry as:
+\[
+P(F=1 \mid R=r) = P(F=1).
+\]
+
+\textbf{Proposition.}
+Under this condition:
+\[
+\mathbb{E}[R \mid F=1] = \mathbb{E}[R].
+\]
+
+Thus, symmetric data selection preserves physical correlations.
+
+\section{Quantitative Model}
+
+Let:
+\begin{itemize}
+\item $p$ = probability of keeping favorable outcomes,
+\item $q$ = probability of keeping unfavorable outcomes.
+\end{itemize}
+
+Define:
+\[
+b = \frac{p - q}{p + q}.
+\]
+
+Then:
+\[
+m' = \frac{m + b}{1 + b m},
+\]
+where $m$ is the true correlation and $m'$ the observed one.
+
+\section{Spurious Bell Violations}
+
+For CHSH:
+\[
+S = 4m.
+\]
+
+After filtering:
+\[
+S' = 4 \frac{m + b}{1 + b m}.
+\]
+
+A violation occurs when:
+\[
+S' > 2,
+\]
+yielding:
+\[
+b > \frac{1 - 2m}{2 - m}.
+\]
+
+This demonstrates that classical systems can exceed the Bell bound under asymmetric selection.
+
+\section{Numerical Illustration}
+
+We illustrate the mechanism using a classical CHSH-like simulation. With symmetric or outcome-independent filtering, the estimated value remains below the classical bound. When the filter preferentially removes outcomes that reduce $S$, the symmetry-breaking parameter increases and the observed value of $S$ rises above the classical bound.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.82\textwidth]{fig_symmetry_break_vs_S.png}
+\caption{
+Estimated CHSH parameter $S$ as a function of the symmetry-breaking parameter $\Delta$.
+For nearly symmetric filtering ($\Delta \approx 0$), the classical bound is not exceeded.
+As the filter increasingly removes unfavorable outcomes, $\Delta$ grows and the apparent value of $S$ rises above the classical limit.
+This demonstrates how asymmetric data selection can generate spurious Bell violations in a classical system.
+}
+\label{fig:symmetry_break}
+\end{figure}
+
+\section{Discussion}
+
+This framework clarifies the distinction between:
+\begin{itemize}
+\item genuine quantum violations: invariant under symmetric selection,
+\item spurious violations: dependent on selection bias.
+\end{itemize}
+
+The results generalize detection loopholes and connect them to statistical selection bias.
+
+\section{Conclusion}
+
+We show that symmetry in data selection is a necessary condition for the physical validity of observed correlations. Violations of Bell inequalities that depend on asymmetric filtering are artifacts, while genuine quantum violations persist under symmetric observation. This establishes a quantitative and operational distinction between physical reality and observational bias.
+
+\begin{thebibliography}{9}
+
+\bibitem{bell1964}
+J. S. Bell,
+Physics \textbf{1}, 195 (1964).
+
+\bibitem{aspect1982}
+A. Aspect, J. Dalibard, and G. Roger,
+Phys. Rev. Lett. \textbf{49}, 1804 (1982).
+
+\bibitem{pearle1970}
+P. M. Pearle,
+Phys. Rev. D \textbf{2}, 1418 (1970).
+
+\bibitem{garg1987}
+A. Garg and N. D. Mermin,
+Phys. Rev. D \textbf{35}, 3831 (1987).
+
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,53 @@
+{
+  "observation_map": [
+    [
+      1.0,
+      -1.0
+    ]
+  ],
+  "rank": 1,
+  "unknown_initial_components": 2,
+  "null_direction": [
+    1.0,
+    1.0
+  ],
+  "examples": [
+    {
+      "pair_sum_factor": 0.1,
+      "Y_sum_candidate": 0.0007465258481507137,
+      "Y_B_candidate": 0.00037326296754126593,
+      "Y_antiB_candidate": 0.00037326288060944774,
+      "Y_net_constraint": 8.693181818181817e-11,
+      "eta_after_pairs_removed": 6.12e-10,
+      "interpretation": "Algebraic degeneracy under net-baryon conservation only; not a demonstrated kinetic history."
+    },
+    {
+      "pair_sum_factor": 1.0,
+      "Y_sum_candidate": 0.007465258481507136,
+      "Y_B_candidate": 0.003732629284219477,
+      "Y_antiB_candidate": 0.0037326291972876588,
+      "Y_net_constraint": 8.693181818181817e-11,
+      "eta_after_pairs_removed": 6.12e-10,
+      "interpretation": "Algebraic degeneracy under net-baryon conservation only; not a demonstrated kinetic history."
+    },
+    {
+      "pair_sum_factor": 10.0,
+      "Y_sum_candidate": 0.07465258481507137,
+      "Y_B_candidate": 0.03732629245100159,
+      "Y_antiB_candidate": 0.03732629236406977,
+      "Y_net_constraint": 8.693181818181817e-11,
+      "eta_after_pairs_removed": 6.12e-10,
+      "interpretation": "Algebraic degeneracy under net-baryon conservation only; not a demonstrated kinetic history."
+    },
+    {
+      "pair_sum_factor": 100.0,
+      "Y_sum_candidate": 0.7465258481507137,
+      "Y_B_candidate": 0.3732629241188227,
+      "Y_antiB_candidate": 0.37326292403189093,
+      "Y_net_constraint": 8.693181818181817e-11,
+      "eta_after_pairs_removed": 6.12e-10,
+      "interpretation": "Algebraic degeneracy under net-baryon conservation only; not a demonstrated kinetic history."
+    }
+  ],
+  "conclusion": "Present net yield alone cannot uniquely recover the initial symmetric pair population; the equilibrium condition at specified T is additional information."
+}

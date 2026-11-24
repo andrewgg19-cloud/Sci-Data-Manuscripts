@@ -1,0 +1,33 @@
+{
+  "analysis": "Comparación exploratoria GG (predicciones OOF) vs Forecaster 2.0.2 posterior de Chen-Kipping",
+  "input_sha256": "56e8bc073e32ddeee25bf1adf026b05159150e7ed86b1bed27dde872e9c86ed1",
+  "n_planets": 897,
+  "n_systems": 775,
+  "mc_samples_per_planet": 2048,
+  "seed": 20261103,
+  "forecaster_package_version": "2.0.2",
+  "gg_mdape_pct": 14.72577141264081,
+  "forecaster_mdape_pct": 15.34997107324985,
+  "gg_mean_crps_lnR": 0.14122250560522154,
+  "forecaster_mean_crps_lnR": 0.14313100739353132,
+  "mean_crps_delta_gg_minus_fc": -0.001908501788309779,
+  "delta_crps_95ci_cluster_bootstrap": [
+    -0.004907132343756127,
+    0.001046024250714639
+  ],
+  "gg_cover68_pct": 71.68338907469342,
+  "forecaster_cover68_pct": 70.45707915273132,
+  "gg_cover95_pct": 95.09476031215162,
+  "forecaster_cover95_pct": 95.76365663322186,
+  "gg_mean_nll_lnR_analytic": 0.05915972000824475,
+  "forecaster_mean_nll_lnR_kde_approx": 0.3231458604343389,
+  "limitations": [
+    "GG se evaluó con pronósticos fuera de pliegue ya guardados; Forecaster usa el posterior publicado, no reajustado.",
+    "No se ha excluido posible solapamiento histórico entre los objetos de calibración del Forecaster y el catálogo NASA.",
+    "Incertidumbre de masa se aproxima como lognormal a partir de un error relativo simetrizado; ignoramos asimetrías completas.",
+    "Se incorpora error de medición del radio al Forecaster para puntuaciones; las sigmas de GG ya estaban guardadas.",
+    "NLL Forecaster calculada con KDE sobre muestras, no densidad analítica exacta; interpretación exploratoria.",
+    "Bootstrap por sistema es condicional a los ajustes previos y no vuelve a entrenar modelos.",
+    "Se eligieron métricas tras explorar datos previamente; prueba exploratoria, no confirmatoria."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "pdf_checks": {
+    "es": {
+      "pages": 13,
+      "bytes": 641160,
+      "unresolved_references": false,
+      "out_of_page_text": false,
+      "last_page_words": 474,
+      "abstract_words_math_as_one": 237
+    },
+    "en": {
+      "pages": 12,
+      "bytes": 635782,
+      "unresolved_references": false,
+      "out_of_page_text": false,
+      "last_page_words": 470,
+      "abstract_words_math_as_one": 211
+    }
+  },
+  "inverse_rows": 24,
+  "initial_temperature_rows": 12,
+  "citation_keys": 16,
+  "bibliography_entries": 16
+}

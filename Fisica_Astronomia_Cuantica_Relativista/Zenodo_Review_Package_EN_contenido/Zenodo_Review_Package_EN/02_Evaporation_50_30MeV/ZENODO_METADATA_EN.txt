@@ -1,0 +1,62 @@
+ZENODO DEPOSIT WORKSHEET — ENGLISH
+Status: published preprint; final English PDF verified; paper-specific supplement pending.
+Edit URL: https://zenodo.org/uploads/23467637
+Published record DOI: 10.5281/zenodo.23467637
+Companion DOI: 10.5281/zenodo.23467572 (References relation saved).
+
+TITLE
+Symmetric Evaporation and Entropy Dilution of the Baryon Excess between 50 and 30 MeV
+
+RESOURCE TYPE
+Publication / Preprint
+
+CREATOR
+Family name: García
+Given names: Andrés Germán
+Affiliation: Independent Researcher, Mexico
+ORCID: not supplied; leave blank unless verified by the author.
+
+DESCRIPTION
+We quantify how thermal energy injection with no net baryon-number source changes a homogeneous expanding plasma between 50 and 30 MeV. A hypothetical population of nonrotating black holes is coupled to a thermal bath and an effective baryon-antibaryon production and annihilation equation. For an initial black-hole mass of 10^8 g and initial black-hole-to-plasma energy-density ratios f = 0, 0.01, 0.1, and 1, the reduced bath yields comoving plasma-entropy growth factors of 1.0000, 1.0109, 1.1093, and 2.0798. Net baryon number per entropy decreases inversely; the reduction is 51.92% for f = 1. With a common initial excess, the crossing n_antiB / (n_B − n_antiB) = 1 shifts from 38.205 to 37.974 MeV. With the initial excess adjusted to a common final yield, it instead shifts from 38.204 to 39.263 MeV. The complete PDG2025 hadron resonance gas gives 39.269 MeV for the latter f = 1 case. A local mass scan identifies a reheating trajectory with three crossings. Separate equilibrium calculations impose charge and strangeness neutrality with vanishing net lepton numbers; these constraints are not evolved in a coupled kinetic network. A repeated execution reproduced all 36 compared CSV files. The study quantifies the consequences of specified energy deposition and boundary conditions; the final baryon yield is an input constraint, and convergence tests do not determine total physical uncertainty.
+
+KEYWORDS
+baryon excess; entropy production; black-hole evaporation; pair kinetics; cosmological expansion
+
+LANGUAGE
+English
+
+VERSION
+Proposed label: 2026-10-18 (manuscript revision date).
+
+PUBLICATION DATE
+2026-10-19, as displayed on the public Zenodo record.
+
+VERIFIED PUBLISHED MANUSCRIPT
+Evaporation_50_30MeV_Revised_EN.pdf
+MD5: 1b8702b54b81bce41fd1aba9056eddff
+
+SUPPLEMENT TO FINALIZE AND UPLOAD
+Evaporation_50_30MeV_Supplement_EN.zip
+
+LICENSE
+CC BY 4.0 is displayed on the public record.
+Original code/data license must be specified by the author.
+Retain the existing Thermal-FIST catalog terms and license file.
+
+DOI AND RELATED WORK
+Published record DOI: 10.5281/zenodo.23467637
+Companion DOI: 10.5281/zenodo.23467572
+Both records are published and link to each other through References.
+
+NOTES
+English revision dated 18 October 2026. The supplement contains source,
+data, fixed catalogs, and numerical verification records. Both manuscripts
+disclose AI assistance and retain author responsibility.
+
+EXISTING AUDIT ATTACHMENT
+Auditoria_HRG_evaporacion_residuo_2026-10-18.pdf
+Retained on the public record. It does not replace the paper-specific supplement.
+
+LICENSE PROPOSAL FOR AUTHOR REVIEW
+Original code: GPL-3.0-only. Original data: CC-BY-4.0.
+This is a proposal only; no new license has been applied to the supplement.

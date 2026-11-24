@@ -1,0 +1,53 @@
+AUDITORÍA HRG, EVAPORACIÓN Y RESIDUO — 18 OCTUBRE 2026
+
+CONTENIDO
+- PDF: informe técnico de cinco páginas, resultados y correcciones propuestas.
+- fuentes/: los dos suplementos completos y los tres adjuntos revisados.
+- auditoria/: comprobación adicional por integrales directas, resultado JSON y
+  comparación de las nuevas corridas con los CSV guardados en los suplementos.
+- registros/: salida de las seis ejecuciones de los programas originales y sus
+  estados de terminación. hrg.log documenta los 24 controles internos.
+- resultados_recalculados/: los 41 CSV comparados y siete JSON regenerados.
+- SHA256SUMS.txt: huella de cada archivo de este paquete, salvo del propio manifiesto.
+
+RESULTADO
+Los cinco CSV HRG y los 36 CSV de evaporación comparados coinciden byte a byte
+con sus versiones archivadas. Esto reproduce los resultados bajo los mismos
+supuestos; no constituye una comprobación observacional de los escenarios.
+El factor 6.39 del manuscrito de residuo depende de las densidades introducidas
+como entradas. El informe propone una redacción que explicita esa dependencia.
+
+ENTORNO DE ESTA REVISIÓN
+Linux, Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0.
+Para ejecutar los programas originales se necesita también Matplotlib.
+Consultar asimismo los README y requisitos incluidos en cada suplemento.
+
+REPRODUCCIÓN
+1. Extraer fuentes/Paper_HRG_fuentes_figuras_datos.zip y
+   fuentes/Cierre_evaporacion_50MeV.zip en una carpeta de trabajo nueva.
+   Conservar intactos los ZIP originales para la comparación posterior.
+2. Desde paper_hrg/calculos_50MeV_cruce, ejecutar:
+   python comparar_50MeV.py
+3. Desde cierre_evaporacion, ejecutar en este orden:
+   python simular.py
+   python ajustar_exceso_final.py
+   python robustez_hrg/ejecutar_robustez.py
+   python robustez_hrg/verificar_fuentes.py
+   python robustez_hrg/verificar_multicruce.py
+4. Desde la raíz de este paquete, ejecutar (sustituir RUTA por la ruta absoluta):
+   python auditoria/auditoria_independiente.py --hrg-root RUTA/paper_hrg/calculos_50MeV_cruce --output nueva_comprobacion.json
+5. Comparar los CSV regenerados con las rutas enumeradas en
+   auditoria/comparacion_corridas.json. Las rutas HRG se refieren a la carpeta
+   data/; las rutas de evaporación se refieren a cierre_evaporacion/.
+
+ALCANCE DE LA COMPROBACIÓN ADICIONAL
+El programa nuevo no importa funciones del proyecto. Integra las distribuciones
+de momento, evitando las sumas de Bessel de la implementación original. Comparte
+el catálogo y los valores de temperatura y potencial químico guardados: no vuelve
+a resolver de forma independiente el problema cosmológico ni la raíz del cruce.
+La discrepancia máxima 1.56e-15 corresponde a las cuatro magnitudes agregadas
+comparadas en dos estados, no a una incertidumbre física o un error por especie.
+Los catálogos se verificaron frente a las huellas incluidas; no se pudo contrastar
+la copia remota del commit GitHub. No se ejecutó el suplemento en Windows.
+Los programas originales pueden regenerar sus salidas dentro de la copia de
+trabajo. No se editaron los manuscritos ni los suplementos originales.

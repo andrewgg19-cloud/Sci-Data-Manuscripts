@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Selection Symmetry as an Operational Diagnostic for Correlations under Data Filtering"
+abstract: "A reproducible and interdisciplinary framework for diagnosing when a correlation is invariant under data selection and when it can be explained as information introduced by the filtering mechanism itself."
+authors:
+  - family-names: "Garcia"
+    given-names: "German"
+type: software
+version: "1.0.0"
+date-released: "2026-04-29"
+license: MIT
+keywords:
+  - selection bias
+  - data filtering
+  - mutual information
+  - reproducible simulation
+  - Bell-CHSH diagnostics
+  - causal inference
+  - dataset shift
+repository-code: "https://github.com/andrewgg19-cloud/selection-symmetry-diagnostics"

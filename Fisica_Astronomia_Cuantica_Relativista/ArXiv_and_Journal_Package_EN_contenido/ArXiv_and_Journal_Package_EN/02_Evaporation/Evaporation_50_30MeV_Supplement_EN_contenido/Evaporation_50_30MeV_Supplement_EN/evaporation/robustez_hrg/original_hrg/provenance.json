@@ -1,0 +1,60 @@
+{
+  "commit": "4086191e952285cd572ba2bbbefb2fdc55401c9b",
+  "analysis_date": "2026-10-07",
+  "implementation": "Independent zero-width ideal-HRG calculation in Python; not Thermal-FIST execution",
+  "units": "GeV; entropy density in GeV^3",
+  "assumptions": {
+    "mu_B": 0,
+    "mu_Q": 0,
+    "mu_S": 0,
+    "common_temperature": true,
+    "resonance_widths": false,
+    "interaction_corrections": false,
+    "electrons_massless": true,
+    "muon_mass_GeV": 0.1056583755,
+    "neutrino_helicities": 6,
+    "charm": false,
+    "nuclei": false,
+    "bottom": false
+  },
+  "legacy_reference": {
+    "citation": "Garcia (2026), unpublished working manuscript v0.9",
+    "original_filename": "avance_paper_residuo_bario_antibario_v0_9.pdf",
+    "sha256": "58da2a0e29e455c454b4966582a6acc8db4494d89c4296a2bc1cc378373571dc",
+    "status": "Transcribed values only; species inventory and original calculation code unavailable",
+    "significant_digits": 4
+  },
+  "kmax": 96,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "catalogs": {
+    "PDG2014": {
+      "url": "https://github.com/vlvovch/Thermal-FIST/blob/4086191e952285cd572ba2bbbefb2fdc55401c9b/input/list/PDG2014/list.dat",
+      "sha256": "03961974eec367134be1364146bda34d2965264eb26a80bff178f7ab0d68ac02",
+      "listed_rows": 219,
+      "expanded_including_zero_g": 390,
+      "active_rows": 216,
+      "active_expanded": 387,
+      "active_baryons_expanded": 260
+    },
+    "PDG2020": {
+      "url": "https://github.com/vlvovch/Thermal-FIST/blob/4086191e952285cd572ba2bbbefb2fdc55401c9b/input/list/PDG2020/list.dat",
+      "sha256": "a4b365357d6c8ef0dab096a94d02672a2c0d670f497efa1fae8f9a3e76cd5b1f",
+      "listed_rows": 242,
+      "expanded_including_zero_g": 434,
+      "active_rows": 241,
+      "active_expanded": 433,
+      "active_baryons_expanded": 298
+    },
+    "PDG2025": {
+      "url": "https://github.com/vlvovch/Thermal-FIST/blob/4086191e952285cd572ba2bbbefb2fdc55401c9b/input/list/PDG2025/list.dat",
+      "sha256": "b81521e74f9f5782b490c2d424661b73bdf827ad897d9230370b5a5fd727ce39",
+      "listed_rows": 248,
+      "expanded_including_zero_g": 444,
+      "active_rows": 247,
+      "active_expanded": 443,
+      "active_baryons_expanded": 292
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "scope": "Independent momentum-integral cross-check at two states; same catalog and chemical potentials. Algebraic audit of supplied residual manuscript.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "catalog_sha256": "b81521e74f9f5782b490c2d424661b73bdf827ad897d9230370b5a5fd727ce39",
+  "quadrature": [
+    {
+      "point": "point_50MeV_PDG2025",
+      "T_MeV": 50.0,
+      "shared_alpha": 0.0016307126282620733,
+      "active_species": 443,
+      "relative_errors_vs_bessel": {
+        "n_B_GeV3": 2.220446049250313e-16,
+        "n_antiB_GeV3": 2.220446049250313e-16,
+        "n_net_GeV3": 1.5543122344752192e-15,
+        "s_total_GeV3": 1.1102230246251565e-16
+      },
+      "Y_net_quadrature": 8.693181818181827e-11,
+      "R_quadrature": 306.1146883646132,
+      "charge_over_net": 0.49009808166022967,
+      "strangeness_over_net": -0.032534033144256486
+    },
+    {
+      "point": "crossover_PDG2025",
+      "T_MeV": 38.20373868887989,
+      "shared_alpha": 0.3465735902824998,
+      "active_species": 443,
+      "relative_errors_vs_bessel": {
+        "n_B_GeV3": 4.440892098500626e-16,
+        "n_antiB_GeV3": 8.881784197001252e-16,
+        "n_net_GeV3": 4.440892098500626e-16,
+        "s_total_GeV3": 2.220446049250313e-16
+      },
+      "Y_net_quadrature": 8.69318181818182e-11,
+      "R_quadrature": 0.9999999999999959,
+      "charge_over_net": 0.5035110581372615,
+      "strangeness_over_net": -0.009099702711395125
+    }
+  ],
+  "residual_algebra": {
+    "C_b": 1.0000223069887795,
+    "omega_m_over_omega_b": 6.388286114096818,
+    "C_m": 6.388428617523486,
+    "identity": "C_m/C_b = Omega_m/Omega_b; this ratio is an input, not an independent prediction.",
+    "N_pair_1_k1": 1.4650326797385622e+89,
+    "N_pair_2_k1": 9.359047924671907e+89,
+    "sqrt_eta": 2.4738633753705964e-05,
+    "Xi_D": 1.021479207444689,
+    "relative_difference_denominator_DH_pct": 2.102755228706121,
+    "relative_difference_denominator_sqrt_eta_pct": 2.1479207444689044,
+    "sigma_sqrt_eta_input_only": 8.084520834544432e-08,
+    "D_difference_sigma_independent_inputs": 1.7102099594778504,
+    "caution": "The last standardized difference assumes independent Gaussian inputs and no model error; not evidence of a physical relation."
+  }
+}

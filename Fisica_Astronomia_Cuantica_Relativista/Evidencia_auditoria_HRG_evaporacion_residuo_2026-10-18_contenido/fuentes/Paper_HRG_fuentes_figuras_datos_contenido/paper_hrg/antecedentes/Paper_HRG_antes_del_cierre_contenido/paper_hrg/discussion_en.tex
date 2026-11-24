@@ -1,0 +1,67 @@
+\section{Discussion}
+\subsection{Answer to the reconstruction objective}
+The results support a conditional quantitative answer: particle-species properties and observed net abundance, together with an explicit temperature and equilibrium model, reconstructed baryons and antibaryons separately. The inverse constraint incorporated the published excess into the calculation instead of only comparing it afterwards with a symmetric population. At 150 MeV, approximately $1.7222\times10^{37}$ particles per cm$^3$ were inferred on each side, with a small difference of $4.0110\times10^{29}$ cm$^{-3}$. At 40 MeV, the same net constraint distinguished $1.9166\times10^{28}$ baryons from $1.4894\times10^{28}$ antibaryons per cm$^3$.
+
+The rank test clarified what information comes from the present. Net abundance fixes a difference; adding equal numbers of particles and antiparticles leaves it unchanged. Masses and present abundance without additional thermal conditions therefore do not determine how many pairs existed. HRG equilibrium at a specified temperature supplies this extra relation. The resulting reconstruction is an inference under testable assumptions, rather than unique recovery of a lost historical record.
+
+The 150-MeV upper endpoint is the chosen initial point in the hadronic regime considered. A universal date at which every particle species began annihilating was not identified. \emph{Reconstructed} quantities is accurate; a total number of \emph{regenerated} events requires time-dependent inverse reactions.
+
+The total-density spread across the three lists at 150 MeV was 1.185\% of the PDG2025 value. Starting-temperature sensitivity was larger: changing from 150 to 156.5 MeV increased reconstructed physical density by 54.31\% and yield by 26.95\%. Each quantity therefore requires an explicit temperature. The reference of \citet{Bazavov2019} supplies a physical scale for hadron formation; a specific kinetic onset still requires reaction rates and expansion. Near the transition, checking HRG against the QCD equation of state is necessary before assigning physical precision to the count.
+
+\subsection{Agreement with published knowledge}
+Our comparison with the nucleon limit of \citet{Satarov2013} showed a difference of only 0.05916\% between Maxwell-Boltzmann and Fermi-Dirac proton-plus-neutron densities at 150 MeV. The difference between nucleons alone and the full inventory was much larger: other baryons supplied 74.42\% at that temperature, 44.13\% at 100 MeV, and 1.525\% at 40 MeV. These calculated shares agree with the importance of heavy resonances at high temperature described by those authors. The comparison separates inventory effects from the distribution approximation.
+
+Their kinetic evolution and interaction corrections were not reproduced. Nor does this provide direct observational verification of early densities. The literature supplied an approximation and a reference behavior; our code evaluated quantities under stated common assumptions. At 40 MeV, the inferred total remained 7.97 times the net excess, so the lower endpoint was not a final relic abundance.
+
+Entropy curves retained the reduced reference's decrease, with their largest discrepancy at 150 MeV. In the nonrelativistic limit $x_i=m_i/T\gg1$,
+\begin{equation}
+\frac{s_i}{T^3}\simeq
+\frac{g_i}{(2\pi)^{3/2}}x_i^{3/2}
+\left(x_i+\frac{5}{2}\right)e^{-x_i}.
+\label{eq:asymptotic}
+\end{equation}
+This suppression explains why higher masses lose contribution during cooling. The reduced reference lacks a complete inventory and original code, retaining the scope of a transcription. High correlation describes shared series shape rather than physical accuracy or validation of a matter-origin hypothesis.
+
+\subsection{Own contribution and scope of novelty}
+The verifiable contribution was explicit numerical reconstruction using frozen inventories, inverse linkage to present excess, separate particle and antiparticle accounting, and reproducible checks. New tables and shares are results of our calculations. Annihilation mechanisms, thermal distributions, and HRG methods are established in the literature \citep{Vovchenko2019,Satarov2013}. The information limit of a net difference is a mathematical property of the problem.
+
+This study did not establish a new physical mechanism, particle species, or independent prediction of cosmic asymmetry or present hydrogen. The comparison evaluates quantitative agreement and differences but does not establish priority or novelty against the entire literature. Such a claim requires a dedicated prior-work review and a result distinguishable from earlier predictions under equivalent conditions.
+
+\subsection{Sequence connecting current abundances}
+Table~\ref{tab:external} declares each reference's role. The 2025 BBN review includes deuterium measurements such as \citet{Cooke2018} and recommends the average used here. First, $\eta$ fixed net yield; second, HRG properties and temperature reconstructed early populations; third, $\eta$ and CMB temperature gave today's mean baryon density; finally, $Y_p$ and D/H supplied an equivalent primordial composition in H, He, and D.
+
+The equivalent H density, $(1.898\pm0.015)\times10^{-7}$ cm$^{-3}$, depends on these additional inputs. Its calculation is not an independent HRG nuclear prediction. Agreement of baryon density with the published table checks a conversion sharing the CMB input. Nuclear abundances require evolution through BBN and a reaction network \citep{Fields2025}; a census of present neutral hydrogen also requires stellar processing and ionization.
+
+\begin{table*}[t]
+\centering\small
+\caption{Published references and their roles in reconstruction. Uncertainties are those of the sources, with declared rounding for $T_{\gamma0}$; FIRAS limits are at 95\% confidence. Calculation inputs are distinguished from comparison channels not fitted in this study.}
+\label{tab:external}
+\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{>{\raggedright\arraybackslash}p{.18\textwidth}>{\raggedright\arraybackslash}p{.23\textwidth}>{\raggedright\arraybackslash}p{.22\textwidth}>{\raggedright\arraybackslash}p{.26\textwidth}}\toprule
+Observable & Published value & Source & Role in reconstruction\\\midrule
+CMB $\eta_{10}$ & $6.12\pm0.04$ & \citet{Fields2025} & Net constraint on inverse inference.\\
+Current CMB temperature & $2.7255\pm0.0006$ K & \citet{Fixsen2009}, rounded & Photon density and current normalization.\\
+$^4$He baryon fraction & $Y_p=0.245\pm0.003$ & \citet{Fields2025} & Approximate H and He conversion.\\
+Primordial deuterium & $(2.508\pm0.029)\times10^{-5}$ & \citet{Fields2025} & Approximate D conversion.\\
+Current baryon density & $(2.515\pm0.017)\times10^{-7}$ cm$^{-3}$ & \citet{Groom2025} & Conversion check; shared CMB input.\\
+Density $\Omega_bh^2$ & $0.02237\pm0.00015$ & \citet{Planck2020} & External reference; no cosmological model fitted.\\
+Spectral distortions & $|y|<1.5\times10^{-5}$\newline $|\mu|<9\times10^{-5}$ & \citet{Fixsen1996} & Relevant constraint on future late energy injection.\\
+\bottomrule\end{tabular}
+\end{table*}
+
+The factor 7.04 uses the standard entropy-per-photon approximation after $e^+e^-$ annihilation. Precise neutrino-decoupling calculations include corrections \citep{Froustey2020}; this factor was not treated as a measured parameter with uncertainty here.
+
+\subsection{Equilibrium populations and annihilation history}
+In adiabatic expansion, $S_{\rm com}=\stot a^3$ is approximately conserved. A schematic evolution with annihilation and inverse production is \citep{Satarov2013}
+\begin{align}
+\dot n_B+3Hn_B&=-\mathcal C,\\
+\dot n_{\bar B}+3Hn_{\bar B}&=-\mathcal C,\\
+\mathcal C&=\langle\sigma v\rangle
+\bigl(n_Bn_{\bar B}-n_B^{\rm eq}n_{\bar B}^{\rm eq}\bigr).
+\end{align}
+Subtracting the equations gives $\dot{\Delta n}_B+3H\Delta n_B=0$. This justifies using conserved excess as a retrospective link under the adopted assumptions. Cumulative events require separate time-and-volume integration of production and loss. A sequence of equilibrium states does not supply those totals.
+
+\subsection{Reconstruction limitations}
+Nominal masses, zero widths, an ideal gas, and common temperature were used without lattice fits or mass, spin, and interaction uncertainties. The net constraint did not simultaneously solve charge and strangeness neutrality. Checks established numerical precision rather than physical accuracy of these assumptions. Proximity of 150 MeV to the transition requires evaluating model corrections before assigning physical uncertainties \citep{Bazavov2012}.
+
+Cosmological uncertainties were propagated only to current conversions; inverse populations used central inputs. Catalog spread is sensitivity to correlated inventories. The study did not identify kinetic onset, integrate reaction rates, or generate primordial asymmetry \citep{Sakharov1967}. Within this scope it establishes conditional early quantities and an explicit comparison with available knowledge.

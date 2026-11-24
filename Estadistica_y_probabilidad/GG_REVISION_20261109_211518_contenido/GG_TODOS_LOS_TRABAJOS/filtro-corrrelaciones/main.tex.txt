@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\geometry{margin=1in}
+
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    commentstyle=\color{gray},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=8pt,
+    frame=single,
+    breaklines=true
+}
+
+\DeclareMathOperator{\Cov}{Cov}
+
+\title{El filtro también puede crear correlaciones:\\Un modelo computacional reproducible y sus implicaciones}
+
+\author{German Garcia}
+\date{2026}
+
+\newtheorem{proposition}{Proposición}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We study how selection mechanisms can induce apparent correlations between originally independent variables. Using a minimal computational model, we show that conditioning on a selection region can generate non-zero covariance. We present a corrected formal proposition, emphasizing that induced correlation depends on the geometry of the selection region.
+\end{abstract}
+
+\section{Introducción}
+La correlación observada en datos puede depender no solo de relaciones subyacentes, sino también del proceso de selección. Este trabajo muestra cómo un filtro puede inducir dependencia aparente entre variables independientes. 
+
+Este fenómeno fue descrito originalmente por Berkson \cite{berkson1946} y posteriormente integrado a la teoría moderna por Pearl \cite{pearl2000} bajo el término de \textit{sesgo del colisionador} (\textit{collider bias}).
+
+\section{Modelo}
+Sean $X \sim \mathcal{N}(0,1)$ y $Y \sim \mathcal{N}(0,1)$ independientes. Definimos $S(X,Y) = X + Y$ y una región de selección $\Omega = \{(x,y) \in \mathbb{R}^2 : x+y > 1.0\}$.
+
+\section{Resultados computacionales}
+Empíricamente, antes del filtro $\Cov(X,Y) \approx 0$. Tras el filtro, se observa que $\Cov(X,Y \mid \Omega) \neq 0$.
+
+\section{Proposición corregida}
+\begin{proposition}[Dependencia inducida por selección]
+Sean $X$ y $Y$ variables aleatorias independientes. Existen regiones de selección $\Omega \subset \mathbb{R}^2$ tales que $\Cov(X,Y \mid \Omega) \neq 0$ a pesar de que $\Cov(X,Y) = 0$.
+\end{proposition}
+
+\textbf{Demostración.} Al condicionar en $\Omega$, la densidad conjunta se transforma en $f_{X,Y|\Omega}(x,y) \propto f_X(x)f_Y(y)\mathbf{1}_\Omega(x,y)$. Si $\Omega$ no es un producto cartesiano, la región de integración introduce dependencia. \hfill $\square$
+
+\section{Simulación Computacional}
+\begin{lstlisting}
+import numpy as np
+np.random.seed(42)
+X = np.random.normal(0, 1, 100000)
+Y = np.random.normal(0, 1, 100000)
+mask = (X + Y) > 1.0
+print(f"Covarianza tras el filtro: {np.cov(X[mask], Y[mask]):.4f}")
+\end{lstlisting}
+
+\section{Conclusión}
+Un filtro de selección puede inducir correlaciones aparentes entre variables independientes.
+
+\begin{thebibliography}{9}
+\bibitem{berkson1946} Berkson, J. (1946). Biometrics Bulletin, 2(3), 47-53.
+\bibitem{pearl2000} Pearl, J. (2000). Causality. Cambridge University Press.
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,4 @@
+Experiment,I_RF_estimate,Delta_estimate,Interpretation
+Bell-type controlled,0.13048617389165723,0.3008333226508052,Controlled sensitivity to post-selection
+Ecology accessibility,0.10802251772624047,1.2553794507134866,Natural accessibility-filtered observability
+AI benchmark,0.12226346809502169,0.4558211612998229,Dynamic benchmark/evaluation deformation

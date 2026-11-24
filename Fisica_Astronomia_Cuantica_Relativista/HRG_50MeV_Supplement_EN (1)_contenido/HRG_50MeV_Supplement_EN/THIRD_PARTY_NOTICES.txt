@@ -1,0 +1,18 @@
+THIRD-PARTY CATALOG MATERIALS
+
+The following Thermal-FIST / PDG catalog files and accompanying notices
+are retained byte-for-byte under their existing terms. No author ownership
+or new CC BY license is asserted over this material.
+
+hrg/calculos_50MeV_cruce/catalogs/LICENSE_ThermalFIST.txt
+hrg/calculos_50MeV_cruce/catalogs/PDG2014_list.dat
+hrg/calculos_50MeV_cruce/catalogs/PDG2020_list.dat
+hrg/calculos_50MeV_cruce/catalogs/PDG2025_list.dat
+hrg/calculos_50MeV_cruce/catalogs/README_PDG2025.md
+
+Upstream project: https://github.com/vlvovch/Thermal-FIST
+Recorded source commit: 4086191e952285cd572ba2bbbefb2fdc55401c9b
+The original provenance JSON files contain catalog URLs and SHA256 hashes.
+Local hashes were verified; remote commit authenticity was not established.
+The existing LICENSE_ThermalFIST.txt contains GNU GPL version 3.
+Retain upstream attribution, documentation and license notices when reusing.

@@ -1,0 +1,70 @@
+ROBUSTEZ HRG - 13 de octubre de 2026
+
+ALCANCE
+Se reproducen los inventarios congelados PDG2014/2020/2025 y la auditoria
+original. Una implementacion termica separada reemplaza la interpolacion de
+cinco entradas. Se evalua neutralidad en EQUILIBRIO y se ejecuta un barrido
+cinetico con fondo HRG a potenciales quimicos nulos. No es una red de transporte
+con balances de carga y extrañeza impuestos dinamicamente.
+
+EJECUTAR (desde la carpeta principal del paquete, con requirements.txt instalado)
+python robustez_hrg/original_hrg/comparar_50MeV.py
+python robustez_hrg/ejecutar_robustez.py
+python robustez_hrg/verificar_fuentes.py
+python robustez_hrg/verificar_multicruce.py
+python robustez_hrg/figuras_robustez.py
+En Windows, sustituir python por py -3.12. No se ejecuto en Windows.
+
+MODELO TERMICO
+Todos los estados activos de cada inventario se incluyen con sus antiparticulas,
+masas nominales y degeneraciones. No se usan anchuras ni interacciones, ni se
+anaden charm, bottom o nucleos. Se suman fotones, electrones sin masa, muones
+masivos y tres sabores de neutrinos sin masa. Las sumas usan 64 terminos y se
+contrastan con 128. Se tabulan rho, p y log(b0) en 801 temperaturas de 20 a 80
+MeV y se interpolan con splines cubicos; la prueba de malla usa 1601 puntos.
+No se extrapola fuera de ese intervalo: el codigo falla si se intenta hacerlo.
+Los potenciales quimicos de los pares no modifican el fondo cinetico.
+
+NEUTRALIDAD
+En estados de equilibrio independientes se resuelven cinco potenciales:
+muB, muQ, muS, muLe y muLmu. Las ecuaciones imponen Y=eta/7.04 y Q=S=Le=Lmu=0.
+Ltau=0 se satisface con neutrinos tau a potencial cero; se omiten tau cargados.
+Le=Lmu=Ltau=0 es una hipotesis elegida, no un dato inferido de eta.
+Los residuos se normalizan por el exceso neto, no por las densidades simetricas.
+Las correcciones pequenas observadas no son cotas fuera del equilibrio.
+
+BARRIDO
+Masa inicial por agujero negro: 7e7, 8.5e7 y 1e8 g.
+f=rhoBH/rhoplasma inicial: 0, 0.01, 0.1 y 1.
+Las doce combinaciones se ejecutan con Y inicial comun y con Y final comun:
+24 trayectorias. La masa se selecciona para un barrido local cuya evaporacion
+termina antes de la evaluacion final a 30 MeV. No es un rango observacional.
+Las pruebas de catalogo y convergencia son adicionales.
+
+INTERPRETACION DE LOS CRUCES
+Las columnas escalares crossing_common_initial_MeV y crossing_common_final_MeV
+indican EL ULTIMO CRUCE. Las columnas all_crossings_* contienen TODOS los
+cruces en orden temporal. No confundir una lista de temperaturas con una
+secuencia termica monotonamente decreciente.
+Para M=8.5e7 g, f=1 y Y final comun hay tres cruces: R desciende, luego asciende
+por recalentamiento y finalmente desciende tras la evaporacion. Se preservan al
+reducir tolerancia y duplicar la malla. No representan ciclos cosmologicos.
+
+RESULTADOS Y VERIFICACIONES
+- Fondo HRG PDG2025, M=1e8 g, f=1, Y final comun: T_cruce=39.269261 MeV.
+- Mismos parametros: factor entropico=2.079958; Y_inicial=1.808146e-10.
+- M=8.5e7 g, f=1: cruces 38.846320, 38.541989 y 38.203739 MeV.
+- La reproduccion original incluye 24 comprobaciones y 1329 registros.
+- La segunda implementacion concuerda con poblaciones originales a <3e-13.
+- El control neutral con numeros leptonicos nulos mantiene el cruce de equilibrio
+  en 38.203739 MeV; este resultado no vale para estados leptonicos arbitrarios.
+- Las pruebas de malla, termodinamica, series y tolerancia se guardan en JSON.
+No se han evaluado eficiencia de deposito distinta de uno, transporte no
+termico, espectros de Hawking, generacion de exceso neto, distribucion continua
+de masas, historia de formacion ni restricciones observacionales de PBH.
+
+FUENTES
+original_hrg/ contiene los scripts del paquete del autor y los catalogos con
+su licencia y huellas. El codigo nuevo usa el lector de catalogos original,
+pero recalcula independientemente los nucleos termicos y la neutralidad.
+Comparacion de implementaciones no equivale a una revision externa.

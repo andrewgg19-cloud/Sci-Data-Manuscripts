@@ -1,0 +1,603 @@
+{
+  "scope": "Excerpt for Evaporation_50_30MeV from the preceding numerical audit.",
+  "source_sha256": "8abc5918b1dcb057bcb94cfcac682cfc567bd29dc0db114809f42901b29b72e9",
+  "CSV_comparisons": [
+    {
+      "path": "trayectoria_f0.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "trayectoria_f0.1.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "trayectoria_f0.01.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "trayectoria_f1.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f0.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f0.1.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f0.01.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "exceso_final_comun/comparacion.csv",
+      "identical_bytes": true,
+      "data_rows": 4
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f1.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f1_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f1_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.01_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.01_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.1_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/equilibrio_y_neutralidad.csv",
+      "identical_bytes": true,
+      "data_rows": 42
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.01_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.1_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.1_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.01_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/barrido_masa_abundancia.csv",
+      "identical_bytes": true,
+      "data_rows": 12
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.1_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f1_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f1_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/sensibilidad_catalogos.csv",
+      "identical_bytes": true,
+      "data_rows": 6
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f1_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.01_final.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.1_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.01_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f1_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.1_inicial.csv",
+      "identical_bytes": true,
+      "data_rows": 1201
+    }
+  ],
+  "execution_status": [
+    {
+      "script": "simular.py",
+      "exit_code": 0,
+      "seconds": 2.929057469998952
+    },
+    {
+      "script": "ajustar_exceso_final.py",
+      "exit_code": 0,
+      "seconds": 2.8422332890004327
+    },
+    {
+      "script": "robustez_hrg/ejecutar_robustez.py",
+      "exit_code": 0,
+      "seconds": 26.26245171100163
+    },
+    {
+      "script": "robustez_hrg/verificar_fuentes.py",
+      "exit_code": 0,
+      "seconds": 0.7910919839996495
+    },
+    {
+      "script": "robustez_hrg/verificar_multicruce.py",
+      "exit_code": 0,
+      "seconds": 12.753305379999802
+    }
+  ],
+  "archived_package_hash_checks": [
+    {
+      "path": "LEEME.txt",
+      "match": true
+    },
+    {
+      "path": "Paper_evaporacion_50MeV_ES.pdf",
+      "match": true
+    },
+    {
+      "path": "Paper_evaporacion_50MeV_ES.tex",
+      "match": true
+    },
+    {
+      "path": "ajustar_exceso_final.py",
+      "match": true
+    },
+    {
+      "path": "comparacion.png",
+      "match": true
+    },
+    {
+      "path": "ejecucion.log",
+      "match": true
+    },
+    {
+      "path": "ejecucion_normalizada.log",
+      "match": true
+    },
+    {
+      "path": "entorno.json",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/comparacion.csv",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/comparacion.pdf",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/comparacion.png",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/resultados.json",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f0.01.csv",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f0.1.csv",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f0.csv",
+      "match": true
+    },
+    {
+      "path": "exceso_final_comun/trayectoria_f1.csv",
+      "match": true
+    },
+    {
+      "path": "figura_resultados.pdf",
+      "match": true
+    },
+    {
+      "path": "figura_resultados.png",
+      "match": true
+    },
+    {
+      "path": "figuras.py",
+      "match": true
+    },
+    {
+      "path": "original/LEEME.md",
+      "match": true
+    },
+    {
+      "path": "original/comparacion.png",
+      "match": true
+    },
+    {
+      "path": "original/entorno.json",
+      "match": true
+    },
+    {
+      "path": "original/resultados.json",
+      "match": true
+    },
+    {
+      "path": "original/simular.py",
+      "match": true
+    },
+    {
+      "path": "original/trayectoria_f0.01.csv",
+      "match": true
+    },
+    {
+      "path": "original/trayectoria_f0.1.csv",
+      "match": true
+    },
+    {
+      "path": "original/trayectoria_f0.csv",
+      "match": true
+    },
+    {
+      "path": "original/trayectoria_f1.csv",
+      "match": true
+    },
+    {
+      "path": "requirements.txt",
+      "match": true
+    },
+    {
+      "path": "resultados.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/LEEME.txt",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/ejecucion.log",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/ejecutar_robustez.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/figuras_robustez.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/multicruce.log",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/catalogs/LICENSE_ThermalFIST.txt",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/catalogs/PDG2014_list.dat",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/catalogs/PDG2020_list.dat",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/catalogs/PDG2025_list.dat",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/catalogs/README_PDG2025.md",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/comparar_50MeV.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/data/cruces_por_catalogo.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/data/curva_R_PDG2025.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/data/especies_PDG2025.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/data/resultados_50MeV_y_entorno.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/data/resumen.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/data/sensibilidad_eta.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/data/validacion.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/figures/cruce_50MeV.png",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/figures/cruce_50MeV.svg",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/infer_early_populations.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/provenance.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/provenance_50MeV.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/reconstruct_populations.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/original_hrg/reproduce_hrg.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/reproduccion_original.log",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.01_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.01_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.1_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0.1_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f0_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f1_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M100000000_f1_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.01_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.01_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.1_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0.1_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f0_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f1_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M70000000_f1_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.01_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.01_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.1_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0.1_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f0_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f1_final.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/M85000000_f1_inicial.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/barrido_masa_abundancia.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/comparacion_independiente.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/equilibrio_y_neutralidad.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/multicruce.pdf",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/multicruce.png",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/sensibilidad_catalogos.csv",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/validacion_y_resumen.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/resultados/verificacion_multicruce.json",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/termica.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/verificar_fuentes.py",
+      "match": true
+    },
+    {
+      "path": "robustez_hrg/verificar_multicruce.py",
+      "match": true
+    },
+    {
+      "path": "simular.py",
+      "match": true
+    },
+    {
+      "path": "trayectoria_f0.01.csv",
+      "match": true
+    },
+    {
+      "path": "trayectoria_f0.1.csv",
+      "match": true
+    },
+    {
+      "path": "trayectoria_f0.csv",
+      "match": true
+    },
+    {
+      "path": "trayectoria_f1.csv",
+      "match": true
+    },
+    {
+      "path": "verificacion_adicional.json",
+      "match": true
+    }
+  ]
+}

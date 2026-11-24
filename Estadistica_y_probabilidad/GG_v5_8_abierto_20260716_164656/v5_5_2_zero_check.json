@@ -1,0 +1,47 @@
+{
+  "model": "German Gamma v5.5.2 audit-grade",
+  "metric_scope": "2x2 acceptance-rate interaction; related to classical log-linear contrasts, not a new standalone statistic",
+  "cells": [
+    {
+      "name": "00",
+      "accepted": 0,
+      "total": 100,
+      "rejected": 100,
+      "rate": 0.0
+    },
+    {
+      "name": "01",
+      "accepted": 10,
+      "total": 100,
+      "rejected": 90,
+      "rate": 0.1
+    },
+    {
+      "name": "10",
+      "accepted": 12,
+      "total": 100,
+      "rejected": 88,
+      "rate": 0.12
+    },
+    {
+      "name": "11",
+      "accepted": 9,
+      "total": 100,
+      "rejected": 91,
+      "rate": 0.09
+    }
+  ],
+  "support_state": "expressed_support_loss",
+  "min_total_cell": 100,
+  "min_accepted_cell": 0,
+  "finite_metric_evaluable": false,
+  "rate_interaction": null,
+  "shadow_log_score": null,
+  "classical_odds_ratio": null,
+  "fisher_p_value": null,
+  "chi_square_p_value": null,
+  "bootstrap_p_value": null,
+  "bootstrap_interval_95": null,
+  "reading": "not_evaluable_as_finite_shadow",
+  "limits": "Exploratory diagnostic only. It does not prove fraud, intent, causality, or invalidity."
+}

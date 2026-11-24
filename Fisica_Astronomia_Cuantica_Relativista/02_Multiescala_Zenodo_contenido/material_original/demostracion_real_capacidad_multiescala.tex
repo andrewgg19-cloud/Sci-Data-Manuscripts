@@ -1,0 +1,267 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[margin=1.65cm,columnsep=0.65cm]{geometry}
+\usepackage{url}
+
+\setlength{\parindent}{0.9em}
+\setlength{\parskip}{0.15em}
+\newcommand{\LCDM}{$\Lambda$CDM}
+\newcommand{\Msun}{M_{\odot}}
+\newcommand{\Mearth}{M_{\oplus}}
+\newcommand{\Rearth}{R_{\oplus}}
+
+\title{\textbf{Demostración empírica de capacidad explicativa multiescala}\\
+\large Control cosmológico y validación cruzada en la relación masa-radio planetaria}
+\author{Germán García\\\small Investigador independiente}
+\date{15 de agosto de 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Se somete un operador multiescala a dos pruebas empíricas con resultados
+opuestos. En Pantheon+, una transición cosmológica de un parámetro reduce
+ligeramente el residuo, pero no supera la penalización bayesiana ni produce
+una ganancia predictiva material. En 897 exoplanetas con masa y radio
+medidos, una ley continua de tres regímenes supera a una potencia única y a
+un polinomio cuadrático tanto en BIC como en validación cruzada de cinco
+pliegues. El resultado demuestra capacidad descriptiva, predictiva y
+selectiva del tratamiento por escalas en el problema planetario. No
+establece una ley fundamental, no demuestra unificación física y no convierte
+las fronteras inferidas en constantes universales.
+\end{abstract}
+
+\section{Pregunta y criterio}
+
+La pregunta operacional no es si una curva flexible puede ajustarse a los
+datos, sino si una coordenada común de escala permite identificar cambios de
+régimen que sobrevivan tres controles: penalización por complejidad,
+predicción fuera de muestra y estabilidad matricial. Se usa
+\begin{equation}
+ s=\ln\lambda, \qquad
+ O(s)=O(0)\exp\left[\int_0^s \alpha_O(u)\,du\right],
+ \label{eq:general}
+\end{equation}
+donde $\alpha_O=d\ln O/ds$ es un exponente local. Un modelo multiescala debe
+reducirse a un cierre simple cuando $\alpha_O$ es constante y permitir una
+transición suave cuando cambia el régimen.
+
+Para cada ajuste se calcula el operador linealizado y normalizado
+\begin{equation}
+ C_{\mathrm{eff}}=W^{1/2}\,J\,D^{-1},
+ \qquad J_{ij}=\frac{\partial \mu_i}{\partial\theta_j},
+\end{equation}
+donde $W$ es la precisión observacional y $D$ normaliza las columnas. Su
+número de condición $\kappa=\sigma_{\max}/\sigma_{\min}^{+}$ mide
+identificabilidad local. Un residuo pequeño con $\kappa$ grande puede cerrar,
+pero es menos robusto.
+
+\section{Control negativo: Pantheon+}
+
+\subsection{Datos y modelos}
+
+Se usaron 1,590 filas de Pantheon+ con $z_{\mathrm{HD}}>0.01$ y la matriz
+oficial completa de covarianza estadística y sistemática. La selección y la
+teoría de distancia reproducen el módulo cosmológico público del equipo
+Pantheon+ \cite{Brout2022,DataRelease}. Las observaciones se separaron por
+identificador físico CID: 1,270 filas para entrenamiento y 320 para prueba.
+La puntuación reservada usa la distribución gaussiana condicional, incluyendo
+la covarianza entre ambas particiones.
+
+El modelo base es
+\begin{equation}
+ E^2(z)=\Omega_m(1+z)^3+(1-\Omega_m).
+\end{equation}
+Se comparó con $w$CDM y con una transición multiescala de igual número de
+parámetros:
+\begin{align}
+ \frac{d\ln\rho_X}{ds}&=\alpha_X(s)=A\,g(s),\\
+ g(s)&=\frac{1-\tanh[(s-s_t)/\Delta_s]}{2},
+\end{align}
+con $s=\ln(1+z)$, $z_t=0.5$ y $\Delta_s=0.12$ fijados antes del ajuste. El
+único parámetro adicional es $A$.
+
+\begin{table}[t]
+\centering
+\caption{Resultados cosmológicos. Menor AICc/BIC es mejor.}
+\small
+\begin{tabular}{lrrrr}
+\hline
+Modelo & $\chi^2$ & BIC & $\chi^2_{\rm test}/N$ & $\kappa$\\
+\hline
+\LCDM & 1402.919 & 1417.662 & 0.862681 & 3.38\\
+$w$CDM & 1402.467 & 1424.581 & 0.862115 & 16.95\\
+Multiescala & 1402.424 & 1424.539 & 0.862047 & 11.99\\
+\hline
+\end{tabular}
+\label{tab:cosmo}
+\end{table}
+
+\subsection{Resultado}
+
+La amplitud inferida fue $A=0.267\pm0.342$ y, por tanto, compatible con cero
+en el diagnóstico linealizado. Frente a \LCDM, la extensión obtiene
+$\Delta\mathrm{BIC}=+6.877$ y sólo mejora $\chi^2$ reservado en 0.203. El
+criterio preregistrado exigía $\Delta\mathrm{BIC}<-2$, una mejora reservada
+mayor que 2 y superar a $w$CDM. No se cumple. Pantheon+ actúa así como control
+negativo: el operador no obliga a declarar una transición cuando los datos no
+la justifican.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figura_demostracion_capacidad_multiescala.png}
+\caption{Prueba cosmológica con covarianza completa. La reducción residual de
+la transición multiescala es demasiado pequeña para compensar el parámetro
+adicional. El pie incorporado en la figura documenta muestra, partición y
+alcance.}
+\label{fig:cosmo}
+\end{figure*}
+
+\section{Prueba positiva: exoplanetas}
+
+\subsection{Muestra y verosimilitud}
+
+Se usó una instantánea fija del NASA Exoplanet Archive del 13 de mayo de 2023
+\cite{Akeson2013,NASATAP}, preservada con commit y hash. De 5,347 filas se
+seleccionaron 897 planetas transitantes con masa física, no $M\sin i$, radio,
+banderas de límite nulas, error relativo máximo de 50\% en masa y 20\% en
+radio. Cada planeta fue prueba exactamente una vez en cinco pliegues
+estratificados por masa.
+
+Con $x=\ln(M/\Mearth)$ y $y=\ln(R/\Rearth)$ se compararon:
+\begin{align}
+ y_{\rm pot} &= a+b(x-\ln 10),\\
+ y_{\rm cuad} &= a+b x_c+c x_c^2,\\
+ y_{\rm multi} &= a+b_1x_c+(b_2-b_1)h(x-x_1)\nonumber\\
+ &\quad +(b_3-b_2)h(x-x_2),
+\end{align}
+donde $x_c=x-\ln 10$ y
+$h(u)=\Delta\ln[1+\exp(u/\Delta)]$, con $\Delta=0.16$. Las dos fronteras
+$x_1,x_2$ y los tres exponentes se ajustaron, no se impusieron. La varianza de
+cada residuo fue
+\begin{equation}
+ \sigma_i^2=\sigma_{y,i}^2+
+ \left(\frac{dy}{dx}\right)^2\sigma_{x,i}^2+\sigma_{\rm int}^2,
+\end{equation}
+por lo que la inferencia incluye incertidumbre en ambos ejes y dispersión
+intrínseca. Las leyes rotas probabilísticas ya son una clase establecida para
+masa-radio planetaria \cite{ChenKipping2017,Wolfgang2016}; esta prueba evalúa
+si el formalismo multiescala recupera esa estructura, no reclama haberla
+descubierto por primera vez.
+
+\begin{table}[t]
+\centering
+\caption{Resultados masa-radio. NLL-CV predice cada planeta una vez.}
+\small
+\begin{tabular}{lrrrr}
+\hline
+Modelo & BIC & NLL-CV/$N$ & Error med. & $\kappa$\\
+\hline
+Potencia & 822.412 & 0.4511 & 26.1\% & 2.49\\
+Cuadrático & 455.383 & 0.2451 & 19.2\% & 6.67\\
+Multiescala & 168.141 & 0.0884 & 15.5\% & 28.49\\
+\hline
+\end{tabular}
+\label{tab:planets}
+\end{table}
+
+\subsection{Resultado}
+
+El modelo multiescala mejora el BIC en 654.272 unidades respecto a la potencia
+única y en 287.243 respecto al cuadrático. En validación cruzada reduce la NLL
+por planeta de 0.451 a 0.088 y el error mediano fraccional de radio de 26.1\%
+a 15.5\%. La mejora no depende de un único conjunto reservado: cada observación
+se predice fuera de su ajuste.
+
+El ajuste completo da exponentes
+\begin{equation}
+ (b_1,b_2,b_3)=(0.442,\;0.730,\;-0.015)
+\end{equation}
+y fronteras en $19.6\,\Mearth$ y $118.7\,\Mearth$. Sin embargo, la estabilidad
+entre pliegues distingue ambas: la inferior es
+$14.9\pm11.8\,\Mearth$, mientras que la superior es
+$128.0\pm21.6\,\Mearth$. La primera no es una frontera robusta. Además,
+$\kappa=28.49$ muestra mayor fragilidad paramétrica que en los modelos simples.
+La ganancia predictiva es real dentro de esta muestra, pero la interpretación
+fina de todos sus parámetros no tiene la misma solidez.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figura_demostracion_exoplanetas_multiescala.png}
+\caption{Prueba masa-radio con cinco pliegues. La ley por regímenes mejora la
+predicción reservada y los criterios de información. La frontera alta es más
+estable que la baja.}
+\label{fig:planets}
+\end{figure*}
+
+\section{Dictamen acotado}
+
+Los dos resultados juntos son más informativos que un único ajuste positivo:
+\begin{enumerate}
+\item \textbf{Capacidad descriptiva: sí.} La forma multiescala comprime la
+relación masa-radio mejor que una potencia o curvatura global.
+\item \textbf{Capacidad predictiva: sí, en exoplanetas.} La mejora persiste en
+cinco pliegues fuera de muestra.
+\item \textbf{Selectividad: sí.} El mismo criterio rechaza la transición
+cosmológica examinada; el marco no mejora todo por construcción.
+\item \textbf{Estabilidad total: no.} Una frontera planetaria es inestable y el
+operador multiescala tiene mayor número de condición.
+\item \textbf{Unificación fundamental: no evaluada.} Estas pruebas no incluyen
+cuantización de gravedad, amplitudes de dispersión cuántica ni una derivación
+de relatividad general.
+\end{enumerate}
+
+La afirmación sostenible es precisa: \emph{el operador por exponentes locales
+y transiciones de escala tiene capacidad explicativa y predictiva demostrada
+para un sistema físico con regímenes observacionales, y sabe producir un
+resultado nulo en un control cosmológico}. Su novedad eventual depende de
+mostrar ventajas frente a métodos de cambio de régimen ya existentes y de
+extender la validación a conjuntos independientes.
+
+\section{Reproducibilidad}
+
+Los scripts ejecutables, datos congelados, hashes, tablas y JSON de salida se
+entregan junto al informe. Los comandos principales son:
+\begin{verbatim}
+python demostracion_capacidad_multiescala.py
+python demostracion_exoplanetas_multiescala.py
+\end{verbatim}
+Ambos programas fijan la selección, la partición y el criterio antes de emitir
+el dictamen. Los resultados numéricos completos se conservan en
+\path{demostracion_multiescala_resultados.json} y
+\path{demostracion_exoplanetas_resultados.json}.
+
+\begin{thebibliography}{9}
+\bibitem{Brout2022}
+D. Brout et al., ``The Pantheon+ Analysis: Cosmological Constraints'',
+\emph{Astrophysical Journal} 938, 110 (2022).
+\url{https://doi.org/10.3847/1538-4357/ac8e04}
+
+\bibitem{DataRelease}
+Pantheon+ and SH0ES Collaboration, public data release.
+\url{https://github.com/PantheonPlusSH0ES/DataRelease}
+
+\bibitem{Akeson2013}
+R. L. Akeson et al., ``The NASA Exoplanet Archive: Data and Tools for
+Exoplanet Research'', \emph{PASP} 125, 989 (2013).
+\url{https://doi.org/10.1086/672273}
+
+\bibitem{NASATAP}
+NASA Exoplanet Archive, Table Access Protocol documentation.
+\url{https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html}
+
+\bibitem{ChenKipping2017}
+J. Chen and D. M. Kipping, ``Probabilistic Forecasting of the Masses and
+Radii of Other Worlds'', \emph{Astrophysical Journal} 834, 17 (2017).
+\url{https://doi.org/10.3847/1538-4357/834/1/17}
+
+\bibitem{Wolfgang2016}
+A. Wolfgang, L. A. Rogers and E. B. Ford, ``Probabilistic Mass-Radius
+Relationship for Sub-Neptune-Sized Planets'', \emph{Astrophysical Journal}
+825, 19 (2016). \url{https://doi.org/10.3847/0004-637X/825/1/19}
+\end{thebibliography}
+
+\end{document}

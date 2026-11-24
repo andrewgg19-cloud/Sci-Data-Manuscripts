@@ -1,0 +1,6 @@
+transform,distance_X,conserved_X,distance_H,conserved_H,status
+I,0.0,True,0.0,True,preserved
+P_mirror_x,0.0,True,0.05966050290468291,False,lost_by_horizon
+C_sign,0.0,True,0.05966050290468291,False,lost_by_horizon
+T_reverse,9.158550788288657e-16,True,7.792597201609329e-16,True,preserved
+Rz_90,0.0,True,0.02378318043036951,True,preserved

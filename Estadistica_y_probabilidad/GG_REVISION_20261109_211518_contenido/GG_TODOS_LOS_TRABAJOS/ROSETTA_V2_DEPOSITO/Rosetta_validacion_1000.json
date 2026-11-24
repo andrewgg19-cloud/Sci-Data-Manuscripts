@@ -1,0 +1,47 @@
+{
+  "aviso": "Segmentacion y diccionario conocidos; NO es decodificacion ciega ni recuperacion unica de gamma. La seleccion de candidatos depende solo del audio.",
+  "wav": "Rosetta_10000_base.wav",
+  "wav_sha256": "5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5",
+  "csv": "Rosetta_10000_partitura.csv",
+  "semilla": 20261022,
+  "simbolos_evaluados": 1000,
+  "indices_estratificados_min_max": [
+    1,
+    10000
+  ],
+  "numero_candidatos": 1000,
+  "resultados": {
+    "limpio": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 100.0,
+      "derecho_exactitud_pct": 100.0,
+      "estereo_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 99.9,
+      "fase_permutada_control_exactitud_pct": 5.6
+    },
+    "ruido_30dB": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 99.9,
+      "derecho_exactitud_pct": 100.0,
+      "estereo_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 92.0,
+      "fase_permutada_control_exactitud_pct": 5.6
+    },
+    "ruido_15dB": {
+      "cobertura_pct": 99.4,
+      "izquierdo_exactitud_pct": 97.9,
+      "derecho_exactitud_pct": 97.6,
+      "estereo_exactitud_pct": 99.3,
+      "diferencia_fase_exactitud_pct": 65.0,
+      "fase_permutada_control_exactitud_pct": 5.5
+    },
+    "desfase_3ms": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 0.8,
+      "derecho_exactitud_pct": 1.6,
+      "estereo_exactitud_pct": 3.9,
+      "diferencia_fase_exactitud_pct": 0.3,
+      "fase_permutada_control_exactitud_pct": 0.7
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "modelo": "German-Gamma v5.5 horizonte-espejo",
+  "input": "v5_5_noaa_co2\\noaa_co2_mlo_gamma_input.csv",
+  "columnas": [
+    "t_index",
+    "co2_average",
+    "co2_delta",
+    "co2_roll_mean_12",
+    "co2_roll_std_12",
+    "co2_anomaly"
+  ],
+  "horizonte": "t_index == t_index",
+  "espejo": "center_reflect",
+  "n_total": 820,
+  "n_horizonte": 820,
+  "tasa_horizonte": 1.0,
+  "c_h_js": 0.0,
+  "l1_histogramas": 0.0,
+  "bins_por_columna": 8,
+  "lectura": "horizonte_espejo_compatible",
+  "advertencia": "C_H mide no conmutatividad entre horizonte y espejo para las transformaciones definidas. No prueba causalidad, fraude ni invalidez por si solo."
+}

@@ -1,0 +1,27 @@
+LICENSE SCOPE
+Author: Andrés Germán García
+License decision authorized by the author on 19 October 2026.
+
+1. ORIGINAL SOFTWARE - GPL-3.0-only
+Copyright (c) 2026 Andrés Germán García.
+All author-provided Python (.py) and PowerShell (.ps1) programs in this
+supplement are licensed under GNU General Public License version 3 only.
+The complete license is in LICENSE_CODE_GPL_3_0.txt.
+This software is distributed without warranty; see the full license terms.
+
+2. ORIGINAL DATA AND DOCUMENTATION - CC-BY-4.0
+The author's original numerical outputs, audit records, documentation,
+figures and manuscript sources are under CC BY 4.0. This grant covers only
+rights controlled by the author. See LICENSE_DATA_CC_BY_4_0.txt.
+
+3. THIRD-PARTY EXCLUSIONS
+The catalogs/ directory and its files retain their existing third-party
+terms. THIRD_PARTY_NOTICES.txt identifies their paths and source. The
+author's license grants do not override upstream rights or notices.
+License documents themselves retain their respective copyright notices.
+
+4. ATTRIBUTION AND CITATION
+Cite the accompanying preprint: https://doi.org/10.5281/zenodo.23467637
+Preserve the relevant upstream catalog citations and notices as well.
+The preprint and computational supplement do not imply peer review,
+editorial acceptance, or independent observational validation.

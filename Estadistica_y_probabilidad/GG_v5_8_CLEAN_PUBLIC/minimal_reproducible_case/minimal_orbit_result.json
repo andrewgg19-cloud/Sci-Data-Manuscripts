@@ -1,0 +1,26 @@
+{
+  "name": "Angular momentum trajectory test",
+  "scope": "validation/explanation only; not a German Gamma core module",
+  "input": "minimal_reproducible_case\\minimal_orbit_input.csv",
+  "columns": [
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "n_points": 240,
+  "center_radius": 20,
+  "mean_L_norm": 0.08697021024446681,
+  "median_L_norm": 0.08643004283203737,
+  "max_L_norm": 0.09985773916389376,
+  "mean_tau_norm": 0.0025810359673108713,
+  "median_tau_norm": 0.0022448863341915136,
+  "rotation_coherence": 0.9995519716590159,
+  "torque_ratio": 0.02967724189760805,
+  "mean_L_vector": [
+    -0.0005645570502103114,
+    -4.866602736822894e-05,
+    0.0869293982839922
+  ],
+  "reading": "stable_rotational_structure_candidate",
+  "limits": "Detects rotational structure around a rolling neutral point; it does not prove causality or physical angular momentum."
+}

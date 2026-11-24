@@ -1,0 +1,12 @@
+ROSETTA: comparacion de cuatro decodificadores (solo L, solo R, L+R, diferencia relativa L-R)
+
+1. Extraer este ZIP en C:\Users\Andre\Downloads\Rosetta_10000
+2. Ejecutar PowerShell dentro de esa carpeta:
+   py .\comparar_canales_rosetta.py --max-notes 100 --candidates 60,200,500,1000
+3. Compartir Rosetta_comparacion_4_metodos.json
+
+Requiere numpy instalado; los archivos Rosetta_10000_base.wav y
+Rosetta_10000_partitura.csv deben existir junto al script.
+NO modificar ni borrar los WAV originales. Esta comparacion es asistida por el CSV.
+Puede requerir varios minutos segun el equipo. Para prueba inicial mas corta:
+   py .\comparar_canales_rosetta.py --max-notes 10 --candidates 60,200

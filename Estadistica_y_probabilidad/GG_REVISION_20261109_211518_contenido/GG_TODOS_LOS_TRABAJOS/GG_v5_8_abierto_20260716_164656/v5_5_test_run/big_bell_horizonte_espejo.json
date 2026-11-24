@@ -1,0 +1,21 @@
+{
+  "modelo": "German-Gamma v5.5 horizonte-espejo",
+  "input": "big_bell_gamma_input.xlsx",
+  "columnas": [
+    "t_rel_s",
+    "bitrate_bits_per_2s",
+    "bitrate_delta",
+    "bitrate_roll_mean_10",
+    "bitrate_roll_std_10"
+  ],
+  "horizonte": "bitrate_bits_per_2s > bitrate_roll_mean_10",
+  "espejo": "center_reflect",
+  "n_total": 116226,
+  "n_horizonte": 58133,
+  "tasa_horizonte": 0.5001720785366441,
+  "c_h_js": 0.0234321021027657,
+  "l1_histogramas": 0.17809946949552677,
+  "bins_por_columna": 8,
+  "lectura": "no_conmutatividad_leve",
+  "advertencia": "C_H mide no conmutatividad entre horizonte y espejo para las transformaciones definidas. No prueba causalidad, fraude ni invalidez por si solo."
+}

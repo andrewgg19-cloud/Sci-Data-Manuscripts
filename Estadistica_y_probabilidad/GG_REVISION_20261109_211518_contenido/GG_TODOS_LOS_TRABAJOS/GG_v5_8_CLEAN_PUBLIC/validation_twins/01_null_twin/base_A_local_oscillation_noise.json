@@ -1,0 +1,22 @@
+{
+  "name": "Local oscillation noise discriminator",
+  "scope": "validation/explanation only; not a German Gamma core module",
+  "input": "validation_twins\\01_null_twin\\base_A.csv",
+  "columns": [
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "n_points": 600,
+  "n_evaluated": 598,
+  "n_valid_noise_scale": 598,
+  "n_flagged": 12,
+  "flag_rate": 0.020066889632107024,
+  "critical_ratio": 2.5,
+  "mean_oscillation": 1.3547751179027223,
+  "mean_curvature": 4.064325353708167,
+  "mean_oscillation_noise_scale": 0.5294009239289713,
+  "mean_curvature_noise_scale": 1.5882027717869143,
+  "reading": "Noise is retained as the scale of discernment. A point is flagged only when local oscillation or curvature is unusually high relative to neighboring triad behavior.",
+  "limits": "This detects local structure above noise; it does not prove causality, intent, or validity."
+}

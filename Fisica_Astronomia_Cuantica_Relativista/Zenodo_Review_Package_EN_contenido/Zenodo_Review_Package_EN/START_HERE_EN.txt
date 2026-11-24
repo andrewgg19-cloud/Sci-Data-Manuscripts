@@ -1,0 +1,39 @@
+TWO ENGLISH PREPRINTS - ZENODO STATUS AND SUPPLEMENT REVIEW
+Updated: 19 October 2026 | Author: Andres German Garcia
+
+PUBLISHED AND VERIFIED
+HRG: https://zenodo.org/records/23467572
+DOI: 10.5281/zenodo.23467572
+Evaporation: https://zenodo.org/records/23467637
+DOI: 10.5281/zenodo.23467637
+
+Both final English manuscript PDFs are public. The MD5 checksums displayed
+by Zenodo match the delivered PDF files. The PDFs in this review package
+are those same delivered copies. The records display CC BY 4.0 and link
+to one another through References. Each also retains an audit attachment.
+
+STILL PENDING
+1. Author selection of licenses for original code and original data.
+2. Upload each paper-specific supplement ZIP to its corresponding record.
+3. Select the final manuscript PDF as default preview and check the result.
+
+CONCRETE LICENSE PROPOSAL - NOT YET APPLIED
+Original code: GPL-3.0-only.
+Original data: CC-BY-4.0.
+Existing Thermal-FIST catalog licenses and notices remain unchanged.
+These choices require the author's decision about reuse permissions.
+The two supplement ZIPs remain review copies with RIGHTS_REVIEW.txt;
+they must be finalized before public upload.
+
+PACKAGE CONTENTS
+01_HRG_50MeV/ and 02_Evaporation_50_30MeV/ contain the corresponding
+English PDF, supplement review ZIP, and metadata worksheets.
+The outer review ZIP and metadata worksheets are organizational documents,
+not additional scientific attachments for Zenodo.
+
+The automatic browser upload remains blocked by the extension file-URL
+permission. Manual uploads have succeeded; no permission change is needed
+to continue manually. No new records or DOIs are required for these steps.
+
+Manuscripts are preprints. Publication on Zenodo is not peer review or
+independent confirmation of their scientific conclusions.

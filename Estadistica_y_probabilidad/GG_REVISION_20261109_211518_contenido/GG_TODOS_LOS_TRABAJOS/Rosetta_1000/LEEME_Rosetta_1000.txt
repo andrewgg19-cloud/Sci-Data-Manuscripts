@@ -1,0 +1,30 @@
+ROSETTA 1000 - GENERADOR DOCUMENTADO (NO EL AUDIO ORIGINAL CERTIFICADO)
+
+Fuente requerida: Odlyzko, zeros1, https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1
+Este generador descarga la tabla oficial al ejecutarse. Necesita conexión a Internet UNA VEZ.
+
+USO EN WINDOWS:
+1. Extraer todo el ZIP a una carpeta nueva.
+2. Abrir PowerShell dentro de esa carpeta.
+3. Ejecutar: py -m pip install numpy mpmath
+4. Ejecutar: py reproducir_rosetta_1000_odlyzko.py
+5. Escuchar Rosetta_1000_base.wav y Rosetta_1000_crescendo.wav.
+
+El script guarda en la carpeta la tabla zeros1, los primeros 1000 gamma,
+CSV de notas, JSON de metadatos y dos WAV estéreo. El formato es PCM 16 bits,
+22050 Hz; los WAV son de alrededor de dos minutos. Los resultados deben verificarse
+contra la tabla descargada.
+
+ADVERTENCIAS CIENTIFICAS:
+- Para 1000 términos, Fibonacci crece demasiado como para usar literalmente las
+  ecuaciones de amplitud y duración del prototipo de 13 pasos. Esta extensión
+  NORMALIZA log(F_n) en el intervalo 0..1 antes de asignar duraciones y amplitudes.
+- La fórmula de frecuencia, la fase basada en gamma_n y phi y el acoplamiento
+  ordinal entre primos y ceros se mantienen.
+- Las envolventes, el timbre, las pausas y la normalización son decisiones
+  explícitas del sintetizador, no identidades matemáticas ni parámetros originales
+  necesariamente idénticos a la versión publicada.
+- La versión crescendo incorpora capas en progresión, sin copiar melodías de Ravel.
+- Esta reconstrucción no demuestra la hipótesis de Riemann.
+
+No debe describirse el paquete como audio 1000 ya renderizado: el WAV se produce al ejecutar el script.

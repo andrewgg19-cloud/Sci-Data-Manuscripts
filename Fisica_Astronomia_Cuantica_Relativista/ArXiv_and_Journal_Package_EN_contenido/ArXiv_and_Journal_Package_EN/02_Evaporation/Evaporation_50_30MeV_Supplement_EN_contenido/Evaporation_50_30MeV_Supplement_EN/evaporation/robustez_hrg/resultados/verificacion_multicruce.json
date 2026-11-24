@@ -1,0 +1,82 @@
+{
+  "case": {
+    "M_initial_g": 85000000.0,
+    "f": 1,
+    "S_final_over_initial": 1.9550120361942656,
+    "Y_initial": 1.6995275263731113e-10,
+    "delta_initial_cm3": 1.7353575227896315e+28,
+    "Y_final": 8.693181908391241e-11,
+    "crossing_common_initial_MeV": 37.11907253622376,
+    "crossing_common_final_MeV": 38.20373869855956,
+    "all_crossings_initial_MeV": "[37.11907253622376]",
+    "all_crossings_final_MeV": "[38.84632007421943, 38.5419892188538, 38.20373869855956]",
+    "target_relative_error": 1.0377031678387993e-08,
+    "T_after_evap_MeV": 40.39413322578199,
+    "max_temperature_MeV": 50.0,
+    "entropy_balance_error": 6.003924435839359e-09
+  },
+  "events": [
+    {
+      "T_MeV": 38.84632007421943,
+      "time_s": 0.00018788645152930723,
+      "phase": "evaporation",
+      "direction": "down"
+    },
+    {
+      "T_MeV": 38.5419892188538,
+      "time_s": 0.00023748461162234778,
+      "phase": "evaporation",
+      "direction": "up"
+    },
+    {
+      "T_MeV": 38.20373869855956,
+      "time_s": 0.00030167662066939757,
+      "phase": "post_evaporation",
+      "direction": "down"
+    }
+  ],
+  "checks": {
+    "tolerance_max_crossing_change_MeV": 2.2648997344276722e-08,
+    "grid_max_crossing_change_MeV": 1.5026181188204646e-08
+  },
+  "tight_events": [
+    {
+      "T_MeV": 38.846320096868425,
+      "time_s": 0.00018788644784015944,
+      "phase": "evaporation",
+      "direction": "down"
+    },
+    {
+      "T_MeV": 38.541989203669836,
+      "time_s": 0.0002374846135564653,
+      "phase": "evaporation",
+      "direction": "up"
+    },
+    {
+      "T_MeV": 38.20373869092218,
+      "time_s": 0.00030167661901326216,
+      "phase": "post_evaporation",
+      "direction": "down"
+    }
+  ],
+  "fine_grid_events": [
+    {
+      "T_MeV": 38.84632007408661,
+      "time_s": 0.00018788645153882785,
+      "phase": "evaporation",
+      "direction": "down"
+    },
+    {
+      "T_MeV": 38.54198921888116,
+      "time_s": 0.00023748461162104463,
+      "phase": "evaporation",
+      "direction": "up"
+    },
+    {
+      "T_MeV": 38.20373871358574,
+      "time_s": 0.00030167661787515237,
+      "phase": "post_evaporation",
+      "direction": "down"
+    }
+  ]
+}

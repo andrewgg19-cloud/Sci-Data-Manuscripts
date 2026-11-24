@@ -1,0 +1,22 @@
+{
+  "title": "Triadic scale-dependent scalar-tensor gravity: hypotheses and a restricted FLRW compatibility construction",
+  "creators": [
+    {
+      "name": "García, Andrés Germán",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Original working manuscript with an accompanying technical addendum and symbolic checks. The curvature identification is treated as a solution ansatz for an independent scalar, not substituted into the action before variation. A reconstructed vacuum FLRW family demonstrates restricted compatibility with UA=0. It does not establish compatibility of the specified periodic potential, the 41.1-to-22 transition, local-gravity viability, or a predicted baryon abundance.",
+  "suggested_resource_type": "publication-preprint",
+  "version": "working-review-2026-11-17",
+  "language": "eng",
+  "keywords": [
+    "multiscale analysis",
+    "effective models",
+    "reproducibility"
+  ],
+  "status": "PREPARED_LOCALLY_NOT_UPLOADED",
+  "license": null,
+  "license_note": "Choose an author-approved license in Zenodo. No new license is assigned here; third-party terms remain in force.",
+  "publication_date_note": "Use the actual date of deposit; this is the preparation date, not proof of prior publication."
+}

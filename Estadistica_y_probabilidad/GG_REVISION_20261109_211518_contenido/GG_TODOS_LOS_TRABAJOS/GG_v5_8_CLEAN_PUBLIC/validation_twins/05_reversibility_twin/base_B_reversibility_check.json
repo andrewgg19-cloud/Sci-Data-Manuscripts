@@ -1,0 +1,93 @@
+{
+  "model": "German Gamma v5.8 Reversibility",
+  "input": "validation_twins\\05_reversibility_twin\\base_B.csv",
+  "columns": [
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "window_size": 120,
+  "step": 120,
+  "bins": 5,
+  "n_windows": 5,
+  "entropy_arrow_score": -0.006915805391205482,
+  "centroid_path_length_forward": 2.132641461618706,
+  "centroid_path_length_reverse": 2.132641461618706,
+  "centroid_reversibility_gap": 0.0,
+  "js_forward_reverse_entropy_steps": 0.31127812445913283,
+  "transition_asymmetry_score": 0.9322086188457903,
+  "reading": "irreversible_trajectory_signal_exploratory",
+  "windows": [
+    {
+      "window_id": 0,
+      "start_index": 0,
+      "end_index": 119,
+      "n_points": 120,
+      "entropy": 0.6691945400009237,
+      "centroid": [
+        -0.11638520455216493,
+        -0.011905053223529413,
+        -0.8034348736564834
+      ],
+      "radius_mean": 0.38662648574702224,
+      "radius_std": 0.0915850651695973
+    },
+    {
+      "window_id": 1,
+      "start_index": 120,
+      "end_index": 239,
+      "n_points": 120,
+      "entropy": 0.6640652689204306,
+      "centroid": [
+        -0.01658456307182488,
+        0.19006357754175704,
+        -0.3956837042261911
+      ],
+      "radius_mean": 0.7233445272107611,
+      "radius_std": 0.13342767627281693
+    },
+    {
+      "window_id": 2,
+      "start_index": 240,
+      "end_index": 359,
+      "n_points": 120,
+      "entropy": 0.6418979994322528,
+      "centroid": [
+        0.25457519942240503,
+        0.07763291000581858,
+        0.00010320338248366566
+      ],
+      "radius_mean": 1.0683223602736125,
+      "radius_std": 0.17544851702486536
+    },
+    {
+      "window_id": 3,
+      "start_index": 360,
+      "end_index": 479,
+      "n_points": 120,
+      "entropy": 0.6300659799881679,
+      "centroid": [
+        0.1759301130322007,
+        -0.304241777106746,
+        0.4024343195169695
+      ],
+      "radius_mean": 1.4023149036613438,
+      "radius_std": 0.21814872041391797
+    },
+    {
+      "window_id": 4,
+      "start_index": 480,
+      "end_index": 599,
+      "n_points": 120,
+      "entropy": 0.6415313184361018,
+      "centroid": [
+        -0.29106288743298864,
+        -0.31470981364539086,
+        0.8005959650905458
+      ],
+      "radius_mean": 1.7577112308502298,
+      "radius_std": 0.26841096332457887
+    }
+  ],
+  "limits": "Exploratory reversibility diagnostic. It does not prove fraud, intent, causality, or invalidity."
+}

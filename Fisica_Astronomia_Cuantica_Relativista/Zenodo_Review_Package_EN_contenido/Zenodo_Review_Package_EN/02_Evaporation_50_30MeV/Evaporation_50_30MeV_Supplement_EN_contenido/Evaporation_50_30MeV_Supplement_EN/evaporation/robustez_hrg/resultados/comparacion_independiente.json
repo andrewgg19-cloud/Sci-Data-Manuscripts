@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "catalog": "PDG2014",
+      "T_MeV": 37.0,
+      "nB_relative": 4.440892098500626e-15,
+      "nanti_relative": -2.220446049250313e-15,
+      "delta_relative": 7.549516567451064e-15,
+      "R_relative": -9.769962616701378e-15
+    },
+    {
+      "catalog": "PDG2014",
+      "T_MeV": 38.2,
+      "nB_relative": -5.10702591327572e-15,
+      "nanti_relative": 2.220446049250313e-16,
+      "delta_relative": -8.659739592076221e-15,
+      "R_relative": 8.881784197001252e-15
+    },
+    {
+      "catalog": "PDG2014",
+      "T_MeV": 40.0,
+      "nB_relative": -2.6645352591003757e-15,
+      "nanti_relative": -8.881784197001252e-16,
+      "delta_relative": -2.3314683517128287e-15,
+      "R_relative": 1.3322676295501878e-15
+    },
+    {
+      "catalog": "PDG2014",
+      "T_MeV": 45.0,
+      "nB_relative": -4.440892098500626e-15,
+      "nanti_relative": 2.886579864025407e-15,
+      "delta_relative": -2.873257187729905e-13,
+      "R_relative": 2.9043434324194095e-13
+    },
+    {
+      "catalog": "PDG2014",
+      "T_MeV": 50.0,
+      "nB_relative": -2.4424906541753444e-15,
+      "nanti_relative": -5.218048215738236e-15,
+      "delta_relative": 1.9984014443252818e-15,
+      "R_relative": -7.105427357601002e-15
+    },
+    {
+      "catalog": "PDG2020",
+      "T_MeV": 37.0,
+      "nB_relative": 4.884981308350689e-15,
+      "nanti_relative": -2.220446049250313e-15,
+      "delta_relative": 6.661338147750939e-15,
+      "R_relative": -9.103828801926284e-15
+    },
+    {
+      "catalog": "PDG2020",
+      "T_MeV": 38.2,
+      "nB_relative": -2.1094237467877974e-15,
+      "nanti_relative": 6.661338147750939e-16,
+      "delta_relative": -5.995204332975845e-15,
+      "R_relative": 6.8833827526759706e-15
+    },
+    {
+      "catalog": "PDG2020",
+      "T_MeV": 40.0,
+      "nB_relative": -2.4424906541753444e-15,
+      "nanti_relative": -2.55351295663786e-15,
+      "delta_relative": 0.0,
+      "R_relative": -2.55351295663786e-15
+    },
+    {
+      "catalog": "PDG2020",
+      "T_MeV": 45.0,
+      "nB_relative": -3.3306690738754696e-15,
+      "nanti_relative": 2.4424906541753444e-15,
+      "delta_relative": -2.856603842360528e-13,
+      "R_relative": 2.879918525877656e-13
+    },
+    {
+      "catalog": "PDG2020",
+      "T_MeV": 50.0,
+      "nB_relative": -3.885780586188048e-15,
+      "nanti_relative": -6.661338147750939e-16,
+      "delta_relative": -3.219646771412954e-15,
+      "R_relative": 2.4424906541753444e-15
+    },
+    {
+      "catalog": "PDG2025",
+      "T_MeV": 37.0,
+      "nB_relative": 3.9968028886505635e-15,
+      "nanti_relative": -2.1094237467877974e-15,
+      "delta_relative": 6.217248937900877e-15,
+      "R_relative": -8.104628079763643e-15
+    },
+    {
+      "catalog": "PDG2025",
+      "T_MeV": 38.2,
+      "nB_relative": -2.9976021664879227e-15,
+      "nanti_relative": 1.9984014443252818e-15,
+      "delta_relative": -9.103828801926284e-15,
+      "R_relative": 1.1102230246251565e-14
+    },
+    {
+      "catalog": "PDG2025",
+      "T_MeV": 40.0,
+      "nB_relative": -3.4416913763379853e-15,
+      "nanti_relative": -1.887379141862766e-15,
+      "delta_relative": -1.7763568394002505e-15,
+      "R_relative": -1.1102230246251565e-16
+    },
+    {
+      "catalog": "PDG2025",
+      "T_MeV": 45.0,
+      "nB_relative": -2.7755575615628914e-15,
+      "nanti_relative": 2.4424906541753444e-15,
+      "delta_relative": -2.887690087050032e-13,
+      "R_relative": 2.913225216616411e-13
+    },
+    {
+      "catalog": "PDG2025",
+      "T_MeV": 50.0,
+      "nB_relative": -1.6653345369377348e-15,
+      "nanti_relative": -2.886579864025407e-15,
+      "delta_relative": 8.881784197001252e-16,
+      "R_relative": -3.885780586188048e-15
+    }
+  ],
+  "maximum_relative_error": 2.913225216616411e-13
+}

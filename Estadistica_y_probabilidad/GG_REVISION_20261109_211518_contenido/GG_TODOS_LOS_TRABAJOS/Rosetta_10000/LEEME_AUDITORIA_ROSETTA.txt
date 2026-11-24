@@ -1,0 +1,21 @@
+ROSETTA 10,000 — VERIFICACIÓN EXHAUSTIVA DEL DICCIONARIO (22 OCT 2026)
+
+Alcance: revisa las 10,000 parejas frecuencia-fase del CSV, sus duplicados a 10 decimales,
+las distancias próximas en un descriptor de 3 variables y la longitud del WAV original.
+No certifica unicidad de señales tras cuantización PCM ni decodifica el WAV.
+
+1. Extraer ZIP a C:\Users\Andre\Downloads\Rosetta_10000
+2. En PowerShell:
+   Set-Location "$env:USERPROFILE\Downloads\Rosetta_10000"
+   py -m pip install numpy scipy
+   py .\auditar_rosetta_10000.py
+3. Adjuntar Rosetta_auditoria_exhaustiva.json al expediente de verificación.
+
+Para probar 10,000 notas con el decodificador de robustez ya instalado (puede tardar
+mucho tiempo y requiere recursos importantes):
+   py .\rosetta_robustez_validacion.py --notes 10000 --candidates 1000 --out Rosetta_validacion_10000
+Ejecutar preferiblemente primero --notes 1000 y dejar constancia de tiempos y recursos.
+Ese test utiliza segmentación y diccionario conocidos. No equivale a prueba ciega.
+
+DOI de referencia consignado en el manuscrito: 10.5281/zenodo.23279643.
+No alterar el DOI ni afirmar que estos análisis aún sin ejecutar son resultados concluidos.

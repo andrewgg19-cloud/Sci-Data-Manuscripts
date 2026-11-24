@@ -1,0 +1,42 @@
+{
+  "modelo": "German-Gamma sombra geometrica 2x2",
+  "autor_proponente": "Andres German Garcia",
+  "celdas": [
+    {
+      "nombre": "00",
+      "aceptados": 53,
+      "total": 1143,
+      "tasa": 0.04636920384951881
+    },
+    {
+      "nombre": "01",
+      "aceptados": 79,
+      "total": 1197,
+      "tasa": 0.06599832915622389
+    },
+    {
+      "nombre": "10",
+      "aceptados": 62,
+      "total": 1202,
+      "tasa": 0.051580698835274545
+    },
+    {
+      "nombre": "11",
+      "aceptados": 51,
+      "total": 1204,
+      "tasa": 0.04235880398671096
+    }
+  ],
+  "invariante_sombra": 0.5769699115261767,
+  "distancia_sombra_log": 0.5499651602354818,
+  "tasa_minima": 0.04235880398671096,
+  "tasa_maxima": 0.06599832915622389,
+  "razon_max_min": 1.5580782020410502,
+  "bootstrap_p_bilateral": 0.0268,
+  "bootstrap_intervalo_95": [
+    0.006793763398239451,
+    0.5553364644041124
+  ],
+  "interpretacion": "sombra geometrica fuerte compatible con seleccion diferencial",
+  "advertencia": "Este resultado detecta sombra geometrica compatible con seleccion diferencial; no prueba fraude, intencion ni invalidez experimental por si solo."
+}

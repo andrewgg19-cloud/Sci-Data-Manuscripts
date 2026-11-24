@@ -1,0 +1,20 @@
+ROSETTA 10,000 — EVALUACIÓN EXHAUSTIVA ASISTIDA
+
+Extrae este ZIP en C:\Users\Andre\Downloads\Rosetta_10000.
+Necesita Rosetta_10000_base.wav y Rosetta_10000_partitura.csv.
+Dependencia: py -m pip install numpy
+
+PRUEBA CORTA (recomendable antes de las 10,000):
+py .\rosetta_validacion_exhaustiva.py --from-note 1 --to-note 100 --candidates 1000 --out Rosetta_test_100
+
+EXHAUSTIVA, LIMPIO:
+py .\rosetta_validacion_exhaustiva.py --from-note 1 --to-note 10000 --candidates 1000 --out Rosetta_exhaustiva_limpio
+
+OTRAS CONDICIONES (segunda ejecución independiente):
+py .\rosetta_validacion_exhaustiva.py --from-note 1 --to-note 10000 --candidates 1000 --conditions ruido_15dB,desfase_3ms_corregido --out Rosetta_exhaustiva_perturbaciones
+
+Tendrá miles de comparaciones por símbolo y puede consumir muchos recursos. Se puede interrumpir con Ctrl+C y REANUDAR usando exactamente el mismo comando y la misma carpeta de salida. Cada nota completada queda en archivo .jsonl.
+
+Importante: el desplazamiento 'corregido' en este archivo utiliza la cantidad de muestras conocida; NO es una prueba de estimación independiente de pilotos. Esa calibración fue otra prueba y requiere repetirse de forma exhaustiva aparte.
+
+Los WAV originales no se modifican. Los registros de salida tienen exactitud y cobertura de candidatos; no se decodifican gamma ni ceros sin el diccionario.

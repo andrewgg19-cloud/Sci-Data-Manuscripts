@@ -1,0 +1,30 @@
+{
+  "name": "K signature invariance test",
+  "scope": "validation/explanation only; not a German Gamma core module",
+  "input": "minimal_reproducible_case\\minimal_orbit_input.csv",
+  "columns": [
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "epsilon": 0.05,
+  "base_signature": {
+    "radius_mean": 1.0014692275317827,
+    "radius_std": 0.010362699749332613,
+    "radius_entropy": 2.635270009764138,
+    "mean_L_norm": 0.1309410713331623,
+    "rotation_coherence": 0.9997455228783129
+  },
+  "conserved_transforms": [
+    "I",
+    "P_mirror_x",
+    "C_sign",
+    "T_reverse",
+    "Rz_90"
+  ],
+  "broken_transforms": [],
+  "n_conserved": 5,
+  "n_broken": 0,
+  "reading": "K(X) is a structural signature candidate if it remains within epsilon under declared transformations.",
+  "limits": "This tests declared transformations only; it does not prove universal invariance."
+}

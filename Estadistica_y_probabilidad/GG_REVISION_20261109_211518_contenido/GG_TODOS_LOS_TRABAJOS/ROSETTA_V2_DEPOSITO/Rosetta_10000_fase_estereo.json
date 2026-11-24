@@ -1,0 +1,13 @@
+{
+  "archivo": "Rosetta_10000_base.wav",
+  "notas_evaluadas": 100,
+  "candidatos_por_nota": 60,
+  "porcentaje_simbolo_verdadero_en_candidatos": 72.0,
+  "exactitud_frecuencia_pct": 1.0,
+  "exactitud_fase_estereo_pct": 72.0,
+  "top5_frecuencia_pct": 5.0,
+  "top5_fase_estereo_pct": 72.0,
+  "diferencia_puntos_porcentuales": 71.0,
+  "protocolo": "Segmentación asistida por duraciones del CSV, codebook compartido de 10000 frecuencias y fases; ranking local de K candidatos según máximo FFT.",
+  "limitaciones": "Las fases de referencia provienen de la partitura: no se recuperan las gamma originales en forma unívoca; el candidate recall limita exactitud máxima. El decodificador no es ciego. Evaluar robustez con ruido y desfase es trabajo posterior."
+}

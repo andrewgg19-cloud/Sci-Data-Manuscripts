@@ -1,0 +1,13 @@
+{
+  "wav_sha256": "5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5",
+  "csv_sha256": "5ddfdb985fecbc151c10027c61db0e1adc70db0acd15bfb04905102b6d38ebf2",
+  "from_note": 1,
+  "to_note": 10000,
+  "candidates": 1000,
+  "stride": 8,
+  "conditions": [
+    "ruido_15dB"
+  ],
+  "seed": 20261022,
+  "calibracion": "8 pilotos conocidos, excluidos del rango evaluado; retardo estimado por correlacion"
+}

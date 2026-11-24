@@ -1,0 +1,52 @@
+{
+  "title": "Verification and Extension of the Riemann Hypothesis",
+  "additional_title": {
+    "title": "Comprobación y ampliación de la hipótesis de Riemann",
+    "type": "Translated title",
+    "language": "Spanish"
+  },
+  "creator": {
+    "name": "Germán García Andrés",
+    "affiliation": "Independent Researcher"
+  },
+  "resource_type": "Publication / Preprint",
+  "publication_date": "2026-08-26",
+  "languages": [
+    "English",
+    "Spanish"
+  ],
+  "version": "2 (bilingual)",
+  "original_spanish_record": {
+    "doi": "10.5281/zenodo.22117063",
+    "relation_note": "Previous/original Spanish-language version. If created via Zenodo 'New version', Zenodo links the records automatically."
+  },
+  "version_note": "Complete English translation added. Mathematical content, theorem structure, equations, numerical values, and conclusions are unchanged. Spanish source and English translation are provided together.",
+  "keywords": [
+    "Riemann Hypothesis",
+    "Riemann xi function",
+    "nontrivial zeros",
+    "simplicity",
+    "involution",
+    "symmetry",
+    "F2/F4 orbits",
+    "graphs",
+    "Laplacian",
+    "persistent homology",
+    "Vietoris-Rips",
+    "symmetry operator",
+    "set saturation",
+    "monopole operator",
+    "breathing mode",
+    "random matrices",
+    "quantum spectra"
+  ],
+  "license_instruction": "Use the same license as the published Spanish Zenodo record unless the author intentionally changes it.",
+  "files": [
+    "README_ZENODO_BILINGUAL.txt",
+    "Riemann_Hypothesis_German_Garcia_Andres_EN.pdf",
+    "Riemann_Hypothesis_German_Garcia_Andres_EN.tex",
+    "Riemann_Hypothesis_German_Garcia_Andres_ES.pdf",
+    "Riemann_Hypothesis_German_Garcia_Andres_ES.tex",
+    "Riemann_graph_method_reproducible.py"
+  ]
+}

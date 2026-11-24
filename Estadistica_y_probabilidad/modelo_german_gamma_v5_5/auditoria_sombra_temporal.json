@@ -1,0 +1,35 @@
+[
+  {
+    "ventana": "t1",
+    "invariante_sombra": 0.9426847662152731,
+    "distancia_sombra_log": 0.05902334044829932,
+    "entropia_expresada": 0.9999039764217615,
+    "delta_sombra": null,
+    "delta_entropia": null,
+    "es_critico": false,
+    "racha_critica": 0,
+    "apelacion_temporal": "sin_persistencia_critica"
+  },
+  {
+    "ventana": "t2",
+    "invariante_sombra": 0.5584415584475829,
+    "distancia_sombra_log": 0.5826053061493334,
+    "entropia_expresada": 0.9883426454826597,
+    "delta_sombra": 0.5235819657010341,
+    "delta_entropia": -0.011561330939101833,
+    "es_critico": true,
+    "racha_critica": 1,
+    "apelacion_temporal": "senal_en_apelacion"
+  },
+  {
+    "ventana": "t3",
+    "invariante_sombra": 0.5769699115261767,
+    "distancia_sombra_log": 0.5499651602354818,
+    "entropia_expresada": 0.9886611595372583,
+    "delta_sombra": -0.03264014591385156,
+    "delta_entropia": 0.0003185140545985954,
+    "es_critico": true,
+    "racha_critica": 2,
+    "apelacion_temporal": "confirmada_por_persistencia"
+  }
+]

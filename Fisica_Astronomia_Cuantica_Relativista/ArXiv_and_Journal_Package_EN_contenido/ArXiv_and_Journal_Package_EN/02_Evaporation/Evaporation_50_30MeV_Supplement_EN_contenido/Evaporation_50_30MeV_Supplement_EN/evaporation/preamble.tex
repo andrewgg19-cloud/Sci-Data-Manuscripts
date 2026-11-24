@@ -1,0 +1,62 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=17mm,top=18mm,bottom=19mm,columnsep=6.5mm]{geometry}
+\usepackage{amsmath,amssymb,array,booktabs,graphicx,xcolor,microtype}
+\usepackage[authoryear,round]{natbib}
+\usepackage{caption,stfloats,fancyhdr,balance}
+\usepackage{multicol}
+\usepackage[unicode,colorlinks=true,linkcolor=navy,citecolor=navy,urlcolor=navy]{hyperref}
+\definecolor{navy}{HTML}{173B56}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{1pt}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\setlength{\emergencystretch}{1.7em}
+\setlength{\intextsep}{9pt}
+\setlength{\textfloatsep}{11pt}
+\setlength{\dbltextfloatsep}{11pt}
+\setcounter{topnumber}{3}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\topfraction}{.92}
+\renewcommand{\dbltopfraction}{.95}
+\renewcommand{\textfraction}{.08}
+\renewcommand{\floatpagefraction}{.82}
+\renewcommand{\dblfloatpagefraction}{.82}
+\captionsetup{font=small,labelfont=bf,labelsep=period,skip=5pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{navy}\runningtitle}
+\fancyhead[R]{\footnotesize Andrés Germán García}
+\fancyfoot[L]{\footnotesize\paperfooter}
+\fancyfoot[R]{\footnotesize\thepage}
+\setlength{\headheight}{13pt}
+\renewcommand{\headrulewidth}{.35pt}
+\newcommand{\fB}{f^{(s)}_{B\bar B}}
+\newcommand{\sB}{s_{B+\bar B}}
+\newcommand{\stot}{s_{\mathrm{tot}}}
+\newcommand{\shad}{s_{\mathrm{had}}}
+\newcommand{\sL}{s_{\mathrm{light}}}
+\newcommand{\YB}{Y_{\Delta B}}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:#1}}
+\newcommand{\fulltitle}[3]{%
+\twocolumn[%
+\begin{center}
+{\fontsize{18}{20.5}\selectfont\bfseries\color{navy}#1\par}
+\vspace{8pt}
+{\normalsize Andrés Germán García\par}
+{\small #2\par}
+\vspace{7pt}
+{\small #3\par}
+\end{center}
+\vspace{6pt}
+\begin{minipage}{\textwidth}
+\textbf{\abstractlabel.} \abstracttext
+\vspace{6pt}\par
+\textbf{\keywordslabel:} \keywordstext
+\end{minipage}
+\vspace{15pt}
+]%
+}
+

@@ -1,0 +1,71 @@
+{
+  "aviso": "Segmentacion y diccionario conocidos; NO es decodificacion ciega ni recuperacion unica de gamma. La seleccion de candidatos depende solo del audio.",
+  "wav": "Rosetta_10000_base.wav",
+  "wav_sha256": "5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5",
+  "csv": "Rosetta_10000_partitura.csv",
+  "semilla": 20261022,
+  "simbolos_evaluados": 100,
+  "indices_estratificados_min_max": [
+    1,
+    10000
+  ],
+  "numero_candidatos": 1000,
+  "calibracion": {
+    "tipo": "ocho simbolos piloto conocidos excluidos de evaluacion",
+    "pilotos": [
+      5,
+      349,
+      694,
+      1038,
+      1383,
+      1727,
+      2072,
+      2416
+    ],
+    "desfase_inyectado_ms": 2.993197278911565,
+    "desfase_estimado_ms": 2.993197278911565,
+    "error_muestras": 0
+  },
+  "resultados": {
+    "limpio": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 100.0,
+      "derecho_exactitud_pct": 100.0,
+      "estereo_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 100.0,
+      "fase_permutada_control_exactitud_pct": 7.0
+    },
+    "ruido_30dB": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 100.0,
+      "derecho_exactitud_pct": 100.0,
+      "estereo_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 89.0,
+      "fase_permutada_control_exactitud_pct": 7.0
+    },
+    "ruido_15dB": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 97.0,
+      "derecho_exactitud_pct": 96.0,
+      "estereo_exactitud_pct": 99.0,
+      "diferencia_fase_exactitud_pct": 57.0,
+      "fase_permutada_control_exactitud_pct": 8.0
+    },
+    "desfase_3ms": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 1.0,
+      "derecho_exactitud_pct": 1.0,
+      "estereo_exactitud_pct": 4.0,
+      "diferencia_fase_exactitud_pct": 0.0,
+      "fase_permutada_control_exactitud_pct": 0.0
+    },
+    "desfase_3ms_corregido": {
+      "cobertura_pct": 100.0,
+      "izquierdo_exactitud_pct": 100.0,
+      "derecho_exactitud_pct": 100.0,
+      "estereo_exactitud_pct": 100.0,
+      "diferencia_fase_exactitud_pct": 100.0,
+      "fase_permutada_control_exactitud_pct": 7.0
+    }
+  }
+}

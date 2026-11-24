@@ -1,0 +1,19 @@
+{
+  "modelo": "German-Gamma v5.5 horizonte-espejo",
+  "input": "validation_sets\\01_normal_control.xlsx",
+  "columnas": [
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "horizonte": "todo_el_dominio",
+  "espejo": "center_reflect",
+  "n_total": 1200,
+  "n_horizonte": 1200,
+  "tasa_horizonte": 1.0,
+  "c_h_js": 0.0,
+  "l1_histogramas": 0.0,
+  "bins_por_columna": 8,
+  "lectura": "horizonte_espejo_compatible",
+  "advertencia": "C_H mide no conmutatividad entre horizonte y espejo para las transformaciones definidas. No prueba causalidad, fraude ni invalidez por si solo."
+}

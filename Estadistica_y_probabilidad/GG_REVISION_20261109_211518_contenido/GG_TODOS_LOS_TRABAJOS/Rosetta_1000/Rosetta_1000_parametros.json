@@ -1,0 +1,33 @@
+{
+  "input_provenance": "Andrew Odlyzko, zeros1 official first 1000 ordinates",
+  "official_odlyzko_url": "https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1",
+  "n": 1000,
+  "sample_rate": 22050,
+  "input_gamma_sha256": "155fa4495edb9e87a2df473162e9192c1fe75d2f15f9ae62681a7711af807d95",
+  "transforms": [
+    "prime frequency from manuscript",
+    "phase gamma/phi from manuscript",
+    "NEW extension: log(F_n) normalized over n=1..1000 for amplitude and duration",
+    "Hann-squared envelope; golden ratio second voice at 0.18",
+    "18ms breaks",
+    "global peak normalization"
+  ],
+  "results": [
+    {
+      "file": "Rosetta_1000_base.wav",
+      "duration_s": 135.46462585034013,
+      "samples_per_channel": 2986995,
+      "peak_pre_norm": 0.9941309094429016,
+      "rms_first": 0.07037665786016142,
+      "rms_last": 0.3739193074056887
+    },
+    {
+      "file": "Rosetta_1000_crescendo.wav",
+      "duration_s": 135.46462585034013,
+      "samples_per_channel": 2986995,
+      "peak_pre_norm": 1.26435387134552,
+      "rms_first": 0.07037665786016142,
+      "rms_last": 0.3808712290809943
+    }
+  ]
+}

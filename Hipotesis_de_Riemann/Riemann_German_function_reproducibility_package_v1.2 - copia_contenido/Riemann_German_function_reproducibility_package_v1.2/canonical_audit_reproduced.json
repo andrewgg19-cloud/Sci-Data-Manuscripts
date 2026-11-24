@@ -1,0 +1,671 @@
+{
+  "n_requested": 15,
+  "n_used": 15,
+  "zero_source": "local data file: /workspace/scratch/586fd7e955cf/tmp/package_stage/Riemann_German_function_reproducibility_package_v1.2/critical_line_zero_ordinates_first_15.json",
+  "ordinate_convention": "0 < gamma <= T",
+  "runtime": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "mpmath": "1.4.1"
+  },
+  "unfolding": "Nbar(T)=T/(2pi) log(T/(2pi))-T/(2pi)+7/8",
+  "gap_summary": {
+    "mean": 1.0209916006345494,
+    "median": 1.04705947092254,
+    "min": 0.5335555359451174,
+    "max": 1.5701512019685087
+  },
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0
+  ],
+  "null_beta0": [
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15
+  ],
+  "neutral": [
+    {
+      "epsilon": 0.25,
+      "edges": 0,
+      "mean_degree": 0.0,
+      "beta0": 15,
+      "lambda2": 0.0,
+      "lambda_max": 0.0
+    },
+    {
+      "epsilon": 0.5,
+      "edges": 0,
+      "mean_degree": 0.0,
+      "beta0": 15,
+      "lambda2": 0.0,
+      "lambda_max": 0.0
+    },
+    {
+      "epsilon": 0.75,
+      "edges": 0,
+      "mean_degree": 0.0,
+      "beta0": 15,
+      "lambda2": 0.0,
+      "lambda_max": 0.0
+    },
+    {
+      "epsilon": 1.0,
+      "edges": 14,
+      "mean_degree": 1.8666666666666667,
+      "beta0": 1,
+      "lambda2": 0.04370479853238848,
+      "lambda_max": 3.9562952014676114
+    },
+    {
+      "epsilon": 1.25,
+      "edges": 14,
+      "mean_degree": 1.8666666666666667,
+      "beta0": 1,
+      "lambda2": 0.04370479853238848,
+      "lambda_max": 3.9562952014676114
+    },
+    {
+      "epsilon": 1.5,
+      "edges": 14,
+      "mean_degree": 1.8666666666666667,
+      "beta0": 1,
+      "lambda2": 0.04370479853238848,
+      "lambda_max": 3.9562952014676114
+    },
+    {
+      "epsilon": 1.75,
+      "edges": 14,
+      "mean_degree": 1.8666666666666667,
+      "beta0": 1,
+      "lambda2": 0.04370479853238848,
+      "lambda_max": 3.9562952014676114
+    },
+    {
+      "epsilon": 2.0,
+      "edges": 27,
+      "mean_degree": 3.6,
+      "beta0": 1,
+      "lambda2": 0.2157775772849005,
+      "lambda_max": 6.093350126410596
+    }
+  ],
+  "riemann": [
+    {
+      "epsilon": 0.25,
+      "edges": 0,
+      "mean_degree": 0.0,
+      "beta0": 15,
+      "lambda2": 0.0,
+      "lambda_max": 0.0
+    },
+    {
+      "epsilon": 0.5,
+      "edges": 0,
+      "mean_degree": 0.0,
+      "beta0": 15,
+      "lambda2": 0.0,
+      "lambda_max": 0.0
+    },
+    {
+      "epsilon": 0.75,
+      "edges": 4,
+      "mean_degree": 0.5333333333333333,
+      "beta0": 11,
+      "lambda2": 0.0,
+      "lambda_max": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "edges": 6,
+      "mean_degree": 0.8,
+      "beta0": 9,
+      "lambda2": 0.0,
+      "lambda_max": 3.0
+    },
+    {
+      "epsilon": 1.25,
+      "edges": 10,
+      "mean_degree": 1.3333333333333333,
+      "beta0": 5,
+      "lambda2": 0.0,
+      "lambda_max": 3.7320508075688767
+    },
+    {
+      "epsilon": 1.5,
+      "edges": 13,
+      "mean_degree": 1.7333333333333334,
+      "beta0": 2,
+      "lambda2": 0.0,
+      "lambda_max": 3.9498558243636475
+    },
+    {
+      "epsilon": 1.75,
+      "edges": 17,
+      "mean_degree": 2.2666666666666666,
+      "beta0": 1,
+      "lambda2": 0.06681770926504838,
+      "lambda_max": 4.8651350137418605
+    },
+    {
+      "epsilon": 2.0,
+      "edges": 20,
+      "mean_degree": 2.6666666666666665,
+      "beta0": 1,
+      "lambda2": 0.08977286952649684,
+      "lambda_max": 5.609102152048787
+    }
+  ],
+  "mirror_adjunction": {
+    "operator_name": "R_adjoint",
+    "definition": "R_adjoint(beta+i*gamma)=1-conjugate(beta+i*gamma)=(1-beta)+i*gamma",
+    "fixed_locus": "Re(rho)=1/2",
+    "fixed_condition": "rho=R_adjoint(rho) iff Re(rho)=1/2",
+    "listed_critical_line_zeros_tested": 15,
+    "max_listed_zero_linear_defect_abs_2beta_minus_1": 0.0,
+    "listed_zero_mirror_energy_sum": 0.0,
+    "interpretation": "All listed critical-line zeros are fixed by R_adjoint. This checks the listed data only; it does not exclude unlisted off-line zeros.",
+    "off_line_pair_rule": "A hypothetical off-line zero beta+i*gamma with beta!=1/2 is mirrored to (1-beta)+i*gamma and has positive mirror defect.",
+    "sample_candidate": {
+      "rho": {
+        "beta": 0.7,
+        "gamma": 20.0
+      },
+      "R_adjoint_rho": {
+        "beta": 0.30000000000000004,
+        "gamma": 20.0
+      },
+      "fixed_by_mirror": false,
+      "linear_defect_abs_2beta_minus_1": 0.3999999999999999,
+      "quadratic_mirror_defect": 0.15999999999999992
+    }
+  },
+  "status": "finite_numerical_audit_not_RH_proof",
+  "monte_carlo_selector": {
+    "name": "finite_Monte_Carlo_selector",
+    "samples": 2000,
+    "seed": 2510,
+    "observable": "beta0 of the one-dimensional Rips graph over unfolded ordinates",
+    "selection_rule": "For each predeclared null, choose the epsilon with the smallest Monte Carlo left-tail probability P(beta0_null <= beta0_observed). All epsilon summaries are reported to avoid hidden selection.",
+    "observed_beta0_by_epsilon": [
+      {
+        "epsilon": 0.25,
+        "beta0": 15
+      },
+      {
+        "epsilon": 0.5,
+        "beta0": 15
+      },
+      {
+        "epsilon": 0.75,
+        "beta0": 11
+      },
+      {
+        "epsilon": 1.0,
+        "beta0": 9
+      },
+      {
+        "epsilon": 1.25,
+        "beta0": 5
+      },
+      {
+        "epsilon": 1.5,
+        "beta0": 2
+      },
+      {
+        "epsilon": 1.75,
+        "beta0": 1
+      },
+      {
+        "epsilon": 2.0,
+        "beta0": 1
+      }
+    ],
+    "null_models": {
+      "uniform_unfolded_range": {
+        "definition": "Draw n points uniformly over the same unfolded interval and sort them.",
+        "epsilon_summaries": [
+          {
+            "epsilon": 0.25,
+            "observed_beta0": 15,
+            "null_mean_beta0": 11.725,
+            "null_std_beta0": 1.4175259044705046,
+            "null_q05_beta0": 9.0,
+            "null_q50_beta0": 12.0,
+            "null_q95_beta0": 14.0,
+            "p_null_beta0_le_observed": 1.0,
+            "p_null_beta0_ge_observed": 0.013493253373313344
+          },
+          {
+            "epsilon": 0.5,
+            "observed_beta0": 15,
+            "null_mean_beta0": 9.226,
+            "null_std_beta0": 1.4730950425896667,
+            "null_q05_beta0": 7.0,
+            "null_q50_beta0": 9.0,
+            "null_q95_beta0": 12.0,
+            "p_null_beta0_le_observed": 1.0,
+            "p_null_beta0_ge_observed": 0.0004997501249375312
+          },
+          {
+            "epsilon": 0.75,
+            "observed_beta0": 11,
+            "null_mean_beta0": 7.237,
+            "null_std_beta0": 1.350830622870922,
+            "null_q05_beta0": 5.0,
+            "null_q50_beta0": 7.0,
+            "null_q95_beta0": 9.0,
+            "p_null_beta0_le_observed": 0.999000499750125,
+            "p_null_beta0_ge_observed": 0.006496751624187906
+          },
+          {
+            "epsilon": 1.0,
+            "observed_beta0": 9,
+            "null_mean_beta0": 5.6995,
+            "null_std_beta0": 1.2107570839595279,
+            "null_q05_beta0": 4.0,
+            "null_q50_beta0": 6.0,
+            "null_q95_beta0": 8.0,
+            "p_null_beta0_le_observed": 1.0,
+            "p_null_beta0_ge_observed": 0.0079960019990005
+          },
+          {
+            "epsilon": 1.25,
+            "observed_beta0": 5,
+            "null_mean_beta0": 4.5465,
+            "null_std_beta0": 1.0974698036779837,
+            "null_q05_beta0": 3.0,
+            "null_q50_beta0": 5.0,
+            "null_q95_beta0": 6.0,
+            "p_null_beta0_le_observed": 0.8085957021489255,
+            "p_null_beta0_ge_observed": 0.5082458770614693
+          },
+          {
+            "epsilon": 1.5,
+            "observed_beta0": 2,
+            "null_mean_beta0": 3.666,
+            "null_std_beta0": 0.9858650845741983,
+            "null_q05_beta0": 2.0,
+            "null_q50_beta0": 4.0,
+            "null_q95_beta0": 5.0,
+            "p_null_beta0_le_observed": 0.10944527736131934,
+            "p_null_beta0_ge_observed": 0.991504247876062
+          },
+          {
+            "epsilon": 1.75,
+            "observed_beta0": 1,
+            "null_mean_beta0": 2.954,
+            "null_std_beta0": 0.8850286084748388,
+            "null_q05_beta0": 2.0,
+            "null_q50_beta0": 3.0,
+            "null_q95_beta0": 4.0,
+            "p_null_beta0_le_observed": 0.04297851074462768,
+            "p_null_beta0_ge_observed": 1.0
+          },
+          {
+            "epsilon": 2.0,
+            "observed_beta0": 1,
+            "null_mean_beta0": 2.45,
+            "null_std_beta0": 0.8085956427391435,
+            "null_q05_beta0": 1.0,
+            "null_q50_beta0": 2.0,
+            "null_q95_beta0": 4.0,
+            "p_null_beta0_le_observed": 0.10844577711144428,
+            "p_null_beta0_ge_observed": 1.0
+          }
+        ],
+        "selected_epsilon_by_min_left_tail_probability": 1.75,
+        "selected_p_null_beta0_le_observed": 0.04297851074462768,
+        "selected_p_bonferroni_over_epsilon_grid": 0.34382808595702147,
+        "multiple_selection_note": "The selected raw tail probability is the minimum over the epsilon grid. The Bonferroni value is the conservative family-wise correction for that selection."
+      },
+      "bootstrap_rescaled_empirical_gaps": {
+        "definition": "Resample observed unfolded gaps with replacement and rescale them to the same total unfolded range. This is data-adaptive and exploratory.",
+        "epsilon_summaries": [
+          {
+            "epsilon": 0.25,
+            "observed_beta0": 15,
+            "null_mean_beta0": 15.0,
+            "null_std_beta0": 0.0,
+            "null_q05_beta0": 15.0,
+            "null_q50_beta0": 15.0,
+            "null_q95_beta0": 15.0,
+            "p_null_beta0_le_observed": 1.0,
+            "p_null_beta0_ge_observed": 1.0
+          },
+          {
+            "epsilon": 0.5,
+            "observed_beta0": 15,
+            "null_mean_beta0": 14.8825,
+            "null_std_beta0": 0.37384974497237256,
+            "null_q05_beta0": 14.0,
+            "null_q50_beta0": 15.0,
+            "null_q95_beta0": 15.0,
+            "p_null_beta0_le_observed": 1.0,
+            "p_null_beta0_ge_observed": 0.9005497251374313
+          },
+          {
+            "epsilon": 0.75,
+            "observed_beta0": 11,
+            "null_mean_beta0": 11.503,
+            "null_std_beta0": 1.231969916409272,
+            "null_q05_beta0": 10.0,
+            "null_q50_beta0": 11.0,
+            "null_q95_beta0": 13.049999999999955,
+            "p_null_beta0_le_observed": 0.5052473763118441,
+            "p_null_beta0_ge_observed": 0.7931034482758621
+          },
+          {
+            "epsilon": 1.0,
+            "observed_beta0": 9,
+            "null_mean_beta0": 8.7545,
+            "null_std_beta0": 1.1361668836899783,
+            "null_q05_beta0": 7.0,
+            "null_q50_beta0": 9.0,
+            "null_q95_beta0": 11.0,
+            "p_null_beta0_le_observed": 0.7411294352823589,
+            "p_null_beta0_ge_observed": 0.6021989005497251
+          },
+          {
+            "epsilon": 1.25,
+            "observed_beta0": 5,
+            "null_mean_beta0": 4.352,
+            "null_std_beta0": 1.2429273648194845,
+            "null_q05_beta0": 2.0,
+            "null_q50_beta0": 4.0,
+            "null_q95_beta0": 6.0,
+            "p_null_beta0_le_observed": 0.8210894552723638,
+            "p_null_beta0_ge_observed": 0.47126436781609193
+          },
+          {
+            "epsilon": 1.5,
+            "observed_beta0": 2,
+            "null_mean_beta0": 1.8645,
+            "null_std_beta0": 0.9367916199826057,
+            "null_q05_beta0": 1.0,
+            "null_q50_beta0": 2.0,
+            "null_q95_beta0": 4.0,
+            "p_null_beta0_le_observed": 0.7456271864067966,
+            "p_null_beta0_ge_observed": 0.5497251374312844
+          },
+          {
+            "epsilon": 1.75,
+            "observed_beta0": 1,
+            "null_mean_beta0": 1.0495,
+            "null_std_beta0": 0.25314381464979097,
+            "null_q05_beta0": 1.0,
+            "null_q50_beta0": 1.0,
+            "null_q95_beta0": 1.0,
+            "p_null_beta0_le_observed": 0.9580209895052474,
+            "p_null_beta0_ge_observed": 1.0
+          },
+          {
+            "epsilon": 2.0,
+            "observed_beta0": 1,
+            "null_mean_beta0": 1.0005,
+            "null_std_beta0": 0.022360679774997904,
+            "null_q05_beta0": 1.0,
+            "null_q50_beta0": 1.0,
+            "null_q95_beta0": 1.0,
+            "p_null_beta0_le_observed": 0.9995002498750625,
+            "p_null_beta0_ge_observed": 1.0
+          }
+        ],
+        "selected_epsilon_by_min_left_tail_probability": 0.75,
+        "selected_p_null_beta0_le_observed": 0.5052473763118441,
+        "selected_p_bonferroni_over_epsilon_grid": 1.0,
+        "multiple_selection_note": "The selected raw tail probability is the minimum over the epsilon grid. The Bonferroni value is the conservative family-wise correction for that selection."
+      }
+    },
+    "interpretation": "Monte Carlo estimates finite null probabilities under specified sampling assumptions. It does not enumerate all possible zeros, does not certify Z_off(T)=empty, and does not prove RH."
+  },
+  "prime_limit_detector": {
+    "name": "finite_prime_limit_detector",
+    "prime_limit_P": 100,
+    "prime_count_pi_P": 25,
+    "prime_power_term_count": 35,
+    "prime_sum_limit_Sigma_pi_P": 1060,
+    "bounded_prime_sum_limit": 0.9990574929311969,
+    "bounded_prime_sum_definition": "Sigma_hat_pi(P)=Sigma_pi(P)/(1+Sigma_pi(P)), Sigma_pi(P)=sum_{p<=P} p",
+    "prime_sum_PNT_scale": 1085.7362047581294,
+    "prime_sum_normalized_by_PNT_scale": 0.9762960794294756,
+    "prime_sum_growth_note": "The raw sum Sigma_pi(P)=sum_{p<=P} p grows without bound as P increases. The bounded value Sigma_hat_pi(P) is included to keep the finite detector from diverging numerically; it tends to 1 and is not an independent proof channel.",
+    "Chebyshev_theta_P": 83.72839039906393,
+    "Chebyshev_psi_P": 94.0453112293574,
+    "canonical_prime_power_sum": "psi(P)=sum_{p^m<=P} log(p)=sum_{n<=P} Lambda(n)",
+    "finite_angular_prime_sum": "A_P(t)=sum_{p^m<=P} log(p)/sqrt(p^m) * cos(t*m*log(p))",
+    "angular_cutoff_note": "A_P uses a sharp unsmoothed cutoff. A proof-level explicit-formula argument requires an admissible test function or smoothing and all corresponding archimedean and trivial-zero terms.",
+    "angular_field_on_listed_zeros": {
+      "mean": -3.6949544669184933,
+      "std": 0.4645802151616389,
+      "min": -4.537994771379411,
+      "max": -3.036830954400996,
+      "centered_l2_norm": 1.7382999938085733
+    },
+    "prime_power_terms_preview": [
+      {
+        "n": 2,
+        "p": 2,
+        "m": 1,
+        "Lambda_n": 0.6931471805599453
+      },
+      {
+        "n": 3,
+        "p": 3,
+        "m": 1,
+        "Lambda_n": 1.0986122886681098
+      },
+      {
+        "n": 4,
+        "p": 2,
+        "m": 2,
+        "Lambda_n": 0.6931471805599453
+      },
+      {
+        "n": 5,
+        "p": 5,
+        "m": 1,
+        "Lambda_n": 1.6094379124341003
+      },
+      {
+        "n": 7,
+        "p": 7,
+        "m": 1,
+        "Lambda_n": 1.9459101490553132
+      },
+      {
+        "n": 8,
+        "p": 2,
+        "m": 3,
+        "Lambda_n": 0.6931471805599453
+      },
+      {
+        "n": 9,
+        "p": 3,
+        "m": 2,
+        "Lambda_n": 1.0986122886681098
+      },
+      {
+        "n": 11,
+        "p": 11,
+        "m": 1,
+        "Lambda_n": 2.3978952727983707
+      },
+      {
+        "n": 13,
+        "p": 13,
+        "m": 1,
+        "Lambda_n": 2.5649493574615367
+      },
+      {
+        "n": 16,
+        "p": 2,
+        "m": 4,
+        "Lambda_n": 0.6931471805599453
+      },
+      {
+        "n": 17,
+        "p": 17,
+        "m": 1,
+        "Lambda_n": 2.833213344056216
+      },
+      {
+        "n": 19,
+        "p": 19,
+        "m": 1,
+        "Lambda_n": 2.9444389791664403
+      }
+    ],
+    "Chebyshev_error_diagnostic": {
+      "name": "finite_Chebyshev_error_diagnostic",
+      "definition": "B_epsilon(P)=max_{2<=x<=P, x integer} |psi(x)-x|/x^(1/2+epsilon)",
+      "values": [
+        {
+          "epsilon": 0.1,
+          "B_epsilon_P": 0.8622013167335065,
+          "argmax_integer_x": 2,
+          "ratio_at_P": 0.3757154613930685,
+          "tail_interval": [
+            50,
+            100
+          ],
+          "tail_max_ratio": 0.4221925042098447,
+          "tail_argmax_integer_x": 96
+        },
+        {
+          "epsilon": 0.25,
+          "B_epsilon_P": 0.7770593355697397,
+          "argmax_integer_x": 2,
+          "ratio_at_P": 0.1883037927265862,
+          "tail_interval": [
+            50,
+            100
+          ],
+          "tail_max_ratio": 0.21622136646456383,
+          "tail_argmax_integer_x": 58
+        },
+        {
+          "epsilon": 0.5,
+          "B_epsilon_P": 0.6534264097200273,
+          "argmax_integer_x": 2,
+          "ratio_at_P": 0.05954688770642605,
+          "tail_interval": [
+            50,
+            100
+          ],
+          "tail_max_ratio": 0.07835047058671564,
+          "tail_argmax_integer_x": 58
+        }
+      ],
+      "interpretation": "This finite maximum is a diagnostic only. RH requires, for every epsilon>0, a bound uniform as P tends to infinity."
+    },
+    "limit_interpretation": "This is a finite prime cutoff. A RH-level statement would require a uniform limiting/error theorem as P and x tend to infinity, not only a detected finite prime sum.",
+    "RH_connection": "The standard arithmetic route is through Chebyshev/von Mangoldt sums and the explicit formula linking primes and nontrivial zeros.",
+    "global_RH_proved": false
+  },
+  "Z_off_finite_audit": {
+    "predicate": "Z_off_plus(T)={rho=beta+i*gamma: zeta(rho)=0, 0<beta<1, beta!=1/2, 0<gamma<=T}",
+    "ordinate_convention": "0 < gamma <= T",
+    "T": 50.0,
+    "critical_line_zeros_in_local_data_up_to_T": 10,
+    "last_local_zero_up_to_T": 49.7738324776723,
+    "next_local_zero_above_T": 52.970321477714464,
+    "supplied_total_strip_count_N_plus_T": 10,
+    "certification_source": "Externally supplied positive-ordinate count N_plus(50)=10; not authenticated by this script",
+    "Z_off_T_empty_conditional_on_supplied_count": true,
+    "Z_off_T_empty_certified": true,
+    "certification_scope": "The program checks equality against a user-supplied total count; it does not authenticate the external source.",
+    "certification_rule": "Conditional on a valid externally supplied total count N_plus(T), Z_off_plus(T) is empty when that count equals the number of verified critical-line zeros with 0<gamma<=T.",
+    "German_function": {
+      "name": "G_German(T)",
+      "display_name": "Funci\u00f3n Germ\u00e1n",
+      "definition": "G_German_plus(T)=N_strip_plus(T)-N_critical_line_plus(T)=#Z_off_plus(T), using 0<gamma<=T",
+      "multiplicity_convention": "N_strip(T) and N_critical_line(T) must be counted with the same multiplicity and positive-ordinate convention. A local data file contains listed ordinates, not an authenticated total strip count.",
+      "value": 0,
+      "interpretation": "Conditional on a valid external N_strip_plus(T), G_German_plus(T)=0 implies Z_off_plus(T)=empty for that finite T. Without that external count, the value is not computable from critical-line zeros alone.",
+      "RH_equivalence": "RH is equivalent to G_German_plus(T)=0 for every finite T, using the same positive-ordinate and multiplicity conventions.",
+      "prime_limit_extension": {
+        "name": "G_German(T;P)",
+        "display_name": "Funci\u00f3n Germ\u00e1n primo-limitada",
+        "definition": "G_German(T;P)=(N_strip(T)-N_critical_line(T), Sigma_pi(P), Sigma_hat_pi(P), psi(P), A_P restricted to the listed zeros)",
+        "prime_cutoff_P": 100,
+        "prime_count_pi_P": 25,
+        "prime_sum_limit_Sigma_pi_P": 1060,
+        "bounded_prime_sum_limit": 0.9990574929311969,
+        "bounded_prime_sum_definition": "Sigma_hat_pi(P)=Sigma_pi(P)/(1+Sigma_pi(P)), Sigma_pi(P)=sum_{p<=P} p",
+        "prime_sum_normalized_by_PNT_scale": 0.9762960794294756,
+        "prime_power_term_count": 35,
+        "Chebyshev_psi_P": 94.0453112293574,
+        "finite_angular_prime_sum": "A_P(t)=sum_{p^m<=P} log(p)/sqrt(p^m) * cos(t*m*log(p))",
+        "angular_centered_l2_norm": 1.7382999938085733,
+        "role": "The prime cutoff P acts as the detected finite arithmetic limit/channel. Sigma_pi(P) records the user's prime-sum limit, while Sigma_hat_pi(P) keeps that channel bounded. The zero-count component remains the only finite certificate for Z_off(T)=empty.",
+        "limit_requirement": "A global RH argument would require a theorem controlling this prime channel uniformly as P and T increase, together with the whole-strip zero count. The finite value is not enough."
+      }
+    },
+    "German_mirror_adjoint_function": {
+      "name": "G_German_star(T)",
+      "display_name": "Funci\u00f3n Germ\u00e1n espejo-adjunta",
+      "mirror_operator": "R_adjoint(rho)=1-conjugate(rho)",
+      "definition": "G_German_star(T)=sum_{rho in Z_strip(T)} |rho-R_adjoint(rho)|^2=sum_{rho in Z_strip(T)} |2*Re(rho)-1|^2",
+      "value": 0,
+      "interpretation": "G_German_star(T)=0 iff every zero in the finite strip segment is fixed by the adjoint mirror, hence lies on Re(s)=1/2. It cannot be computed from listed critical-line zeros alone unless a valid external total strip enumeration/count is supplied."
+    },
+    "Mobius_start_marker": {
+      "name": "M_German(T)",
+      "coordinate_model": "Finite Mobius-marker model: write v=beta-1/2 and identify the two ends of a finite band by (0,v)~(1,-v).",
+      "start_mark": {
+        "height_interval": "0 < gamma <= T",
+        "first_listed_critical_line_zero": 14.134725141734695
+      },
+      "finite_end_mark": {
+        "T": 50.0,
+        "last_listed_critical_line_zero_up_to_T": 49.7738324776723,
+        "next_listed_critical_line_zero_above_T": 52.970321477714464
+      },
+      "center_line_marker_rule": "On v=0, the Mobius endpoint is identified with the initial point; an oriented transverse marker returns to the same orientation only after two turns.",
+      "off_line_marker_rule": "A point with v!=0 is sent to the opposite side under the fold. The fold pairs off-line candidates; it does not remove them.",
+      "listed_center_line_marker_defect_sum": 0.0,
+      "arithmetic_closure_certified_for_T": true,
+      "closure_certification_rule": "The finite path is arithmetically closed only when the independent whole-strip count equals the listed critical-line count, so G_German(T)=0.",
+      "interpretation": "Finding the marked endpoint again is a finite closure marker. For RH, this marker must close with no off-line remainder for every finite T; a single finite closure is not a global proof."
+    },
+    "German_bridge_lemma": {
+      "name": "German_prime_zero_bridge_lemma",
+      "display_name": "Lema puente de la funci\u00f3n Germ\u00e1n",
+      "status": "NV_unproved_methodological_lemma",
+      "finite_statement": "For a finite height T and prime cutoff P, compare the zero-count remainder G_German(T) with the prime channel (Sigma_pi(P), Sigma_hat_pi(P), psi(P), A_P).",
+      "proposed_bridge": "If one proves a uniform error theorem showing that the bounded prime channel forces the whole-strip count to equal the critical-line count for every finite T, then G_German(T)=0 for all T would follow.",
+      "current_finite_inputs": {
+        "T": 50.0,
+        "G_German_T": 0,
+        "Z_off_T_empty_certified_from_independent_count": true,
+        "prime_cutoff_P": 100,
+        "Sigma_pi_P": 1060,
+        "Sigma_hat_pi_P": 0.9990574929311969,
+        "psi_P": 94.0453112293574
+      },
+      "verified_in_this_run": "Only the finite arithmetic values and the optional external finite count comparison are evaluated.",
+      "not_verified": [
+        "No theorem is proved here that Sigma_pi(P) or Sigma_hat_pi(P) determines all zeta zeros.",
+        "No uniform P,T error bound is proved.",
+        "No off-line mirror pair is excluded by the prime channel alone.",
+        "No global quantifier over every finite T is discharged."
+      ],
+      "proof_obligation": "Prove a non-circular implication from the prime-limit data to N_strip(T)=N_critical_line(T), uniformly over T. This is the missing bridge between the finite detector and RH.",
+      "global_RH_proved": false
+    },
+    "local_data_alone_certifies_Z_off_T_empty": false,
+    "global_RH_proved": false
+  }
+}

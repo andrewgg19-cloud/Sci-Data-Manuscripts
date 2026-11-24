@@ -1,0 +1,308 @@
+{
+  "status": "completed",
+  "scope": "Prueba cosmologica acotada: forma del diagrama de Hubble de Pantheon+. No prueba una teoria unificada ni cuantizacion de la gravedad.",
+  "data": {
+    "repository": "https://github.com/PantheonPlusSH0ES/DataRelease",
+    "data_url": "https://github.com/PantheonPlusSH0ES/DataRelease/blob/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat",
+    "covariance_url": "https://github.com/PantheonPlusSH0ES/DataRelease/blob/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES_STAT%2BSYS.cov",
+    "source_git_blob_data": "cce857db0c15e9ce7a0e0ce77452b6ff62af969a",
+    "source_git_blob_covariance": "d1a1498154e7ba826df14bdbef35ebcb7f5efba1",
+    "local_data_sha256": "9088c5d47dab6e54624b4a16a956ff798bdd3e546cf0b26621c2bb53e574555e",
+    "local_covariance_sha256": "59f1954300252f64ee35bdc29c83ca8d2cafea7b3e114fcd95cf3a605f8d7f2e",
+    "rows_original": 1701,
+    "rows_after_zHD_gt_0.01": 1590,
+    "unique_CID_after_cut": 1473,
+    "train_rows": 1270,
+    "holdout_rows": 320,
+    "train_unique_CID": 1178,
+    "holdout_unique_CID": 295,
+    "covariance": "STAT+SYS completa, incluida la correlacion entre particiones",
+    "covariance_max_asymmetry_before_symmetrizing": 3.0000000000038676e-08,
+    "covariance_symmetrization": "C <- (C + C^T)/2 por redondeo decimal"
+  },
+  "fixed_protocol": {
+    "scale_coordinate": "s = ln(1+z)",
+    "transition_redshift": 0.5,
+    "transition_width_in_s": 0.12,
+    "split": "Cada quinto CID tras ordenar por mediana de z se reserva",
+    "success_criterion": "Delta BIC < -2, mejora de chi2 reservado > 2 y mejor chi2 reservado que wCDM de igual numero de parametros"
+  },
+  "models": {
+    "lcdm": "E^2 = Omega_m(1+z)^3 + 1-Omega_m",
+    "wcdm": "rho_X/rho_X0 = exp[3(1+w)s]",
+    "multiscale": "d ln(rho_X)/ds = alpha_X(s) = A g(s), g(s)=[1-tanh((s-s_t)/Delta_s)]/2"
+  },
+  "full_fit": {
+    "lcdm": {
+      "model": "lcdm",
+      "shape_parameters": {
+        "Omega_m": 0.33157595961427205
+      },
+      "nuisance_M": -19.351381249021205,
+      "chi2": 1402.9192943583357,
+      "n": 1590,
+      "k": 2,
+      "chi2_per_datum": 0.8823391788417205,
+      "AICc": 1406.9268557950086,
+      "BIC": 1417.6622729487642,
+      "normalized_operator_singular_values": [
+        1.3561238187449547,
+        0.40115855747148244
+      ],
+      "spectral_condition_number": 3.380518235215159,
+      "parameter_sigma_linearized": {
+        "Omega_m": 0.018126565093885057,
+        "M": 0.006924369369937543
+      },
+      "parameter_correlation": [
+        [
+          1.0000000000000002,
+          0.8390718117674001
+        ],
+        [
+          0.8390718117673991,
+          0.9999999999999999
+        ]
+      ]
+    },
+    "wcdm": {
+      "model": "wcdm",
+      "shape_parameters": {
+        "Omega_m": 0.28823381738397413,
+        "w": -0.8940602074984745
+      },
+      "nuisance_M": -19.347463950833287,
+      "chi2": 1402.4669674054494,
+      "n": 1590,
+      "k": 3,
+      "chi2_per_datum": 0.8820546964814148,
+      "AICc": 1408.4820998140244,
+      "BIC": 1424.5814352910922,
+      "normalized_operator_singular_values": [
+        1.6734538396387721,
+        0.4356651648658086,
+        0.09873252108954078
+      ],
+      "spectral_condition_number": 16.949368062030064,
+      "parameter_sigma_linearized": {
+        "Omega_m": 0.06994641141100129,
+        "w": 0.14798091770881708,
+        "M": 0.008893734955246702
+      },
+      "parameter_correlation": [
+        [
+          0.9999999999999998,
+          -0.9616976390485766,
+          -0.4467768138633783
+        ],
+        [
+          -0.9616976390485868,
+          0.9999999999999999,
+          0.645672891269559
+        ],
+        [
+          -0.4467768138634202,
+          0.6456728912695954,
+          1.0
+        ]
+      ]
+    },
+    "multiscale": {
+      "model": "multiscale",
+      "shape_parameters": {
+        "Omega_m": 0.29917644205419336,
+        "A": 0.2667762919498933
+      },
+      "nuisance_M": -19.34755258937594,
+      "chi2": 1402.4243297665191,
+      "n": 1590,
+      "k": 3,
+      "chi2_per_datum": 0.8820278803563013,
+      "AICc": 1408.4394621750941,
+      "BIC": 1424.538797652162,
+      "normalized_operator_singular_values": [
+        1.6724483799725787,
+        0.428305148263477,
+        0.13953894186963176
+      ],
+      "spectral_condition_number": 11.985531476475659,
+      "parameter_sigma_linearized": {
+        "Omega_m": 0.04806078199886719,
+        "A": 0.341844473649458,
+        "M": 0.008635045702698217
+      },
+      "parameter_correlation": [
+        [
+          1.0,
+          -0.9198055702911897,
+          -0.3117071957353537
+        ],
+        [
+          -0.9198055702911844,
+          1.0000000000000002,
+          0.6179187892401172
+        ],
+        [
+          -0.31170719573534017,
+          0.6179187892401061,
+          1.0
+        ]
+      ]
+    }
+  },
+  "train_fit": {
+    "lcdm": {
+      "model": "lcdm",
+      "shape_parameters": {
+        "Omega_m": 0.33408135862293237
+      },
+      "nuisance_M": -19.346364555726254,
+      "chi2": 1128.1318011040958,
+      "n": 1270,
+      "k": 2,
+      "chi2_per_datum": 0.8882927567748785,
+      "AICc": 1132.1412722958873,
+      "BIC": 1142.4253454630011,
+      "normalized_operator_singular_values": [
+        1.3536194921353804,
+        0.4095293280232254
+      ],
+      "spectral_condition_number": 3.305305382325667,
+      "parameter_sigma_linearized": {
+        "Omega_m": 0.019843210531307255,
+        "M": 0.007635149290820835
+      },
+      "parameter_correlation": [
+        [
+          1.0,
+          0.832285729488846
+        ],
+        [
+          0.8322857294888453,
+          0.9999999999999999
+        ]
+      ]
+    },
+    "wcdm": {
+      "model": "wcdm",
+      "shape_parameters": {
+        "Omega_m": 0.32283314656253637,
+        "w": -0.9699487288832462
+      },
+      "nuisance_M": -19.34525535243904,
+      "chi2": 1128.1045505907114,
+      "n": 1270,
+      "k": 3,
+      "chi2_per_datum": 0.8882712996777254,
+      "AICc": 1134.123507936683,
+      "BIC": 1149.5448671290692,
+      "normalized_operator_singular_values": [
+        1.6729439389143026,
+        0.4365051794874455,
+        0.1035461516934842
+      ],
+      "spectral_condition_number": 16.15650520616668,
+      "parameter_sigma_linearized": {
+        "Omega_m": 0.07011930060018104,
+        "w": 0.17404792961139776,
+        "M": 0.009977863210103768
+      },
+      "parameter_correlation": [
+        [
+          0.9999999999999998,
+          -0.9578299801474882,
+          -0.43951182781718895
+        ],
+        [
+          -0.9578299801474952,
+          1.0000000000000002,
+          0.6484797453956301
+        ],
+        [
+          -0.4395118278172144,
+          0.6484797453956515,
+          0.9999999999999999
+        ]
+      ]
+    },
+    "multiscale": {
+      "model": "multiscale",
+      "shape_parameters": {
+        "Omega_m": 0.3250868742232087,
+        "A": 0.07831581720570104
+      },
+      "nuisance_M": -19.345281310346163,
+      "chi2": 1128.1013890180388,
+      "n": 1270,
+      "k": 3,
+      "chi2_per_datum": 0.8882688102504243,
+      "AICc": 1134.1203463640104,
+      "BIC": 1149.5417055563967,
+      "normalized_operator_singular_values": [
+        1.6720655030600255,
+        0.4308203561684839,
+        0.13634798930488132
+      ],
+      "spectral_condition_number": 12.26322083357752,
+      "parameter_sigma_linearized": {
+        "Omega_m": 0.05255722517264364,
+        "A": 0.41857633356597596,
+        "M": 0.009708197172126317
+      },
+      "parameter_correlation": [
+        [
+          1.0,
+          -0.924210630565732,
+          -0.3277609918056953
+        ],
+        [
+          -0.924210630565729,
+          1.0,
+          0.6229964365416677
+        ],
+        [
+          -0.3277609918056859,
+          0.6229964365416597,
+          1.0
+        ]
+      ]
+    }
+  },
+  "holdout_conditional": {
+    "lcdm": {
+      "chi2": 276.05807121172677,
+      "n": 320,
+      "chi2_per_datum": 0.8626814725366462,
+      "conditional_residual_rms_mag": 0.15072208375180343,
+      "mean_conditional_sigma_mag": 0.1600913342386046
+    },
+    "wcdm": {
+      "chi2": 275.8767746854088,
+      "n": 320,
+      "chi2_per_datum": 0.8621149208919026,
+      "conditional_residual_rms_mag": 0.1507433018174056,
+      "mean_conditional_sigma_mag": 0.1600913342386046
+    },
+    "multiscale": {
+      "chi2": 275.85491506485033,
+      "n": 320,
+      "chi2_per_datum": 0.8620466095776573,
+      "conditional_residual_rms_mag": 0.15074338465610834,
+      "mean_conditional_sigma_mag": 0.1600913342386046
+    }
+  },
+  "verdict": {
+    "criterion_passed": false,
+    "delta_BIC_multiscale_minus_LCDM": 6.876524703397763,
+    "delta_AICc_multiscale_minus_LCDM": 1.5126063800855718,
+    "holdout_chi2_gain_LCDM_minus_multiscale": 0.20315614687643802,
+    "multiscale_beats_wCDM_on_holdout": true,
+    "statement": "La extension multiescala mejora parcialmente la prediccion reservada, pero no supera simultaneamente la penalizacion BIC y el competidor de igual complejidad."
+  },
+  "outputs": {
+    "figure": "/workspace/scratch/d9aa5327f093/tmp/reproduced_cosmology/figura_demostracion_capacidad_multiescala.png",
+    "binned_residuals": "/workspace/scratch/d9aa5327f093/tmp/reproduced_cosmology/demostracion_multiescala_residuos_binned.csv",
+    "fit_table": "/workspace/scratch/d9aa5327f093/tmp/reproduced_cosmology/demostracion_multiescala_ajustes.csv",
+    "json": "/workspace/scratch/d9aa5327f093/tmp/reproduced_cosmology/demostracion_multiescala_resultados.json"
+  }
+}

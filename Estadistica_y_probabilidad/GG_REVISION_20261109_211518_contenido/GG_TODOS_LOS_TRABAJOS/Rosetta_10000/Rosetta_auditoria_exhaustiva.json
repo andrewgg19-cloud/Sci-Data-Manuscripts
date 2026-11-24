@@ -1,0 +1,28 @@
+{
+  "alcance": "Auditoria exhaustiva de 10000 entradas del diccionario y coherencia temporal del WAV; NO demuestra decodificacion inversa del audio ni recuperacion unica de gamma.",
+  "entradas": 10000,
+  "indices_consecutivos": true,
+  "primos_estrictamente_crecientes": true,
+  "gamma_estrictamente_crecientes": true,
+  "frecuencia_min_hz": 110.0016784668,
+  "frecuencia_max_hz": 439.9194335938,
+  "pares_fase_frecuencia_exactamente_repetidos_al_redondeo_10_decimales": 0,
+  "ejemplos_colisiones": [],
+  "frecuencias_repetidas_al_redondeo_10_decimales": 0,
+  "distancia_min_descriptor_normalizado": 0.0002498126587587388,
+  "par_mas_proximo_indices_1_based": [
+    2534,
+    8782
+  ],
+  "descriptor": "(frecuencia/110,cos(fase),sin(fase)); distancia NO equivale a distancia entre señales PCM.",
+  "wav": "Rosetta_10000_base.wav",
+  "wav_sha256": "5b9a7974e753db6f01e542e2fcc2791c2e5d262bff9ff60410cbad8040dad9b5",
+  "wav_frecuencia_muestreo": 22050,
+  "wav_canales": 2,
+  "wav_bytes_por_muestra": 2,
+  "wav_muestras_por_canal": 29877867,
+  "muestras_esperadas": 29877867,
+  "duracion_s": 1355.005306122449,
+  "longitud_coincide_con_csv_y_pausas": true,
+  "pendiente": "Decodificar todas las notas sin usar el índice verdadero, con controles negativos y desplazamientos desconocidos; validar independencia de los datos de entrada."
+}

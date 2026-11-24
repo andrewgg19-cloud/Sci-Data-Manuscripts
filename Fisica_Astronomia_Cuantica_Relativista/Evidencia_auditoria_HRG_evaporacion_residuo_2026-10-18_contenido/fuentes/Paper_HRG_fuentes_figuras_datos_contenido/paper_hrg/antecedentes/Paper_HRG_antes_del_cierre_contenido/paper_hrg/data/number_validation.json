@@ -1,0 +1,68 @@
+{
+  "PDG2014": {
+    "maximum_relative_number_change_k96_to192_per_species": 0.0
+  },
+  "PDG2020": {
+    "maximum_relative_number_change_k96_to192_per_species": 0.0
+  },
+  "PDG2025": {
+    "maximum_relative_number_change_k96_to192_per_species": 0.0
+  },
+  "independent_number_integrals": [
+    {
+      "T_MeV": 150.0,
+      "pdg": 111,
+      "relative_difference": 1.1102230246251565e-16
+    },
+    {
+      "T_MeV": 150.0,
+      "pdg": 211,
+      "relative_difference": 2.220446049250313e-16
+    },
+    {
+      "T_MeV": 150.0,
+      "pdg": 2212,
+      "relative_difference": 4.440892098500626e-16
+    },
+    {
+      "T_MeV": 150.0,
+      "pdg": 2112,
+      "relative_difference": 2.220446049250313e-16
+    },
+    {
+      "T_MeV": 150.0,
+      "pdg": 13,
+      "relative_difference": 0.0
+    },
+    {
+      "T_MeV": 40.0,
+      "pdg": 111,
+      "relative_difference": 2.220446049250313e-16
+    },
+    {
+      "T_MeV": 40.0,
+      "pdg": 211,
+      "relative_difference": 2.220446049250313e-16
+    },
+    {
+      "T_MeV": 40.0,
+      "pdg": 2212,
+      "relative_difference": 4.440892098500626e-16
+    },
+    {
+      "T_MeV": 40.0,
+      "pdg": 2112,
+      "relative_difference": 2.220446049250313e-16
+    },
+    {
+      "T_MeV": 40.0,
+      "pdg": 13,
+      "relative_difference": 4.440892098500626e-16
+    }
+  ],
+  "max_independent_number_relative_difference": 4.440892098500626e-16,
+  "massless_photon_number_integral_relative_difference": 4.440892098500626e-16,
+  "baryon_antibaryon_symmetry": "Exact at mu=0 in the implementation; no nonzero net baryon yield generated.",
+  "particle_species_records_PDG2025": 3544,
+  "yield_suppression_orders_PDG2025": 7.035732277300985
+}

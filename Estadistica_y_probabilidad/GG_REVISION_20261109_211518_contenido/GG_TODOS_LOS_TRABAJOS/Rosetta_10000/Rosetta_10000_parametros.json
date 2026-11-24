@@ -1,0 +1,33 @@
+{
+  "version": "Rosetta 10000 extensión experimental, no equivalente al prototipo original de 13 pasos",
+  "fuente": "https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1",
+  "primeros_ceros": 10000,
+  "primo_final": 104729,
+  "sample_rate": 22050,
+  "gamma_sha256": "5ebd45e709380682d44c8105e94c7aa05ba861059497f0a8fa77a971aac13797",
+  "definiciones": "Frecuencia y fase del manuscrito; amplitud y duración normalizadas usando log(F_n), NO las fórmulas sin normalizar del prototipo de 13 pasos",
+  "pausa_s_aproximada": 0.01800453514739229,
+  "normalizacion": "Ganancia global por modalidad a pico .90, PCM16",
+  "resultados": [
+    {
+      "file": "Rosetta_10000_base.wav",
+      "duration_s": 1355.005306122449,
+      "samples_per_channel": 29877867,
+      "peak_pre_norm": 1.0021042249902368,
+      "gain": 0.8981101741276148,
+      "rms_first": 0.07037665786016142,
+      "rms_last": 0.3739193564906516,
+      "bytes": 119511512
+    },
+    {
+      "file": "Rosetta_10000_crescendo.wav",
+      "duration_s": 1355.005306122449,
+      "samples_per_channel": 29877867,
+      "peak_pre_norm": 1.1244652708761458,
+      "gain": 0.800380432646666,
+      "rms_first": 0.07037665786016142,
+      "rms_last": 0.3809016554771435,
+      "bytes": 119511512
+    }
+  ]
+}

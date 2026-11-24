@@ -1,0 +1,32 @@
+DOS ARTÍCULOS — ARXIV Y REVISTA
+Preparado: 19 de octubre de 2026
+Autor: Andrés Germán García
+
+QUÉ ESTÁ PREPARADO
+- Un ZIP de fuentes LaTeX por artículo para arXiv, con las figuras necesarias.
+- Los PDF originales y los suplementos verificados de Zenodo.
+- Una carta en inglés por artículo para EPJ Plus.
+- Dos borradores alternativos de solicitud de aval, personalizados por tema.
+- Metadatos para copiar al formulario y una lista de pendientes editoriales.
+
+PASO 1 — ARXIV
+Abre https://arxiv.org/user e inicia el primer envío en la categoría que corresponda científicamente. La propuesta para estos trabajos es astro-ph.CO. No completes el envío hasta revisar el PDF procesado y los metadatos.
+La solicitud de aval recuperada del correo, fechada el 25 de septiembre, corresponde a math.NT. No se localizó en la búsqueda realizada una solicitud para astro-ph. Ese enlace antiguo no se ha reutilizado.
+Si arXiv solicita aval para astro-ph.CO, conserva el correo nuevo. Hace falta insertar su enlace real en el borrador elegido. Los contactos propuestos tienen identidad y pertinencia temática verificadas; su habilitación actual para avalar en ese dominio NO está confirmada.
+Usa un contacto a la vez. Un aval es por dominio/categoría según arXiv, no una revisión por pares de cada artículo. Comprueba lo que efectivamente habilite tu cuenta.
+
+PASO 2 — REVISTA
+Recomendación inicial para ambos: The European Physical Journal Plus, como dos artículos relacionados, con explicación del contenido compartido en cada carta. Esta recomendación se basa en su alcance metodológico; no constituye un pronóstico de aceptación.
+Portal oficial: https://www.editorialmanager.com/epjp/default.aspx
+La modalidad de suscripción no tiene APC (cargo de procesamiento). El acceso abierto opcional sí tiene costo. No se ha elegido ni contratado una modalidad.
+Antes del envío faltan tus declaraciones reales de financiación, conflictos de interés y situación de evaluación en otras revistas. También falta completar los datos de autor y la adaptación editorial indicados en 04_REVISTA_PENDIENTES_ES.txt.
+El mismo manuscrito no debe estar sometido simultáneamente a dos revistas.
+
+QUÉ ARCHIVO VA A DÓNDE
+- arXiv: únicamente el ZIP terminado en arXiv_Source_EN.zip de ese artículo; seleccionar paper_en.tex.
+- Revista: PDF, fuentes editables, carta de presentación y suplemento, en las secciones correspondientes del formulario.
+- Las cartas y esta carpeta general no van dentro del archivo de fuentes de arXiv.
+- Los datos y código permanecen disponibles por sus DOI de Zenodo; al preparar una versión editorial se deben añadir esos enlaces a la sección de disponibilidad.
+
+ESTADO REAL
+No se ha enviado ningún correo ni manuscrito. Los ZIP están comprobados localmente. Las cartas son borradores para revisión, con campos claramente marcados. La publicación en Zenodo fue confirmada por el autor en esta conversación; no se logró verificar sus páginas públicas en la consulta automatizada.

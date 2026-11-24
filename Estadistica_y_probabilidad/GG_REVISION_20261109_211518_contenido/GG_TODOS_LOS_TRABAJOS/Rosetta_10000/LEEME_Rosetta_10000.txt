@@ -1,0 +1,26 @@
+ROSETTA 10 000 — TABLA ODLYZKO
+
+Extensión experimental de la sonificación Rosetta; no equivale al prototipo publicado de 13 símbolos y no demuestra RH.
+
+REQUISITOS: Windows, Python 3.12+ (también compatible con el intérprete Python 3.15 que has usado) y numpy.
+
+1) Extrae el ZIP a una carpeta propia, por ejemplo Descargas\Rosetta_10000.
+2) Abre PowerShell y ejecuta:
+   Set-Location "$env:USERPROFILE\Downloads\Rosetta_10000"
+   py -m pip install numpy
+   py .\reproducir_rosetta_10000_odlyzko.py
+
+El programa descargará automáticamente la tabla zeros1 de Odlyzko desde:
+https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1
+Si falla la conexión, descarga ese archivo directamente desde el navegador y guárdalo con nombre Odlyzko_zeros1_fuente.txt en la carpeta del generador.
+
+SALIDAS: Rosetta_10000_base.wav, Rosetta_10000_crescendo.wav,
+Rosetta_10000_partitura.csv, Rosetta_10000_gamma.txt y Rosetta_10000_parametros.json.
+
+Advertencias:
+- WAV de larga duración: cada uno ocupa aprox. 120 MB y dura ~22 min.
+- Se procesa por notas en dos pasadas, sin concatenar toda la señal en RAM.
+- La escala Fibonacci logarítmica normalizada es una decisión artística de la extensión.
+- Las 10 000 ordenadas provienen del archivo zeros1 al ejecutarlo correctamente.
+- No se incluyen aquí los dos WAV: el usuario debe generarlos localmente usando la tabla descargada.
+- Para escuchar: Invoke-Item .\Rosetta_10000_crescendo.wav

@@ -1,0 +1,98 @@
+{
+  "name": "Operational symmetry group test",
+  "scope": "validation/explanation only; not a German Gamma core module",
+  "input": "falsification_tests\\03_noise_random_walk.csv",
+  "columns": [
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "horizon": "x1 > 0",
+  "epsilon": 0.05,
+  "n_total": 300,
+  "n_horizon": 154,
+  "survival_rate": 0.5133333333333333,
+  "Sym_X": [
+    "C_sign",
+    "I",
+    "P_mirror_x",
+    "Rz_90",
+    "T_reverse"
+  ],
+  "Sym_H": [
+    "I",
+    "T_reverse"
+  ],
+  "preserved_symmetries": [
+    "I",
+    "T_reverse"
+  ],
+  "lost_by_horizon": [
+    "C_sign",
+    "P_mirror_x",
+    "Rz_90"
+  ],
+  "induced_by_horizon": [],
+  "broken_in_both": [],
+  "distances_X": [
+    {
+      "transform": "I",
+      "distance": 0.0,
+      "conserved": true
+    },
+    {
+      "transform": "P_mirror_x",
+      "distance": 0.0,
+      "conserved": true
+    },
+    {
+      "transform": "C_sign",
+      "distance": 0.0,
+      "conserved": true
+    },
+    {
+      "transform": "T_reverse",
+      "distance": 3.469446951953614e-17,
+      "conserved": true
+    },
+    {
+      "transform": "Rz_90",
+      "distance": 0.0,
+      "conserved": true
+    }
+  ],
+  "distances_H": [
+    {
+      "transform": "I",
+      "distance": 0.0,
+      "conserved": true,
+      "n_after_horizon_transform": 154
+    },
+    {
+      "transform": "P_mirror_x",
+      "distance": 0.2169589552663115,
+      "conserved": false,
+      "n_after_horizon_transform": 146
+    },
+    {
+      "transform": "C_sign",
+      "distance": 0.2169589552663115,
+      "conserved": false,
+      "n_after_horizon_transform": 146
+    },
+    {
+      "transform": "T_reverse",
+      "distance": 1.1443916996305594e-16,
+      "conserved": true,
+      "n_after_horizon_transform": 154
+    },
+    {
+      "transform": "Rz_90",
+      "distance": 0.2570364836885552,
+      "conserved": false,
+      "n_after_horizon_transform": 212
+    }
+  ],
+  "reading": "Sym(X) is the set of declared transformations conserving K(X). Sym_H(X) is the same test after the declared horizon. Lost symmetries are candidates for horizon-induced structural deformation.",
+  "limits": "Operational symmetry over declared K and declared transformations only; not a universal symmetry proof."
+}

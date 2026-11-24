@@ -1,0 +1,408 @@
+{
+  "status": "completed",
+  "scope": "Capacidad explicativa de una ley por regimenes para la relacion masa-radio. No es una validacion de unificacion fisica fundamental.",
+  "source": {
+    "NASA_archive": "https://exoplanetarchive.ipac.caltech.edu/",
+    "NASA_TAP_documentation": "https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html",
+    "mirror_repository": "https://github.com/leoybkim/exoplanet",
+    "mirror_commit": "360dc412571742ce0e7cc82b1c8fabc824702c95",
+    "mirror_blob": "bb2d6c917f0cf5b3c571d8b447c6fc3177613a7d",
+    "snapshot_date": "2023-05-13",
+    "local_sha256": "8b36937d12438d6bae721378d4e9632d7462ea245f5e1650917d6cfe3e03c8cc",
+    "rows_in_snapshot": 5347
+  },
+  "selection": {
+    "transiting": true,
+    "mass_provenance": "Mass",
+    "limit_flags": 0,
+    "max_relative_mass_error": 0.5,
+    "max_relative_radius_error": 0.2,
+    "selected_planets": 897,
+    "train_planets": 717,
+    "holdout_planets": 180,
+    "split_rule": "Cinco pliegues: indices 0::5, 1::5, ..., tras ordenar por masa; cada planeta es prueba exactamente una vez"
+  },
+  "models": {
+    "single": "ln R = a + b(ln M - ln 10)",
+    "quadratic": "ln R = a + b x_c + c x_c^2",
+    "multiscale": "Ley continua de tres exponentes locales con dos bisagras suaves inferidas; ancho fijo Delta ln M = 0.16"
+  },
+  "criterion": "BIC multiescala al menos 10 unidades menor que ambos competidores y menor NLL acumulada en validacion cruzada de cinco pliegues",
+  "full_fit": {
+    "single": {
+      "model": "single",
+      "parameters": {
+        "a": 1.141295852367124,
+        "b": 0.3898199203892281,
+        "log_sigma_int": -1.0001754879246694
+      },
+      "NLL": 401.00761428736377,
+      "n": 897,
+      "k": 3,
+      "AICc": 808.0421042746156,
+      "BIC": 822.4123961609039,
+      "RMSE_lnR": 0.378451385855817,
+      "median_absolute_fractional_error": 0.2593213697553003,
+      "normalized_operator_singular_values": [
+        1.3121134177181735,
+        0.5275967958999871
+      ],
+      "spectral_condition_number": 2.486962445402913
+    },
+    "quadratic": {
+      "model": "quadratic",
+      "parameters": {
+        "a": 1.2028476160800767,
+        "b": 0.5927107355112293,
+        "c": -0.05725873243253875,
+        "log_sigma_int": -1.2648878829870898
+      },
+      "NLL": 214.09358159550456,
+      "n": 897,
+      "k": 4,
+      "AICc": 436.2320062403365,
+      "BIC": 455.3833866392443,
+      "RMSE_lnR": 0.32115999330601863,
+      "median_absolute_fractional_error": 0.19156959327749978,
+      "normalized_operator_singular_values": [
+        1.6194444277998175,
+        0.5643595194204621,
+        0.2426892624481488
+      ],
+      "spectral_condition_number": 6.672913385056811
+    },
+    "multiscale": {
+      "model": "multiscale",
+      "parameters": {
+        "a": 1.0195897058565564,
+        "b1": 0.44240339247123067,
+        "b2": 0.7298294382061817,
+        "b3": -0.014604717019404922,
+        "ln_M_break1": 2.9767430140070856,
+        "ln_M_break2": 4.7764664380147765,
+        "log_sigma_int": -1.4371607159527386,
+        "M_break1_Earth": 19.62379801220634,
+        "M_break2_Earth": 118.68423013822311
+      },
+      "NLL": 60.273580697661714,
+      "n": 897,
+      "k": 7,
+      "AICc": 134.67314564729193,
+      "BIC": 168.140552429735,
+      "RMSE_lnR": 0.2665408865579181,
+      "median_absolute_fractional_error": 0.1503180898473475,
+      "normalized_operator_singular_values": [
+        2.2104287471932955,
+        0.7625972340077242,
+        0.6036035779016313,
+        0.3493719676815129,
+        0.20007788999609386,
+        0.0775950974138029
+      ],
+      "spectral_condition_number": 28.486706259358293
+    }
+  },
+  "five_fold_cross_validation": {
+    "single": {
+      "folds": 5,
+      "predicted_planets_once_each": 897,
+      "total_test_NLL": 405.5492573534706,
+      "test_NLL_per_planet": 0.4521173437608368,
+      "pooled_RMSE_lnR": 0.37985808883834105,
+      "pooled_median_fractional_error": 0.2609226510337501,
+      "fold_test_NLL": [
+        82.2577636738793,
+        84.25332635777079,
+        68.29404462463386,
+        74.8516571417028,
+        95.89246555548385
+      ]
+    },
+    "quadratic": {
+      "folds": 5,
+      "predicted_planets_once_each": 897,
+      "total_test_NLL": 221.12362598764736,
+      "test_NLL_per_planet": 0.24651463320807956,
+      "pooled_RMSE_lnR": 0.323389042953296,
+      "pooled_median_fractional_error": 0.19032776276041385,
+      "fold_test_NLL": [
+        58.05029170685807,
+        45.31353457880047,
+        23.761508580820582,
+        44.500124827192,
+        49.49816629397624
+      ]
+    },
+    "multiscale": {
+      "folds": 5,
+      "predicted_planets_once_each": 897,
+      "total_test_NLL": 80.12137955599326,
+      "test_NLL_per_planet": 0.0893214933734596,
+      "pooled_RMSE_lnR": 0.2712188981612778,
+      "pooled_median_fractional_error": 0.15097411809183392,
+      "fold_test_NLL": [
+        15.347013958704252,
+        0.12820968153248202,
+        -0.02658454802828558,
+        27.362709988181642,
+        37.31003047560317
+      ],
+      "M_break1_mean_Earth": 18.673650902998652,
+      "M_break1_sd_across_folds_Earth": 9.965435677312952,
+      "M_break2_mean_Earth": 121.34958076473481,
+      "M_break2_sd_across_folds_Earth": 14.733042990557863
+    }
+  },
+  "cross_validation_fold_details": {
+    "single": [
+      {
+        "fold": 0,
+        "train_n": 717,
+        "test_n": 180,
+        "test_NLL": 82.2577636738793,
+        "test_RMSE_lnR": 0.3809435586496132,
+        "test_median_fractional_error": 0.2592492008086045,
+        "train_parameters": {
+          "a": 1.138068774969398,
+          "b": 0.3908007353542395,
+          "log_sigma_int": -1.0038319253095185
+        }
+      },
+      {
+        "fold": 1,
+        "train_n": 717,
+        "test_n": 180,
+        "test_NLL": 84.25332635777079,
+        "test_RMSE_lnR": 0.386060195429797,
+        "test_median_fractional_error": 0.2581939381890508,
+        "train_parameters": {
+          "a": 1.1553303397377552,
+          "b": 0.38779004597034106,
+          "log_sigma_int": -1.0055781245417676
+        }
+      },
+      {
+        "fold": 2,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 68.29404462463386,
+        "test_RMSE_lnR": 0.3517324120503215,
+        "test_median_fractional_error": 0.2644213554349142,
+        "train_parameters": {
+          "a": 1.1414422645055937,
+          "b": 0.38788725241452937,
+          "log_sigma_int": -0.9822455096422874
+        }
+      },
+      {
+        "fold": 3,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 74.8516571417028,
+        "test_RMSE_lnR": 0.3686412915502908,
+        "test_median_fractional_error": 0.24237160364295474,
+        "train_parameters": {
+          "a": 1.1527504068499153,
+          "b": 0.3897754446020267,
+          "log_sigma_int": -0.990670325085653
+        }
+      },
+      {
+        "fold": 4,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 95.89246555548385,
+        "test_RMSE_lnR": 0.4094595533115926,
+        "test_median_fractional_error": 0.2940494175012158,
+        "train_parameters": {
+          "a": 1.1190476620271625,
+          "b": 0.3928123825242436,
+          "log_sigma_int": -1.0214217457888977
+        }
+      }
+    ],
+    "quadratic": [
+      {
+        "fold": 0,
+        "train_n": 717,
+        "test_n": 180,
+        "test_NLL": 58.05029170685807,
+        "test_RMSE_lnR": 0.36815657423706544,
+        "test_median_fractional_error": 0.19812244538408674,
+        "train_parameters": {
+          "a": 1.201376821015416,
+          "b": 0.5969542538923237,
+          "c": -0.0582750667009753,
+          "log_sigma_int": -1.2767218753198133
+        }
+      },
+      {
+        "fold": 1,
+        "train_n": 717,
+        "test_n": 180,
+        "test_NLL": 45.31353457880047,
+        "test_RMSE_lnR": 0.31528743909576673,
+        "test_median_fractional_error": 0.18640441486462755,
+        "train_parameters": {
+          "a": 1.2113894114605672,
+          "b": 0.5974297842685655,
+          "c": -0.05869145235869978,
+          "log_sigma_int": -1.2765143857188312
+        }
+      },
+      {
+        "fold": 2,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 23.761508580820582,
+        "test_RMSE_lnR": 0.2762812978338672,
+        "test_median_fractional_error": 0.18467149385067105,
+        "train_parameters": {
+          "a": 1.2004865331434589,
+          "b": 0.591252287750357,
+          "c": -0.056986450461496564,
+          "log_sigma_int": -1.2386919219391348
+        }
+      },
+      {
+        "fold": 3,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 44.500124827192,
+        "test_RMSE_lnR": 0.327202733434468,
+        "test_median_fractional_error": 0.1676142740288349,
+        "train_parameters": {
+          "a": 1.2194975491599869,
+          "b": 0.5941056293991072,
+          "c": -0.058059368587633546,
+          "log_sigma_int": -1.2645713107891834
+        }
+      },
+      {
+        "fold": 4,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 49.49816629397624,
+        "test_RMSE_lnR": 0.32314068359927567,
+        "test_median_fractional_error": 0.21860858123208216,
+        "train_parameters": {
+          "a": 1.181476289040243,
+          "b": 0.5837450296982608,
+          "c": -0.05426955705372398,
+          "log_sigma_int": -1.271772134608896
+        }
+      }
+    ],
+    "multiscale": [
+      {
+        "fold": 0,
+        "train_n": 717,
+        "test_n": 180,
+        "test_NLL": 15.347013958704252,
+        "test_RMSE_lnR": 0.269881109488547,
+        "test_median_fractional_error": 0.1564573166467783,
+        "train_parameters": {
+          "a": 1.039659868384116,
+          "b1": 0.47703027327863545,
+          "b2": 0.7884667238800389,
+          "b3": -0.010830510474920594,
+          "ln_M_break1": 3.355122898254408,
+          "ln_M_break2": 4.727639453474759,
+          "log_sigma_int": -1.4444421084607304,
+          "M_break1_Earth": 28.649124901798306,
+          "M_break2_Earth": 113.02843830603642
+        }
+      },
+      {
+        "fold": 1,
+        "train_n": 717,
+        "test_n": 180,
+        "test_NLL": 0.12820968153248202,
+        "test_RMSE_lnR": 0.25244927299000175,
+        "test_median_fractional_error": 0.13615175731225565,
+        "train_parameters": {
+          "a": 1.075558310439727,
+          "b1": 0.23038465019931048,
+          "b2": 0.5802752379386917,
+          "b3": -0.016217094978798394,
+          "ln_M_break1": 0.815146416049114,
+          "ln_M_break2": 4.994638825281221,
+          "log_sigma_int": -1.4251528042745176,
+          "M_break1_Earth": 2.2595064761428025,
+          "M_break2_Earth": 147.61961927955264
+        }
+      },
+      {
+        "fold": 2,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": -0.02658454802828558,
+        "test_RMSE_lnR": 0.243234259220875,
+        "test_median_fractional_error": 0.15334061052561765,
+        "train_parameters": {
+          "a": 1.0091738171012503,
+          "b1": 0.4254896657964321,
+          "b2": 0.7684584284070478,
+          "b3": -0.018565767897725776,
+          "ln_M_break1": 3.025697450946427,
+          "ln_M_break2": 4.739736508885036,
+          "log_sigma_int": -1.4185473464143208,
+          "M_break1_Earth": 20.60837302928866,
+          "M_break2_Earth": 114.40405325686322
+        }
+      },
+      {
+        "fold": 3,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 27.362709988181642,
+        "test_RMSE_lnR": 0.29267134574664266,
+        "test_median_fractional_error": 0.13743779859007554,
+        "train_parameters": {
+          "a": 1.0234097591805298,
+          "b1": 0.43959720615812165,
+          "b2": 0.7375661716652295,
+          "b3": -0.02307868500877105,
+          "ln_M_break1": 2.9036459471524485,
+          "ln_M_break2": 4.754359046960123,
+          "log_sigma_int": -1.4551065087215642,
+          "M_break1_Earth": 18.240528283764416,
+          "M_break2_Earth": 116.08922157390545
+        }
+      },
+      {
+        "fold": 4,
+        "train_n": 718,
+        "test_n": 179,
+        "test_NLL": 37.31003047560317,
+        "test_RMSE_lnR": 0.29406043317456215,
+        "test_median_fractional_error": 0.16770460876969429,
+        "train_parameters": {
+          "a": 0.9985749230994154,
+          "b1": 0.43359856052899803,
+          "b2": 0.7819489804792473,
+          "b3": -0.008037351832509657,
+          "ln_M_break1": 3.161700923438176,
+          "ln_M_break2": 4.750192800706651,
+          "log_sigma_int": -1.470695073473547,
+          "M_break1_Earth": 23.61072182399908,
+          "M_break2_Earth": 115.60657140731638
+        }
+      }
+    ]
+  },
+  "verdict": {
+    "criterion_passed": true,
+    "holdout_best_model": "multiscale",
+    "cross_validation_best_model": "multiscale",
+    "delta_BIC_multiscale_minus_single": -654.2718437311689,
+    "delta_BIC_multiscale_minus_quadratic": -287.2428342095093,
+    "statement": "La ley multiescala supera a la potencia unica y al polinomio suave con evidencia BIC fuerte y la mejor verosimilitud fuera de muestra."
+  },
+  "outputs": {
+    "figure": "/workspace/scratch/d9aa5327f093/tmp/reproduced_planets/figura_demostracion_exoplanetas_multiescala.png",
+    "selected_data": "/workspace/scratch/d9aa5327f093/tmp/reproduced_planets/exoplanetas_masa_radio_seleccion.csv",
+    "fit_table": "/workspace/scratch/d9aa5327f093/tmp/reproduced_planets/demostracion_exoplanetas_ajustes.csv",
+    "json": "/workspace/scratch/d9aa5327f093/tmp/reproduced_planets/demostracion_exoplanetas_resultados.json"
+  }
+}

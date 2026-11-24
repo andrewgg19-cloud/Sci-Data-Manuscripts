@@ -1,0 +1,28 @@
+ROSETTA 10 000 — ruido y sincronización calibrada, 22 octubre 2026
+
+IMPORTANTE: El resultado limpio 10,000/10,000 ya obtenido se conserva intacto.
+Esta extensión no es decodificación ciega: usa la segmentación conocida del CSV y un diccionario de 10,000 frecuencias y fases.
+
+El experimento diferencia:
+1. ruido_15dB: 10,000 notas completas sin pilotos; métricas del ruido sintetizado.
+2. desfase_3ms_pilotos: corrección mediante retardo estimado por 8 notas piloto de índice conocido, fuera del rango evaluado.
+3. ruido_15dB_desfase_pilotos: combina ambas perturbaciones.
+
+No es metodológicamente correcto declarar 10,000/10,000 notas examinadas con pilotos independientes elegidos de esas mismas 10,000. Para estudiar sincronización de todo el alfabeto, ejecute dos particiones complementarias:
+A) evaluar notas 1 a 9,990 con pilotos de 9,991 a 10,000.
+B) evaluar notas 9,991 a 10,000 con pilotos tomados de las 9,990 primeras notas.
+La unión cubre los 10,000 índices con calibraciones independientes, aunque son dos ejecuciones distintas.
+
+PASOS PowerShell (desde Downloads\\Rosetta_10000):
+
+py .\\rosetta_validacion_pilotos_externos.py --from-note 1 --to-note 100 --conditions ruido_15dB --candidates 1000 --out Rosetta_ruido_prueba_100
+
+py .\\rosetta_validacion_pilotos_externos.py --from-note 1 --to-note 10000 --conditions ruido_15dB --candidates 1000 --out Rosetta_ruido_total
+
+py .\\rosetta_validacion_pilotos_externos.py --from-note 1 --to-note 9990 --conditions desfase_3ms_pilotos,ruido_15dB_desfase_pilotos --candidates 1000 --out Rosetta_pilotos_A
+
+py .\\rosetta_validacion_pilotos_externos.py --from-note 9991 --to-note 10000 --conditions desfase_3ms_pilotos,ruido_15dB_desfase_pilotos --candidates 1000 --out Rosetta_pilotos_B
+
+El programa escribe prefijo.jsonl (una línea por símbolo y condición), prefijo_config.json y prefijo_resumen.json; permite reanudación usando el mismo comando. Para detener un cálculo usar Ctrl+C.
+
+LÍMITES: el retardo de 3 ms es una simulación artificial conocida por el generador de perturbaciones, no por el estimador. Se calibra por correlación usando referencias sintéticas de ocho pilotos conocidos. No es recuperación de gamma ni comunicación sin diccionario. Los resultados se deben validar en un ordenador independiente antes de publicarlos.

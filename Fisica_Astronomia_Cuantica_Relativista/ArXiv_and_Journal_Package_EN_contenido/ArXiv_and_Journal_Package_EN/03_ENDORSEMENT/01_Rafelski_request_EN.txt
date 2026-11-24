@@ -1,0 +1,28 @@
+DRAFT — FOR AUTHOR REVIEW; NOT SENT
+Proposed recipient: Professor Johann Rafelski
+Verified institutional address: Johannr@arizona.edu
+ArXiv endorsement eligibility for astro-ph: not yet verified.
+Before use: obtain the current arXiv request for the selected category and replace the bracketed link. Do not reuse the math.NT request. This is the first proposed contact, not a mailing list.
+
+Subject: arXiv endorsement consideration — baryon abundances and entropy dilution
+
+Dear Professor Rafelski,
+
+My name is Andrés Germán García, an independent researcher in Mexico. Your work with Cheng Tao Yang on cosmological strangeness abundance is a reference in two related manuscripts I have deposited as preprints on Zenodo.
+
+The first reconstructs equilibrium baryon and antibaryon populations at 50 MeV using fixed hadron-resonance-gas inventories and a prescribed net-baryon-to-entropy ratio. It reproduces the approximately 38.2 MeV crossing and makes explicit why the net excess alone does not identify a unique pair population or history:
+https://doi.org/10.5281/zenodo.23467572
+
+The companion study examines entropy injection and effective pair kinetics between 50 and 30 MeV under a hypothetical black-hole evaporation model. It distinguishes common-initial-yield and common-final-yield comparisons. It does not infer the origin of the baryon asymmetry or establish the assumed black-hole population observationally:
+https://doi.org/10.5281/zenodo.23467637
+
+Both records include the English manuscripts and reproducibility materials. I am preparing a submission in astro-ph.CO. If you are eligible to endorse in the relevant domain and consider the work suitable, I would be grateful for your consideration. I am not requesting a full referee report and understand if you are unable to consider it.
+
+The current arXiv endorsement request is: [INSERT CURRENT ENDORSEMENT LINK FOR THE SELECTED CATEGORY].
+
+Thank you for your time and consideration.
+
+Sincerely,
+Andrés Germán García
+Independent Researcher, Mexico
+andrewgg19@gmail.com

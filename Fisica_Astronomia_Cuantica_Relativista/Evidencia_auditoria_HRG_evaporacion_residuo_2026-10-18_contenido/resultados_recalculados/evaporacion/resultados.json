@@ -1,0 +1,137 @@
+{
+  "runs": [
+    {
+      "rhoBH_over_rhoplasma_initial": 0,
+      "M_initial_g": 100000000.0,
+      "lifetime_s": 0.0004066578015265934,
+      "T_after_evap_MeV": 32.18084304257942,
+      "Sfinal_over_Sinitial": 1.0000000005753782,
+      "Ynet_final": 8.702607421553906e-11,
+      "Ynet_initial": 8.702607426561198e-11,
+      "crossings_MeV": [
+        38.205399792426064
+      ],
+      "max_entropy_balance_relative_error": 1.993042619830021e-09,
+      "max_relative_chemical_departure": 6.16038097040843e-07,
+      "minimum_antibaryon_density": 1.1049661541308021e+22,
+      "min_H_per_s": 659.4449702660155,
+      "max_T_MeV": 50.0,
+      "crossing_events": [
+        {
+          "T_MeV": 38.205399792426064,
+          "time_s": 0.00020126716246362717,
+          "phase": "evaporation",
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "rhoBH_over_rhoplasma_initial": 0.01,
+      "M_initial_g": 100000000.0,
+      "lifetime_s": 0.0004066578015265934,
+      "T_after_evap_MeV": 32.22979297053826,
+      "Sfinal_over_Sinitial": 1.01094705516089,
+      "Ynet_final": 8.60837111314024e-11,
+      "Ynet_initial": 8.702607426561198e-11,
+      "crossings_MeV": [
+        38.20234489207086
+      ],
+      "max_entropy_balance_relative_error": 2.0044109446393018e-09,
+      "max_relative_chemical_departure": 0.00017953366339028523,
+      "minimum_antibaryon_density": 1.117062120207699e+22,
+      "min_H_per_s": 659.4449702660153,
+      "max_T_MeV": 50.0,
+      "crossing_events": [
+        {
+          "T_MeV": 38.20234489207086,
+          "time_s": 0.0002007397794468602,
+          "phase": "evaporation",
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "rhoBH_over_rhoplasma_initial": 0.1,
+      "M_initial_g": 100000000.0,
+      "lifetime_s": 0.0004066578015265934,
+      "T_after_evap_MeV": 32.64295925878399,
+      "Sfinal_over_Sinitial": 1.109319445756838,
+      "Ynet_final": 7.844996731869065e-11,
+      "Ynet_initial": 8.702607426561198e-11,
+      "crossings_MeV": [
+        38.17594823554243
+      ],
+      "max_entropy_balance_relative_error": 3.5222791569723113e-09,
+      "max_relative_chemical_departure": 0.0016184154659277879,
+      "minimum_antibaryon_density": 1.2257585688758974e+22,
+      "min_H_per_s": 659.4449702660153,
+      "max_T_MeV": 50.0,
+      "crossing_events": [
+        {
+          "T_MeV": 38.17594823554243,
+          "time_s": 0.0001963074971565579,
+          "phase": "evaporation",
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "rhoBH_over_rhoplasma_initial": 1,
+      "M_initial_g": 100000000.0,
+      "lifetime_s": 0.0004066578015265934,
+      "T_after_evap_MeV": 35.218841547394476,
+      "Sfinal_over_Sinitial": 2.0798420150485395,
+      "Ynet_final": 4.184263690989094e-11,
+      "Ynet_initial": 8.702607426561198e-11,
+      "crossings_MeV": [
+        37.973681297764166
+      ],
+      "max_entropy_balance_relative_error": 8.193202618224178e-09,
+      "max_relative_chemical_departure": 0.006794407825893873,
+      "minimum_antibaryon_density": 2.2981041481759087e+22,
+      "min_H_per_s": 659.4449702660153,
+      "max_T_MeV": 50.0,
+      "crossing_events": [
+        {
+          "T_MeV": 37.973681297764166,
+          "time_s": 0.00017029478853116558,
+          "phase": "evaporation",
+          "direction": "down"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "tight_tolerance_case_f1": {
+      "rhoBH_over_rhoplasma_initial": 1,
+      "M_initial_g": 100000000.0,
+      "lifetime_s": 0.0004066578015265934,
+      "T_after_evap_MeV": 35.21884169361746,
+      "Sfinal_over_Sinitial": 2.0798420237794573,
+      "Ynet_final": 4.184263673424077e-11,
+      "Ynet_initial": 8.702607426561198e-11,
+      "crossings_MeV": [
+        37.97368131306484
+      ],
+      "max_entropy_balance_relative_error": 4.2752745288342964e-10,
+      "max_relative_chemical_departure": 0.006796121405615164,
+      "minimum_antibaryon_density": 2.2981041518180146e+22,
+      "min_H_per_s": 659.4449702660155,
+      "max_T_MeV": 50.0,
+      "crossing_events": [
+        {
+          "T_MeV": 37.97368131306484,
+          "time_s": 0.0001702947844933462,
+          "phase": "evaporation",
+          "direction": "down"
+        }
+      ]
+    },
+    "relative_change_entropy_f1": 4.197875380640426e-09,
+    "relative_change_final_Y_f1": 4.197875380640426e-09,
+    "crossing_change_MeV": 1.530067095245613e-08,
+    "bath_s50": 1.0199816635308708e+38,
+    "audit_s50": 1.0210875816993465e+38,
+    "bath_relative_difference_audit": -0.0010830786587721075
+  }
+}

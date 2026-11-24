@@ -1,0 +1,22 @@
+{
+  "title": "Multiscale closure diagnostics: matrix framework and reproducible cosmological and exoplanet tests",
+  "creators": [
+    {
+      "name": "García, Andrés Germán",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Two original working manuscripts with a corrective addendum, supplied code and frozen data, and a new execution of both empirical pipelines on 17 November 2026. The exoplanet model outperforms the single-power and quadratic baselines tested; the cosmological extension fails the stated joint success criterion. Re-execution of the same pipelines is reproducibility, not independent replication. No superiority over Forecaster or state-of-the-art regime models is established. Third-party data retain their original terms.",
+  "suggested_resource_type": "publication-preprint",
+  "version": "working-review-2026-11-17",
+  "language": "mul",
+  "keywords": [
+    "multiscale analysis",
+    "effective models",
+    "reproducibility"
+  ],
+  "status": "PREPARED_LOCALLY_NOT_UPLOADED",
+  "license": null,
+  "license_note": "Choose an author-approved license in Zenodo. No new license is assigned here; third-party terms remain in force.",
+  "publication_date_note": "Use the actual date of deposit; this is the preparation date, not proof of prior publication."
+}

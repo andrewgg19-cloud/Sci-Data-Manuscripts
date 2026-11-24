@@ -1,0 +1,92 @@
+﻿[
+    {
+        "File":  "auditoria_sombra_temporal.csv",
+        "Bytes":  503,
+        "SHA256":  "7524CE4BDDE87E257EB299A7E31F5A56B806F898F593B64C0D5A9B212983060E"
+    },
+    {
+        "File":  "clean_check_v5_5_2_zero.json",
+        "Bytes":  1188,
+        "SHA256":  "D58DC4DA452892D6AF6A5DC5CD91202D60DC4B80A30B023B0CAB6FB35EE44041"
+    },
+    {
+        "File":  "clean_check_v5_6_energy.json",
+        "Bytes":  684,
+        "SHA256":  "4ED3C897FCBB86933441D5FF14B61FEF9B88687D0ADBA51033FDADA4FE1AB6D1"
+    },
+    {
+        "File":  "clean_check_v5_7_sheet.csv",
+        "Bytes":  1313,
+        "SHA256":  "5527FAD2CEDADDA6C7C751E1B308B8C4FF3E4578CB8A33AEE372FD178A3C7442"
+    },
+    {
+        "File":  "clean_check_v5_7_sheet.json",
+        "Bytes":  3401,
+        "SHA256":  "D3482465E3F2AB1811297272A6562128650DE557B0154E89EF371A0076FA7F86"
+    },
+    {
+        "File":  "clean_check_v5_8_reversibility.json",
+        "Bytes":  2508,
+        "SHA256":  "33194993A1F45305F9E361911D89557BA25D801EEBE5FEDAE18ADD415FCC749F"
+    },
+    {
+        "File":  "datos_prueba_gamma.xlsx",
+        "Bytes":  33357,
+        "SHA256":  "AA9654EEEFC55C1864DFA3A7DE386DB1408F697910445DA6B96EDF505039325A"
+    },
+    {
+        "File":  "GERMAN_GAMMA_SET_THEORETIC_FOUNDATION.md",
+        "Bytes":  4250,
+        "SHA256":  "8D400CD68BE43E94AB55DF5A4829FCBA0D9DFE6D8AA6E493B966C670F7F1D7F1"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_5_2_AUDIT_GRADE.md",
+        "Bytes":  3251,
+        "SHA256":  "7B071CB8B5E918BDD09D57BC3F8569EC1B6B18D2BA6EE4141A5F455328A6FD17"
+    },
+    {
+        "File":  "german_gamma_v5_5_2_audit_grade.py",
+        "Bytes":  22622,
+        "SHA256":  "8E89C826696A7029C857E8A072346EE2B2B2A9F0EB9E14EC8AC5B02F8EC808CB"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_6_3D_HILBERT_LAPLACE.md",
+        "Bytes":  2318,
+        "SHA256":  "B5995240C546EC3081CBF724CF8E2C3D668F23B27C72EBF11CBBB39753BDCE79"
+    },
+    {
+        "File":  "german_gamma_v5_6_3d_hilbert_laplace.py",
+        "Bytes":  22573,
+        "SHA256":  "FEC41772E2F5B9B418F8D400CDCF80FB07D076854069CCE65633C9A2A46CEAC1"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_7_TEMPORAL_SHEET.md",
+        "Bytes":  1233,
+        "SHA256":  "977C9AFA16E7CA84B9696301893DD5BDB2B7C91EE167E18BD1D798420E4F82D5"
+    },
+    {
+        "File":  "german_gamma_v5_7_temporal_sheet.py",
+        "Bytes":  14604,
+        "SHA256":  "E5C68A541C3B95CF02B2377ACF4078138D9D697EC23D20C39C9608A59B8B766B"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_8_FINAL_SPEC.md",
+        "Bytes":  4276,
+        "SHA256":  "FB082C8CA4512F0C50F2748E3BB37B8AF30E348B2DF6BE4F4657C431E582E342"
+    },
+    {
+        "File":  "GERMAN_GAMMA_V5_8_REVERSIBILITY.md",
+        "Bytes":  1786,
+        "SHA256":  "E52775BA83F7CEF6ADED2E854790A7FC4F971C898604C1F63A92141813DC31B4"
+    },
+    {
+        "File":  "german_gamma_v5_8_reversibility.py",
+        "Bytes":  9636,
+        "SHA256":  "A91141E491737729AAD680705605653D7795C418F25F6964CBE2D49FECEE1D62"
+    },
+    {
+        "File":  "README_CLEAN_AUDIT_GRADE.md",
+        "Bytes":  1488,
+        "SHA256":  "FAEA48AB403F74DB873A2903289EC3FF9A2C2ACD4123D553354489D786C46117"
+    }
+]

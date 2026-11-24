@@ -1,0 +1,202 @@
+\section{Methods}
+A mathematical retrospective reconstruction was performed using the rest masses and other properties already present in our HRG inventory. The current cosmological abundance was introduced as a constraint on early populations. Baryon, antibaryon, entropy, and net-excess densities were calculated separately; zero-chemical-potential entropy comparisons were retained as inventory checks.
+\subsection{Design and input provenance}
+The temperatures evaluated were
+\[
+T=150,\ 140,\ 120,\ 100,\ 80,\ 60,\ 50,\ 40\ {\rm MeV},
+\]
+The reconstruction solved for $\mu_B$ at each temperature with $\mu_Q=\mu_S=0$; the symmetric control also fixed $\mu_B=0$. Here $\mu_B$ controls the baryon-antibaryon imbalance, while $\mu_Q,\mu_S$ are the electric-charge and strangeness chemical potentials. Natural units, $\hbar=c=k_B=1$, were adopted, and all temperatures and masses were converted to GeV before summation. All species shared one temperature.
+
+Only the \texttt{list.dat} files in the PDG2014, PDG2020, and PDG2025 directories of Thermal-FIST were used \citep{TFLists2026}. Inputs were frozen at revision \texttt{4086191e9522}; the supplement records the complete identifier, exact links, and SHA-256 hashes. The selected lists contain hadrons from the $u,d,s$ quark sector. Separate lists of hadrons containing a charm quark, nuclei, and other sectors were not added and do not represent every particle in the PDG.
+
+Table~\ref{tab:inventory} records the effective input sizes. Commented lines and zero-degeneracy contributions were discarded. File masses and degeneracies were retained, including spin assignments adopted by the list maintainers.
+
+\begin{table}[t]
+\centering\small
+\caption{Inventory of the lists used. The last two columns include antiparticles and only positive-degeneracy entries.}
+\label{tab:inventory}
+\setlength{\tabcolsep}{3.6pt}
+\begin{tabular}{lrrr}\toprule
+List & Rows & Active species & $B+\bar B$\\\midrule
+PDG2014 & 219 & 387 & 260\\
+PDG2020 & 242 & 433 & 298\\
+PDG2025 & 248 & 443 & 292\\
+\bottomrule\end{tabular}
+\end{table}
+
+Reduced values were transcribed from \citet{Garcia2026} and stored as a separate input with four significant digits. No ad hoc reduced list was constructed to force that table. The PDG-column values reported below are results of this study calculated from published particle data; these same percentages were not extracted from an external publication.
+
+\subsection{Observable and thermodynamic accounting}
+The instantaneous fraction was defined as
+\begin{equation}
+\fB(T)=\frac{\sB(T)}{\stot(T)},
+\label{eq:f}
+\end{equation}
+where $\sB$ includes all active baryons and antibaryons in the selected list. At vanishing chemical potentials this sector is symmetric. Hadronic entropy was written as
+\begin{equation}
+\shad=\sB+s_{\rm mes},
+\end{equation}
+and the entropy of the plasma considered as
+\begin{equation}
+\stot=\shad+s_\gamma+s_{e^\pm}+s_{\mu^\pm}+s_{\nu\bar\nu}.
+\label{eq:den}
+\end{equation}
+To assess the denominator effect, we also calculated
+\begin{equation}
+f_{\rm had}(T)=\frac{\sB(T)}{\shad(T)}.
+\label{eq:fhad}
+\end{equation}
+Neither fraction is a net abundance, an annihilation rate, or a share of present-day photons with identifiable ancestry.
+
+\subsection{Entropy per particle species and antiparticle counting}
+For each massive species in an equilibrium ideal gas, at $\mu_i=0$, we evaluated
+\begin{align}
+s_i(T)&=\frac{g_i m_i^2T}{2\pi^2}
+\sum_{k=1}^{K_{\max}}c_{i,k}\,A_{i,k},\label{eq:entropy}\\
+A_{i,k}&=\frac{4}{k^2}K_2(kx_i)+\frac{x_i}{k}K_1(kx_i),\\
+x_i&=\frac{m_i}{T}.\nonumber
+\end{align}
+$K_1$ and $K_2$ are modified Bessel functions of the second kind; $g_i$ denotes spin degeneracy. We used $c_{i,k}=1$ for bosons and $c_{i,k}=(-1)^{k+1}$ for fermions. These coefficients implement Bose-Einstein distributions for bosons and Fermi-Dirac distributions for fermions, describing occupation of energy states at the chosen temperature. Keeping only $k=1$ recovers the Maxwell-Boltzmann approximation. These physical population distributions differ from statistical tests of measurements.
+
+Each file contains one member of particle-antiparticle pairs. Its contribution was multiplied by two if at least one of its $B,Q,S,C$ quantum numbers was nonzero, and by one for self-conjugate states. Charge and isospin states already appear as individual entries, so no extra isospin degeneracy was introduced. The implementation checked that there were no negative PDG identifiers or duplicate entries before applying this rule.
+
+Nominal masses and zero resonance widths were used. Decay tables were neither propagated nor added again to the denominator: the observable was the entropy of the equilibrium inventory rather than final decay yields. Excluded-volume effects, attractive or repulsive interactions, and fits to lattice data were not included.
+
+\subsection{Reconstruction of particle numbers}
+A particle species meant one type identified by an inventory entry, with spin states counted by $g_i$. Number density was evaluated in addition to entropy using the ideal-gas thermal distributions \citep{Vovchenko2019}:
+\begin{equation}
+n_i^{\rm eq}(T)=\frac{g_i m_i^2T}{2\pi^2}
+\sum_{k=1}^{96}\frac{c_{i,k}}{k}K_2(km_i/T).
+\label{eq:number}
+\end{equation}
+Here $g_i$ belonged to one particle species; its antiparticle was recorded separately at the same density for $\mu_i=0$. All active baryonic entries were checked to have $|B_i|=1$. Summing over $B_i=+1$ and $B_i=-1$ gave $n_B$ and $n_{\bar B}$, respectively. We defined
+\begin{align}
+n_\Sigma&=n_B+n_{\bar B}, & \Delta n_B&=n_B-n_{\bar B},\\
+Y_\Sigma&=n_\Sigma/\stot, & \YB&=\Delta n_B/\stot.
+\label{eq:yields}
+\end{align}
+The $\mu_B=0$ control gave $\Delta n_B=0$; the finite-excess reconstruction is described below. Potential pair bookkeeping used $n_{\rm pair}=\min(n_B,n_{\bar B})$, rather than counting bound pairs or reaction events.
+
+Natural-unit densities were divided by $(\hbar c)^3$ to obtain ${\rm cm^{-3}}$, with $\hbar c=1.973269804\times10^{-14}$ GeV cm \citep{Robinson2025}. Mean particle number in a specified volume is $N_i=n_iV$. Densities were exported for each particle species and temperature. Reconstruction inferred these equilibrium populations from their properties and the cosmological constraint; physical regeneration would require integrating inverse-production and annihilation rates. The initial point $T_i=150$ MeV was the upper end of the computational grid, without assigning it a cosmic age or identifying it with a kinetic annihilation onset.
+
+\subsection{Common light sector}
+Photons were treated as massless bosons with $g=2$; electrons and positrons as massless fermions with combined $g=4$; and three neutrino flavors plus antineutrinos as massless fermions with six combined helicity states. For each relativistic component,
+\begin{equation}
+s_{\rm rel}=\frac{2\pi^2}{45}gT^3
+\begin{cases}
+1,&\text{bosons},\\
+7/8,&\text{fermions}.
+\end{cases}
+\end{equation}
+Muons and antimuons were evaluated with Eq.~\eqref{eq:entropy}, combined $g=4$, and $m_\mu=0.1056583755$ GeV \citep{PDG2025}. This same light sector was used for all three lists. The massless-electron approximation was separately checked by integration with the physical electron mass.
+
+\subsection{Normalization to the relic and cosmological abundances}
+External inputs were $\eta=(6.12\pm0.04)\times10^{-10}$ and $\YB^{\rm ref}=\eta/7.04$ \citep{Fields2025}. The factor 7.04 was the standard entropy-per-photon approximation after $e^+e^-$ annihilation. Yields were used to compare epochs with different dilution, instead of comparing physical densities directly. We calculated
+\begin{equation}
+\mathcal Q(T)=\frac{Y_\Sigma^{\rm eq}(T)}{\YB^{\rm ref}}.
+\label{eq:populationratio}
+\end{equation}
+$\mathcal Q$ is the total thermal number per reference net baryon, and $\mathcal Q/2$ is its symmetric pair bookkeeping. It is not a measured survival fraction.
+
+We used $T_{\gamma0}=2.7255\pm0.0006$ K, rounded from \citet{Fixsen2009}, to connect this normalization with the present:
+\begin{align}
+n_{\gamma0}&=\frac{2\zeta(3)}{\pi^2}
+\left(\frac{k_BT_{\gamma0}}{\hbar c}\right)^3,\\
+s_0/k_B&\simeq7.04\,n_{\gamma0}, & n_{b0}&=\eta n_{\gamma0}.
+\label{eq:today}
+\end{align}
+$n_{b0}$ counts baryon-number units (nucleons), including those in nuclei, rather than atoms. An adiabatic comparison obeys $s(T)V(T)=s_0V_0$, hence $N_\Sigma^{\rm eq}=Y_\Sigma^{\rm eq}s_0V_0$ and $N_{\Delta B}^{\rm ref}=\YB^{\rm ref}s_0V_0$. This supplied a common comoving normalization conditional on entropy and net-baryon conservation.
+
+Using the primordial baryon fraction in $^4$He, $Y_p=0.245\pm0.003$, and $(D/H)_{\rm P}=(2.508\pm0.029)\times10^{-5}$ \citep{Fields2025}, we calculated a primordial-composition equivalent at today's mean cosmic density:
+\begin{align}
+n_{{\rm H},0}^{\rm prim}&\simeq(1-Y_p)n_{b0},\\
+n_{{}^4{\rm He},0}^{\rm prim}&\simeq Y_p n_{b0}/4,\\
+n_{{\rm D},0}^{\rm prim}&\simeq(D/H)_{\rm P}n_{{\rm H},0}^{\rm prim}.
+\label{eq:hydrogen}
+\end{align}
+Small nuclear-binding and trace-nuclide corrections were neglected. Stellar processing and ionization were not modeled, so these conversions do not constitute a present neutral-hydrogen measurement. First-order uncertainties in $\eta,T_{\gamma0},Y_p,D/H$ were propagated assuming independent inputs: $\sigma_F^2\simeq\sum_j(\partial F/\partial x_j)^2\sigma_{x_j}^2$. Outputs share inputs and have correlated errors. These uncertainties were not assigned to the HRG model.
+
+\subsection{Inverse inference from the current abundance}
+The central constraint was conservation of net yield under adiabatic expansion and without baryon-number violation:
+\begin{equation}
+\frac{\Delta n_B(T,\alpha)}{\stot(T,\alpha)}
+=\frac{\eta}{7.04},\qquad \alpha=\mu_B/T.
+\label{eq:inverse}
+\end{equation}
+The central value of $\eta$ was used for each list and temperature. Its observational uncertainty was not propagated to inverse populations; these are estimates conditional on central inputs.
+
+For entries with $B_i=+1$, we defined $a_{i,k}=g_i m_i^2T c_{i,k}K_2(kx_i)/(2\pi^2 k)$ and $b_{i,k}=g_i m_i^2T c_{i,k}A_{i,k}/(2\pi^2)$. Antiparticles had the opposite potential. We evaluated
+\begin{align}
+n_\Sigma(T,\alpha)&=2\sum_{i,k}a_{i,k}\cosh(k\alpha),\\
+\Delta n_B(T,\alpha)&=2\sum_{i,k}a_{i,k}\sinh(k\alpha),\\
+\sB(T,\alpha)&=2\sum_{i,k}\bigl[b_{i,k}\cosh(k\alpha)\nonumber\\
+&\hspace{18mm}-\alpha a_{i,k}\sinh(k\alpha)\bigr].
+\label{eq:inversekernels}
+\end{align}
+This avoided subtracting nearly equal densities to recover the small excess. Mesonic and light entropy were added, and Eq.~\eqref{eq:inverse} was solved by Brent's method on $0\leq\alpha\leq1$, with absolute tolerance $10^{-18}$ and relative tolerance $10^{-13}$. Populations were recovered as $n_B=(n_\Sigma+\Delta n_B)/2$ and $n_{\bar B}=(n_\Sigma-\Delta n_B)/2$.
+
+Masses, spin, and charges came from the catalog; $\eta$ and today's CMB temperature were observational inputs. Early temperature was specified, and the ideal HRG supplied the thermal relation needed to infer the total. Masses were not fitted, and no new spectral signatures were analyzed. Fixing $\mu_Q=\mu_S=0$ did not simultaneously impose electric neutrality and zero net strangeness; this scope was retained in interpretation.
+
+\subsection{Initial temperature and physical reference}
+The main grid retained $T_i=150$ MeV to preserve comparison with our earlier calculations. Its scale was assessed using the lattice-QCD transition estimate of \citet{Bazavov2019}, $T_c=156.5\pm1.5$ MeV at zero chemical potentials. This reference characterizes the emergence of hadrons, without fixing a universal annihilation onset. Inverse solutions were repeated at 150, 155, 156.5, and 158 MeV for all three lists and at 96 and 192 terms. Kelvin conversion used $T_{\rm K}=10^6T_{\rm MeV}/k_B$, with $k_B=8.617333262\times10^{-5}$ eV K$^{-1}$ \citep{Robinson2025}. Near-$T_c$ evaluation was treated as ideal-HRG sensitivity; the published $T_c$ uncertainty was not interpreted as a complete physical uncertainty on our densities.
+
+\subsection{Uniqueness test and literature comparison}
+The information in net abundance was examined through the linear yield map
+\begin{equation}
+Y_{\Delta B}=\begin{pmatrix}1&-1\end{pmatrix}
+\begin{pmatrix}Y_B\\Y_{\bar B}\end{pmatrix}.
+\label{eq:rank}
+\end{equation}
+Its rank and null direction were evaluated. Adding a quantity $q$ to both components preserves their difference. Four algebraic examples had totals of 0.1, 1, 10, and 100 times the reconstructed total at 150 MeV, with the same excess. They examined uniqueness under conservation; they did not establish kinetic histories or physically realizable equilibrium states at a common temperature.
+
+We also evaluated the Maxwell-Boltzmann nucleon limit underlying Eq. (19) of \citet{Satarov2013}, using our list's distinct proton and neutron masses:
+\begin{equation}
+n_N^{\rm MB}(T)=\sum_{i=p,n}
+\frac{g_i m_i^2T}{2\pi^2}K_2(m_i/T).
+\label{eq:nucleonMB}
+\end{equation}
+It was compared with the Fermi-Dirac proton-plus-neutron density and with all HRG baryons at $\mu_B=0$. Nucleon share and relative distribution differences were calculated. This was our evaluation of a published approximation, rather than a reproduction of the authors' interacting kinetic calculation or a use of their populations as measurements.
+
+\subsection{Step-by-step calculation}
+Reconstruction and checks proceeded as follows:
+\begin{enumerate}
+\setlength{\itemsep}{2pt}
+\item The three frozen lists were parsed for rest masses, spin, thermal-distribution type, and charges, followed by inventory checks.
+\item At $\mu_B=0$, 96-term sums gave $s_i$ and $n_i$ for baryons, antibaryons, mesons, and the common light sector.
+\item Published $\eta$ was converted to $Y_{\Delta B}^{\rm ref}$; the inverse constraint gave $\alpha$, $n_B$, and $n_{\bar B}$ at each temperature.
+\item The net-map rank and distinct algebraic populations with the same excess were checked.
+\item The published nucleon limit, full HRG, and reduced entropy reference were compared without parameter adjustment to improve agreement.
+\item Sums were repeated at 192 terms; representative species and finite-potential excesses were checked against independent integrals.
+\item Cosmological conversions and their uncertainties were calculated. Results and provenance were exported, and tables and figures were generated from these files.
+\end{enumerate}
+
+\subsection{Descriptive analyses and statistical procedures}
+With $f_{\rm prior}$ denoting the reduced reference and $f_{25}$ the PDG2025 calculation, we defined
+\begin{align}
+R(T)&=\frac{f_{\rm prior}(T)}{f_{25}(T)},\\
+d(T)&=1-R(T),\\
+\Delta_{\rm pp}(T)&=100\,[f_{25}(T)-f_{\rm prior}(T)].
+\end{align}
+$100R$ and $100d$ are percentages; $\Delta_{\rm pp}$ is a difference in percentage points of the physical fraction. The term \emph{relative deficit} describes a model difference without identifying a material amount of lost particles or entropy.
+
+For the eight temperatures, Pearson correlation was calculated between $\log_{10}f_{\rm prior}$ and $\log_{10}f_{25}$, along with
+\begin{equation}
+{\rm RMSE}_{\log}=
+\sqrt{\frac{1}{8}\sum_{j=1}^{8}
+\left[\log_{10}\frac{f_{\rm prior}(T_j)}{f_{25}(T_j)}\right]^2}.
+\end{equation}
+Catalog spread was measured as $100(\max f-\min f)$ at each temperature. It represents sensitivity to these three correlated inputs, not a statistical uncertainty interval. No $p$ values or observational error bars were assigned to these fixed-input series.
+
+The analysis also computed Spearman's rank correlation. Pearson summarized log-linear similarity, Spearman summarized ordering, and log-RMSE quantified amplitude disagreement. These were descriptive statistics on eight fixed-input evaluation points, not experimental replicates. No $p$-value hypothesis tests, $t$ tests, ANOVA, or cosmological likelihood fits were performed.
+
+\subsection{Numerical verification}
+The 96- and 192-term sums were compared for all lists, active species, and temperatures, requiring relative differences below $10^{-10}$ in number densities and $\fB$. For $\pi^0,\pi^\pm,p,n,\mu^\pm$ at 150 and 40 MeV, independent adaptive quadrature evaluated
+\begin{align}
+n_i&=\frac{g_i}{2\pi^2}\int_0^\infty
+\frac{p^2\,dp}{e^{E_i/T}+\epsilon_i},\label{eq:numberintegral}\\
+s_i&=\frac{g_i}{2\pi^2T}\int_0^\infty
+\frac{p^2(E_i+p^2/3E_i)\,dp}{e^{E_i/T}+\epsilon_i}.
+\end{align}
+Here $E_i=\sqrt{p^2+m_i^2}$, $\epsilon_i=+1$ for fermions, and $-1$ for bosons. Dimensionless quadrature used absolute tolerance $10^{-15}$ and relative tolerance $5\times10^{-12}$; agreement was required within $10^{-8}$. Sum and conjugation identities, positivity, fraction bounds, and monotonicity were checked.
+
+Inverse reconstruction required a relative constraint residual below $10^{-10}$ in Eq.~\eqref{eq:inverse}, and solutions were repeated at 192 terms. Proton and neutron excesses at 150 and 40 MeV were independently checked by quadrature. The dimensionless integrand was $q^2\sinh\alpha/[\cosh(\sqrt{q^2+x_i^2})+\cosh\alpha]$, multiplied by $g_iT^3/(2\pi^2)$, with $q=p/T$. Previous tolerances and the relative criterion of $10^{-8}$ were retained. Checks also verified $n_B>n_{\bar B}>0$ and recovery of the symmetric calculation at $\alpha=0$.

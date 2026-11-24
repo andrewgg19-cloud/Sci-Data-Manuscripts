@@ -1,0 +1,11 @@
+celda,aceptados,total,tasa
+00,53,1143,0.046369203850
+01,79,1197,0.065998329156
+10,62,1202,0.051580698835
+11,51,1204,0.042358803987
+
+invariante_sombra,0.5769699115261767
+distancia_sombra_log,0.5499651602354818
+razon_max_min,1.5580782020410502
+bootstrap_p_bilateral,0.0268
+interpretacion,sombra geometrica fuerte compatible con seleccion diferencial

@@ -1,0 +1,6 @@
+Para correrlo desde esta carpeta:
+cd "C:\Users\Andre\Documents\Codex\2026-05-12\create-the-repository-structure-for-the\german_gamma_sombra_package"
+py -3 auditoria_german_gamma_sombra.py
+
+Modo temporal:
+py -3 auditoria_german_gamma_sombra.py --temporal-csv ejemplo_sombra_temporal.csv --critical-dg 0.25 --k 2
