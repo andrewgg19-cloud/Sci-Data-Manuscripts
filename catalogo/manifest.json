@@ -16200,5 +16200,19 @@
     "size": 3947034,
     "sha256": "78033c0506cb10c6915eafaa0e3b2e1c4d39cd155482ce3b16e1f5468d80b34e",
     "storage": "direct"
+  },
+  {
+    "path": "Ciencias_Biologicas/Tabla-Periodica-Biologica-Corregida(2).pdf",
+    "source": "Tabla-Periodica-Biologica-Corregida(2).pdf",
+    "size": 5184,
+    "sha256": "fc0e96e277fa4ff856b7afd4fde60a23ee4f660c343e1ad9b4c17dcd195eef64",
+    "storage": "direct"
+  },
+  {
+    "path": "Ciencias_Biologicas/Tabla-Periodica-Biologica-Corregida (1)(2).pdf",
+    "source": "Tabla-Periodica-Biologica-Corregida (1)(2).pdf",
+    "size": 5184,
+    "sha256": "fc0e96e277fa4ff856b7afd4fde60a23ee4f660c343e1ad9b4c17dcd195eef64",
+    "storage": "direct"
   }
 ]

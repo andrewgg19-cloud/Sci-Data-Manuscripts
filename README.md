@@ -2,7 +2,7 @@
 
 Colección de trabajos de **Andrés Germán García**, también firmado como **Germán García Andrés**. Investigador independiente, México.
 
-Manuscritos, ensayos, código, datos, figuras y realizaciones sonoras reunidos en las cuatro carpetas aportadas por el autor. Se conservan los textos, resultados y versiones originales; los ZIP interiores se despliegan en carpetas terminadas en `_contenido`.
+Manuscritos, ensayos, código, datos, figuras y realizaciones sonoras reunidos en las cuatro carpetas iniciales y las incorporaciones de Ciencias Biológicas aportadas por el autor. Se conservan los textos, resultados y versiones originales; los ZIP interiores se despliegan en carpetas terminadas en `_contenido`.
 
 ## Explorar los trabajos
 
@@ -12,6 +12,7 @@ Manuscritos, ensayos, código, datos, figuras y realizaciones sonoras reunidos e
 | [Estadística y probabilidad](Estadistica_y_probabilidad/) | 899 | [Ver archivos](Estadistica_y_probabilidad/INDICE_PUBLICACION.md) |
 | [Física, astronomía, cuántica y relatividad](Fisica_Astronomia_Cuantica_Relativista/) | 1172 | [Ver archivos](Fisica_Astronomia_Cuantica_Relativista/INDICE_PUBLICACION.md) |
 | [Hipótesis de Riemann](Hipotesis_de_Riemann/) | 177 | [Ver archivos](Hipotesis_de_Riemann/INDICE_PUBLICACION.md) |
+| [Ciencias Biológicas](Ciencias_Biologicas/) | 2 | [Ver archivos](Ciencias_Biologicas/INDICE_PUBLICACION.md) |
 
 ## Descargar y recuperar los archivos grandes
 
