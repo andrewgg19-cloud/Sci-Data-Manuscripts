@@ -1,0 +1,28 @@
+name: Verificar integridad de la colección
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - tools/auditar_publicacion.py
+      - .github/workflows/audit-publication.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Preparar lectores de formatos
+        run: python -m pip install PyMuPDF Pillow
+      - name: Recuperar y comprobar todos los archivos
+        run: python tools/auditar_publicacion.py
+      - name: Conservar informe
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verificacion-publicacion
+          path: verification-results/audit.json
+          if-no-files-found: warn
