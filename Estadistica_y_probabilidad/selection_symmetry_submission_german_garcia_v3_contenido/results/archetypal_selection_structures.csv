@@ -1,6 +1,0 @@
-scenario,plot_label,archetype_family,selection_structure,case_type,signal_scale,b_max,b_req,selection_information_proxy,interpretation,margin,rho_sel,robust,borderline,toy_uncertainty
-Bell-like symmetric control,BELL CTRL,Bell-like,coincidence/post-selection,symmetric_control,0.02,0.12,0.0,0.0,selection-independent null reference,-0.12,0.0,False,False,0.04961079242056428
-Bell-like biased false positive,BELL BIAS,Bell-like,coincidence/post-selection,biased_spurious,0.82,0.44,0.31,0.101,allowed selection bias can explain the signal,-0.13,0.7045454545454546,False,False,0.038635197317157255
-AI benchmark filtering robust case,AI ROB,AI/ML dataset filtering,benchmark curation / dataset inclusion,robust,5.0,0.42,1.35,0.006,required bias exceeds allowed bias,0.9300000000000002,3.2142857142857144,True,False,0.025877118956455614
-Single-cell QC borderline,SC QC,single-cell omics,cell quality filtering,borderline,1.2,0.62,0.64,0.011,diagnostic separation is weak,0.020000000000000018,1.032258064516129,False,True,0.0486176558897708
-Biomedical dropout non-robust toy case,DROP FAIL,biomedical follow-up,response-dependent dropout,non_robust,0.95,0.7,0.48,0.024,selection explanation remains viable,-0.21999999999999997,0.6857142857142857,False,False,0.0400308357628808

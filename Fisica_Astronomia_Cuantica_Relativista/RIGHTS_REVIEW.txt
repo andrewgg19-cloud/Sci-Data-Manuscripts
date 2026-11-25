@@ -1,6 +1,0 @@
-RIGHTS REVIEW - COMPLETED
-Author authorization received on 19 October 2026.
-Original code: GPL-3.0-only.
-Original data: CC-BY-4.0.
-Existing third-party licenses and notices are unchanged.
-LICENSES.txt defines the scope and exclusions.

@@ -1,7 +1,0 @@
-Documentation and generated reports in this package are licensed under the
-Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
-Copyright (c) 2026 Germán García Andrés
-
-License text and terms:
-https://creativecommons.org/licenses/by/4.0/
