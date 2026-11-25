@@ -1,0 +1,26 @@
+{
+  "elements": 118,
+  "unique_symbols": 118,
+  "atomic_numbers_1_through_118": true,
+  "core": 27,
+  "complementary": 91,
+  "core_zone_sizes": [
+    6,
+    5,
+    8,
+    8
+  ],
+  "complementary_group_sizes": [
+    33,
+    4,
+    17,
+    7,
+    6,
+    24
+  ],
+  "source_original_sha256": "fc0e96e277fa4ff856b7afd4fde60a23ee4f660c343e1ad9b4c17dcd195eef64",
+  "allocation_preserved": true,
+  "atomic_weight_edition": "CIAAW abridged 2024",
+  "absent_standard_atomic_weight": "\u2014; no selected-isotope mass number substituted",
+  "human_participant_evaluation": "not conducted"
+}
