@@ -13,6 +13,9 @@ import subprocess
 import sys
 import wave
 import zipfile
+import base64
+import struct
+import zlib
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +23,7 @@ if not (ROOT / 'catalogo/manifest.json').exists():
     ROOT = Path.cwd()
 issues = []
 warnings = []
+png_diagnostics = []
 counts = collections.Counter()
 
 def digest(path):
@@ -121,6 +125,51 @@ def inspect_format(path):
         counts['format_' + ext] += 1
     except Exception as e:
         issues.append({'kind': 'format', 'path': name, 'error': str(e)[:300]})
+        if ext == '.png':
+            png_diagnostics.append(diagnose_png(path))
+
+def diagnose_png(path):
+    data = path.read_bytes()
+    info = {'path': str(path.relative_to(ROOT)), 'bytes': len(data), 'chunks': []}
+    chunks = []
+    pos = 8
+    complete = data[:8] == b'\x89PNG\r\n\x1a\n'
+    while complete and pos + 8 <= len(data):
+        n = struct.unpack('>I', data[pos:pos+4])[0]
+        tag = data[pos+4:pos+8]
+        payload = data[pos+8:pos+8+n]
+        crc = data[pos+8+n:pos+12+n]
+        info['chunks'].append({'type': tag.decode('ascii', errors='replace'), 'declared': n, 'available': len(payload), 'crc_bytes': len(crc)})
+        if len(payload) != n:
+            complete = False
+            break
+        chunks.append((tag, payload))
+        pos += n + 12
+    try:
+        compressed = b''.join(v for k, v in chunks if k == b'IDAT')
+        dec = zlib.decompressobj()
+        raw = dec.decompress(compressed) + dec.flush()
+        info['zlib_eof'] = dec.eof
+        info['decoded_bytes'] = len(raw)
+        if not complete or not dec.eof or not any(k == b'IHDR' for k,v in chunks):
+            info['repair'] = 'Not recoverable without replacing missing data'
+            return info
+        if not any(k == b'IEND' for k,v in chunks):
+            chunks.append((b'IEND', b''))
+        fixed = b'\x89PNG\r\n\x1a\n' + b''.join(struct.pack('>I',len(v)) + k + v + struct.pack('>I', zlib.crc32(k+v)&0xffffffff) for k,v in chunks)
+        from PIL import Image
+        with Image.open(io.BytesIO(fixed)) as im:
+            im.verify()
+        with Image.open(io.BytesIO(fixed)) as im:
+            im.load()
+        out = ROOT / 'verification-results/recovered'
+        out.mkdir(parents=True, exist_ok=True)
+        filename = path.stem + '_reparada.png'
+        (out / filename).write_bytes(fixed)
+        info.update({'repair': 'Only PNG checksums and end marker rebuilt; compressed pixel bytes unchanged', 'repaired_filename': filename, 'repaired_sha256': hashlib.sha256(fixed).hexdigest(), 'repaired_base64': base64.b64encode(fixed).decode()})
+    except Exception as e:
+        info['repair'] = 'Unable to reconstruct complete pixel stream: ' + str(e)[:250]
+    return info
 
 def main():
     manifest = json.loads((ROOT / 'catalogo/manifest.json').read_text())
@@ -156,7 +205,7 @@ def main():
         inspect_format(p)
     counts['catalogue_originals'] = len(manifest)
     counts['unique_contents_inspected'] = len(seen)
-    report = {'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(), 'counts': dict(counts), 'issues': issues, 'warnings': warnings, 'scope': 'Byte preservation, reconstruction and format parsing; not scientific peer review or execution of original programs.'}
+    report = {'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(), 'counts': dict(counts), 'issues': issues, 'warnings': warnings, 'png_diagnostics': png_diagnostics, 'scope': 'Byte preservation, reconstruction and format parsing; not scientific peer review or execution of original programs.'}
     out = ROOT / 'verification-results'
     out.mkdir(exist_ok=True)
     (out / 'audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
