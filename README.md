@@ -45,3 +45,11 @@ El restaurador no necesita paquetes externos. Verifica los fragmentos y reconstr
 La colección reúne documentos de distintas fechas y estados de elaboración. Las afirmaciones y conclusiones de cada documento pertenecen a sus autores y versiones correspondientes. La fecha de publicación de este archivo en GitHub no modifica la fecha de creación indicada dentro de cada trabajo.
 
 Se conservan las licencias y avisos existentes dentro de cada proyecto. No se aplica una licencia nueva y general a toda la colección. Para citar un trabajo, utiliza los datos del documento y su DOI cuando esté indicado; para identificar una versión concreta de esta colección, incluye el enlace al archivo y al commit correspondiente.
+
+## Verificación técnica de la publicación
+
+La comprobación del 25 de noviembre de 2026 recuperó los 2,256 archivos originales del catálogo y confirmó sus tamaños y SHA-256. Se completó la descarga ZIP y se abrieron los formatos principales. Se detectaron una PNG truncada y un script original con errores de sintaxis; se conservan los originales y se proporcionan copias técnicas separadas.
+
+[Consultar resultados, incidencias y archivos de sustitución](catalogo/VERIFICACION_2026-11-25.md).
+
+[Tabla biológica: edición didáctica, actividades y guía docente](Ciencias_Biologicas/Revision_Didactica_2026-11-25/).
